@@ -2,7 +2,6 @@ import { useState } from "react"
 import './header.css' 
 
 const Header = () => {
-    const [mobileMode, setMobileMode] = useState(false)
     const [seeMenu, setSeeMenu] = useState(false)
 
     const toggleMenu = () => {
@@ -13,13 +12,13 @@ const Header = () => {
         line2.classList.toggle('line-2-active')
         line3.classList.toggle('line-3-active')
         setSeeMenu(!seeMenu)
-        const mobileMenu = document.querySelector('.mobile-menu')
-        mobileMenu.classList.toggle('mobile-menu-active')
+        const menu = document.querySelector('.menu')
+        menu.classList.toggle('menu-active')
     }
 
     return (
         <>
-            <div className="mobile-header" id="top">
+            <div className="header" id="top">
                 <h1><a href="#top">HKDL Caroler Info 2022</a></h1>
                 <div className="hamburger" onClick={toggleMenu}>
                     <div className="burger-line line-1"></div>
@@ -27,23 +26,23 @@ const Header = () => {
                     <div className="burger-line line-3"></div>
                 </div>
             </div>
-            <div className="mobile-menu">
+            <div className="menu">
                 <ul id="navbar">
-                    <li class="nav-item"><a href="#first">First Things First</a></li>
-                    <li class="nav-item"><a href="#documents">Documents</a></li>
-                    <li class="nav-item"><a href="#covid-clearance">COVID Clearance</a></li>
-                    <li class="nav-item"><a href="#flights">Flying</a></li>
-                    <li class="nav-item"><a href="#voting">VOTE!</a></li>
-                    <li class="nav-item"><a href="#housing">Housing</a></li>
-                    <li class="nav-item"><a href="#food">Food</a></li>
-                    <li class="nav-item"><a href="#transportation">Transportation within HK</a></li>
-                    <li class="nav-item"><a href="#money">Money/Banking</a></li>
-                    <li class="nav-item"><a href="#communication">Communication</a></li>
-                    <li class="nav-item"><a href="#health">Health Care</a></li>
-                    <li class="nav-item"><a href="#performance-links">Performance</a></li>
-                    <li class="nav-item"><a href="#costume-HMU">Costumes, Hair, Makeup</a></li>
-                    <li class="nav-item"><a href="#leisure">Leisure/Time Off</a></li>
-                    <li class="nav-item"><a href="#packing">Packing</a></li>
+                    <li class="nav-item"><a href="#first" onClick={toggleMenu}>First Things First</a></li>
+                    <li class="nav-item"><a href="#documents" onClick={toggleMenu}>Documents</a></li>
+                    <li class="nav-item"><a href="#covid-clearance" onClick={toggleMenu}>COVID Clearance</a></li>
+                    <li class="nav-item"><a href="#flights" onClick={toggleMenu}>Flying</a></li>
+                    <li class="nav-item"><a href="#voting" onClick={toggleMenu}>VOTE!</a></li>
+                    <li class="nav-item"><a href="#housing" onClick={toggleMenu}>Housing</a></li>
+                    <li class="nav-item"><a href="#food" onClick={toggleMenu}>Food</a></li>
+                    <li class="nav-item"><a href="#transportation" onClick={toggleMenu}>Transportation within HK</a></li>
+                    <li class="nav-item"><a href="#money" onClick={toggleMenu}>Money/Banking</a></li>
+                    <li class="nav-item"><a href="#communication" onClick={toggleMenu}>Communication</a></li>
+                    <li class="nav-item"><a href="#health" onClick={toggleMenu}>Health Care</a></li>
+                    <li class="nav-item"><a href="#performance-links" onClick={toggleMenu}>Performance</a></li>
+                    <li class="nav-item"><a href="#costume-HMU" onClick={toggleMenu}>Costumes, Hair, Makeup</a></li>
+                    <li class="nav-item"><a href="#leisure" onClick={toggleMenu}>Leisure/Time Off</a></li>
+                    <li class="nav-item"><a href="#packing" onClick={toggleMenu}>Packing</a></li>
                 </ul>
             </div>
         </>

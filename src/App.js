@@ -7,7 +7,8 @@ import Header from './components/header/header'
 const App = () => {
   return (
     <>
-        <Header />
+      <div id='tree-background'></div>
+      <Header />
     </>
   )
 }
