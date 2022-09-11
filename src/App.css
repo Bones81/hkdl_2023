@@ -73,6 +73,26 @@ h3, h4, h5 {
   margin-top: 5px;
 }
 
+ol, ul {
+  margin: 0px 25px;
+  /* background-color: rgba(0,0,0,0.7); */
+  padding: 10px 30px;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  color: whitesmoke;
+  background-color: rgba(0,0,0,0);
+  padding: 10px 5px 10px 25px;
+}
+
+.sub-list {
+  list-style-type: lower-alpha;
+}
+
 img {
   max-height: 95%;
   text-align: center;
@@ -125,4 +145,34 @@ p, h4, li {
   font-size: 20px;
   line-height: 24px;
   padding: 5px 5px 5px 15px;
+}
+
+div p {
+  margin: 5 auto;
+}
+
+a {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+span {
+  text-decoration: underline;
 }
