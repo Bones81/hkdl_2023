@@ -1,9 +1,12 @@
+import './App.css'
+
+import Header from './components/header/header'
+
 const App = () => {
   return (
     <>
-      <div>
-        <h1>React is working.</h1>
-      </div>
+        <h1>React is working</h1>
+        <Header />
     </>
   )
 }
