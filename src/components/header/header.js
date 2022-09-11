@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <>
             <div className="header">
-                <h1><a href="#top">HKDL Caroler Info 2022</a></h1>
+                <h1><a className='title-link' href="#top">HKDL Caroler Info 2022</a></h1>
                 <div className="hamburger" onClick={toggleMenu}>
                     <div className="burger-line line-1"></div>
                     <div className="burger-line line-2"></div>

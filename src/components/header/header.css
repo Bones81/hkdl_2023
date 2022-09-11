@@ -92,7 +92,7 @@ h1 {
     text-align: center;
 }
 
-a {
+.title-link {
     color: lightgrey;
     text-decoration: none;
 }
