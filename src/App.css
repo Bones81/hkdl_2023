@@ -48,6 +48,10 @@ table {
 }
 
 /* RESET COMPLETE ********************************* */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 #tree-background {
   position: fixed;
   z-index: -99;
@@ -95,6 +99,7 @@ li {
 
 img {
   max-height: 95%;
+  max-width: 100vw;
   text-align: center;
 }
 
@@ -103,6 +108,7 @@ img {
   justify-content: center;
   flex-direction: column;
   height: 450px;
+  max-width: 100vw;
 }
 
 div img {

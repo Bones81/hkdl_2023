@@ -8,7 +8,7 @@
     top: 0;
     display: flex;
     flex-flow: row wrap;
-    width: 100vw;
+    width: 100%;
     /* min-height: 10vh; */
     /* padding: 10px; */
     justify-content: space-between;
@@ -88,7 +88,7 @@ h1 {
     background-color: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
-    margin: 2px auto;
+    margin: 2px 0;
     text-align: center;
 }
 

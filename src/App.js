@@ -7,6 +7,7 @@ import FTF from './components/FTF/FTF'
 import Documents from './components/documents/documents'
 import Covid from './components/covid/covid'
 import Flying from './components/flying/flying'
+import Voting from './components/voting/voting'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Documents />
       <Covid />
       <Flying />
+      <Voting />
     </>
   )
 }
