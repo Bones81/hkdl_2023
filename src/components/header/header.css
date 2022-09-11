@@ -94,17 +94,19 @@ a {
     text-decoration: none;
 }
 
-@media (max-height: 650px) {
+@media (max-height: 750px) {
     ul {
         gap: 0.5em;
     }
 
     li {
-        font-size: .83em;
+        font-size: .85em;
         margin: 0 auto;
     }
 }
 
 @media (min-width: 640px) {
-
+    li {
+        font-size: 1.5em;
+    }
 }

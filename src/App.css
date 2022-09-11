@@ -61,3 +61,68 @@ table {
   background-repeat: no-repeat;
   
 }
+
+h2, h3, h4, h5, p {
+  margin: 5px 25px 10px;
+  background-color: rgba(0,0,0,0.6);
+  text-align: justify;
+  color: lightgray;
+}
+
+h3, h4, h5 {
+  margin-top: 5px;
+}
+
+img {
+  max-height: 95%;
+  text-align: center;
+}
+
+.img-holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+}
+
+div img {
+  max-height: 85%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: darkred;
+  padding: 8px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px 5px;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: darkgreen;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+h4 {
+  background-color: navy;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.special-note {
+  border-radius: 25px;
+  border: dotted 5px yellow;
+}
+p, h4, li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 5px 5px 5px 15px;
+}
