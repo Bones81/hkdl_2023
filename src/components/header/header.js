@@ -39,7 +39,7 @@ const Header = () => {
                     <li class="nav-item"><a href="#money" onClick={toggleMenu}>Money/Banking</a></li>
                     <li class="nav-item"><a href="#communication" onClick={toggleMenu}>Communication</a></li>
                     <li class="nav-item"><a href="#health" onClick={toggleMenu}>Health Care</a></li>
-                    <li class="nav-item"><a href="#performance-links" onClick={toggleMenu}>Performance</a></li>
+                    <li class="nav-item"><a href="#performance" onClick={toggleMenu}>Performance</a></li>
                     <li class="nav-item"><a href="#costume-HMU" onClick={toggleMenu}>Costumes, Hair, Makeup</a></li>
                     <li class="nav-item"><a href="#leisure" onClick={toggleMenu}>Leisure/Time Off</a></li>
                     <li class="nav-item"><a href="#packing" onClick={toggleMenu}>Packing</a></li>

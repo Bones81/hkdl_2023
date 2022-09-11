@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    height: 300px;
+}
+
+footer img {
+    max-height: 85%;
+    margin: 0 auto;
+}
