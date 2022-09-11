@@ -9,6 +9,7 @@
     padding: 25px;
     justify-content: space-between;
     align-items: center;
+
 }
 
 h1 {
@@ -19,12 +20,14 @@ h1 {
     background-color: darkgreen;
     text-align: center;
     padding: 5px;
+    z-index: 99;
 }
 
 .hamburger {
     display: inline;
     width: 10vw;
     padding: 5px;
+    z-index: 99;
 }
 
 .burger-line {
@@ -48,5 +51,44 @@ h1 {
     transform: rotate(-45deg) translateY(-11.5px);
 }
 
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.mobile-menu-active {
+    transform: translateX(100vw)
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    background-color: none;
+    padding: 5px 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+li {
+    padding: 0px;
+    background-color: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+}
 
 
