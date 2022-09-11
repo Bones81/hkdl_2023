@@ -51,7 +51,7 @@ table {
 #tree-background {
   position: fixed;
   z-index: -99;
-  /* opacity: 0.8; */
+  opacity: 0.95;
   width: 100vw;
   height: 100vh;
   background-color: black;
