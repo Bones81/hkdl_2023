@@ -2,7 +2,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id='footer'>
             <h2>This site is still being updated for 2022! Check back later for additional updates.</h2>
             <img src="./assets/AllCarolers2019.jpg" />
             <img src="./assets/ChelseaCarl.jpg" />

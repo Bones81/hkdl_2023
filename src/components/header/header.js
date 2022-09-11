@@ -43,6 +43,8 @@ const Header = () => {
                     <li class="nav-item"><a href="#costume-HMU" onClick={toggleMenu}>Costumes, Hair, Makeup</a></li>
                     <li class="nav-item"><a href="#leisure" onClick={toggleMenu}>Leisure/Time Off</a></li>
                     <li class="nav-item"><a href="#packing" onClick={toggleMenu}>Packing</a></li>
+                    <li class="nav-item"><a href="#footer" onClick={toggleMenu}>Just For Fun</a></li>
+
                 </ul>
             </div>
         </>
