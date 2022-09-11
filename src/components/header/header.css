@@ -21,7 +21,7 @@ h1 {
     width: 50vw;
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkgreen;
+    background-color: rgba(0,100,0,0.8);
     text-align: center;
     padding: 0.5em;
     border-bottom-right-radius: 20px;
@@ -92,9 +92,17 @@ h1 {
     text-align: center;
 }
 
-.title-link {
+.title-link, .nav-item a {
     color: lightgrey;
     text-decoration: none;
+}
+
+.nav-item {
+    transition: all .2s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.2);
 }
 
 @media (min-width: 640px) and (min-height: 750px) {
