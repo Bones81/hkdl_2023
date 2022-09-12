@@ -6,10 +6,10 @@ const Performance = () => {
             <h2>Performing-Related Stuff</h2>
             <h3 >Links to Performance Video</h3>
                 <p>Here is footage of our daytime show, "Mickey and Friends Christmastime Ball," from 2018. The show has largely remained the same each year, though the choreography and staging always changes a bit. It is certainly possible this year's incarnation could be signficantly different, but until we know more, this video is a solid representation of what to expect from this show.</p>
-                <div className="video-holder"><iframe width="560" height="315" src="https://www.youtube.com/embed/mJgOeaqr7iQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div className="video-holder"><iframe width="560" height="315" src="https://www.youtube.com/embed/mJgOeaqr7iQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='xmas-ball-2018'></iframe></div>
                 <p>Our evening show is called "A Holiday Wish Come True Tree Lighting Ceremony," though you may find it listed on YouTube as simply "HKDL Tree Lighting" or something like that. Here is the version from 2019. Like the daytime show, this show has not changed enormously over the years, though anything is possible this year.</p>
-                <div className="video-holder"><iframe width="560" height="315" src="https://www.youtube.com/embed/di1Xh0MFqPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <p><a href="https://youtu.be/EhtzCbTI7tQ">Here is a better shot video from a 2016 performance.</a> The owner of the video has made it so that I can't embed this video, but it still gives you another perspective on this show. There are several other versions on YouTube as well.</p>
+                <div className="video-holder"><iframe width="560" height="315" src="https://www.youtube.com/embed/di1Xh0MFqPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="tree-lighting-2019"></iframe></div>
+                <p><a href="https://youtu.be/EhtzCbTI7tQ" target="_blank" rel="noreferrer">Here is a better shot video from a 2016 performance.</a> The owner of the video has made it so that I can't embed this video, but it still gives you another perspective on this show. There are several other versions on YouTube as well.</p>
                 <p>Here are some clips of the carolers doing a cappella sets from previous years. The first one is from 2017, outdoors, on Main Street:</p>
                 <video controls width="400" height="500">
                     <source src="./assets/Sleigh Ride Main Street.m4v" type="video/mp4" />
@@ -32,8 +32,8 @@ const Performance = () => {
                 </video>
             <h3>Quartets</h3>
                 <div id="quartets">
-                    <img id="hotel-set-2016" src="./assets/Xmastime Ball 2017.jpg" />
-                    <img id="HK-MS-2016" src="./assets/HK Main Street 2016 Carolers.jpg" />
+                    <img id="hotel-set-2016" src="./assets/Xmastime Ball 2017.jpg" alt="castle show"/>
+                    <img id="HK-MS-2016" src="./assets/HK Main Street 2016 Carolers.jpg" alt="main street show"/>
                 </div> 
                 <p>We will eventually be assigned to quartets. The HKDL creative team decides the personnel in each quartet. Historically, they've been decisive about this, though they don't explicitly tell us why they make the choices they do. Maybe they don't want everyone in a given quartet to have the same color hair. Maybe they don't want three tall people with one shorter person. Maybe they want to match veteran carolers with rookies.</p>
                 <p>The reality is that once the quartets are set, your fellow quartet members are the carolers you will spend time with most often. When one group has a day off, the other group is working. Occasionally, if someone is sick, Disney may rotate in that person's counterpart from the other quartet for a shift or two. But quartets have never been reassigned after they are set. Sometimes they make this decision early in the rehearsal process, and other years, they wait until the week before tech to set the quartets.</p>
@@ -68,11 +68,11 @@ const Performance = () => {
                         <li>Closers are often short and/or familiar and uptempo. Should definitely have a strong final moment to end the set strong. (e.g. Winter Wonderland, Jingle Bells, We Wish You a Merry Christmas, Jingle Bell Rock, Merry Christmas Round)</li>
                     </ul> 
                     <h4>Photo Moment</h4>
-                    <img className="photo-moment" src="./assets/Photo Moment 2016.jpg" />
-                    <img className="photo-moment" src="./assets/Photo Moment.jpg" />
-                    <img className="photo-moment" src="./assets/Caroler Photo Moment.jpg" />
+                    <img className="photo-moment" src="./assets/Photo Moment 2016.jpg" alt='fan moment'/>
+                    <img className="photo-moment" src="./assets/Photo Moment.jpg" alt='fan moment' />
+                    <img className="photo-moment" src="./assets/Caroler Photo Moment.jpg" alt='fan moment' />
                     <p>Guests at HKDL love meet-and-greets! If we do those this year, we will invite them to form a queue at the end of our set. Then we pose for photos with them until it is time for us to leave.</p>
-                    <p>Be ready for people who do not respect the queue and try to get their photo in before someone who is waiting patiently in line. Try not to be too annoyed by it, even though it is monumentally obnoxious behavior. We have to remain cheerful, no matter what happens. Improv your way around awkward situations. Disney notoriously values preserving the magic at all costs. (Cue the video of <a href="https://www.youtube.com/embed/juFEwdN_de8">Shellie May literally passing out</a> from heat exhaustion during a parade but not being allowed to take off her character head.)</p>
+                    <p>Be ready for people who do not respect the queue and try to get their photo in before someone who is waiting patiently in line. Try not to be too annoyed by it, even though it is monumentally obnoxious behavior. We have to remain cheerful, no matter what happens. Improv your way around awkward situations. Disney notoriously values preserving the magic at all costs. (Cue the video of <a href="https://www.youtube.com/embed/juFEwdN_de8" target="_blank" rel="noreferrer">Shellie May literally passing out</a> from heat exhaustion during a parade but not being allowed to take off her character head.)</p>
             <h3>Modifications to Goode Time carols</h3>
                 <h4>We will sometimes cut/alter some of the Goode Time carols for the sake of a better performance in the HK Disney environment.</h4> 
                 <p>Below are some of the songs we have historically modified. I'll include a brief explanation of the change(s), but of course, you'll have to ensure you and your quartet have learned the modifications, rehearsed them, and are comfortably ready to perform them, if your quartet has chosen to do so.</p>

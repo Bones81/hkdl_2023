@@ -257,7 +257,14 @@ iframe {
   margin: 15px auto;
 }
 
-@media (min-width: 640px) and (min-height: 640px) {
+@media (min-width: 800px) and (min-height: 800px) {
+  section {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1080px) and (min-height: 1080px) {
   section {
     max-width: 70%;
     margin: 0 auto;

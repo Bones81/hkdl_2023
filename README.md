@@ -1,3 +1,10 @@
+# Developer Notes
+This site was built with React, deployed on Github Pages via the npm package gh-pages, and rebuilt from a previous site I built before I knew any React. 
+
+Take note that, currently, images will not display in the development environment accessed with `npm start` unless you go into `package.json` and change `"homepage"` to an empty string. Similarly, you need to change it to `"homepage": "http://Bones81.github.io/hkdl_2022"` prior to running `npm run deploy`. I determined that, for some reason, once you have created a production build, the development environment tries to base its static files off of the `"homepage"` url. This behavior works fine in production. But in the dev environment, you want it to access images from the `public/assets` directory. Changing `"homepage"` to be an empty string seems to result in that behavior. 
+
+But I remain confused because I haven't had this issue so far on other sites that utilize the gh-pages package, so I don't entirely know why this issue is happening.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

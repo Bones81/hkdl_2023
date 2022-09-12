@@ -18,14 +18,14 @@ const Housing = () => {
                 <p>I've read differing reports on wifi quality in quarantine hotels. Hopefully, ours is good enough that we can Zoom and Facetime without much worry.</p>
                 <p><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.theprincessdiaries.me%2F2020%2F05%2Fyou-are-dancing-queen-young-and-sweet.html%3Fm%3D1%26fbclid%3DIwAR1X0mls0rofkUEmOiQX3gjWvxI1tbrFPtpaz3oHWzpINxFRRq3PymWe4so&h=AT0pa9NkZWDA3INgyqeTGAMdtUvpd_Gb7h59NthgJj8ca0TR-pGVlBpeIs5qPcZbK8D1rQAblKYo9Z3qvXrt_i4LtkwaohFr2ywLD1R1sh5pX-7cM3w0cZfc1ZaThQFIq61S07g" target="_blank" rel='noreferrer'>Here is a link</a> to a blog by one of the princesses at HKDL, detailing her experience with the 14-day quarantine period. She discusses temperature checks, meals, and her accommodations. <a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.theprincessdiaries.me%2F2020%2F05%2Fi-am-kind-of-starting-to-understand-why.html%3Fm%3D1%26fbclid%3DIwAR3cIHH4Cu1OKJC8XPIcwe0fS2unbaLAst4YFIO83WReDgvfCwacUVuspFw&h=AT0pa9NkZWDA3INgyqeTGAMdtUvpd_Gb7h59NthgJj8ca0TR-pGVlBpeIs5qPcZbK8D1rQAblKYo9Z3qvXrt_i4LtkwaohFr2ywLD1R1sh5pX-7cM3w0cZfc1ZaThQFIq61S07g" target="_blank" rel='noreferrer'>Here is another.</a> Ours may be the same hotel, or it may not.</p>
             <h3 id="HPRC"><a href="https://www.harbour-plaza.com/resortcity/Index-en.htm">Harbour Plaza Resort City, or HPRC</a></h3>
-                <img id="HPRC-lobby" src="assets/HPRC lobby.jpg" alt="The lobby of HPRC" />
+                <img id="HPRC-lobby" src="./assets/HPRC lobby.jpg" alt="The lobby of HPRC" />
                 <p className="img-caption">The lobby of our HK home, HPRC.</p>
                 <p>Located in the Tin Shui Wai neighborhood, very close to the border with mainlaind China and the 12.5 million-person city Shenzhen, <a target="_blank"  rel='noreferrer'href="https://www.harbour-plaza.com/resortcity/Index-en.htm">HPRC</a> is our home in HK. All of HKDL's expats are housed there.</p>
-                <img id="viewfromHPRC" src="assets/viewfromHPRC.jpg" alt="The view from a room at Harbour Plaza Resort City" />
+                <img id="viewfromHPRC" src="./assets/viewfromHPRC.jpg" alt="The view from a room at Harbour Plaza Resort City" />
                 <p className="img-caption">The view from a room at Harbour Plaza Resort City, where we live for the majority of the contract.</p>
                 <h4>Accommodations</h4>
                     <video id="HPRC-room-tour" width= "400" height="500" controls>
-                        <source src="assets/HPRC room first look.m4v" type="video/mp4"/>
+                        <source src="./assets/HPRC room first look.m4v" type="video/mp4"/>
                     Your browswer does not support the video tag.
                     </video>
                     <p className="img-caption">This was how my first room at HPRC looked.</p>  
