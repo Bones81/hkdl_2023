@@ -15,7 +15,7 @@ const Communication = () => {
                 <ul className="comm-ul">
                     <li>WhatsApp, if you don't have it already. It is the primary way we communicate with our stage managers and each other while we are in HK.</li>
                     <li>An exchange rate app to compare USD and HKD amounts. I like a popular one called XE.</li>
-                    <li>StayHomeSafe app (<a target="_blank" href="https://apps.apple.com/us/app/stayhomesafe-app/id1499780720">link</a>), which it seems we will be required to download as part of our quarantine in HK. Downloading it in advance may speed up the process once you have arrived in HK.</li>
+                    <li>StayHomeSafe app (<a target="_blank" rel='noreferrer' href="https://apps.apple.com/us/app/stayhomesafe-app/id1499780720">link</a>), which it seems we will be required to download as part of our quarantine in HK. Downloading it in advance may speed up the process once you have arrived in HK.</li>
                     <li>A Cantonese-learning app. I like one called "Nemo Cantonese."</li>
                     <li>City Mapper. A great app that is often easier to use than Apple or Google Maps. Will help you navigate the city's complex public transit system like a pro.</li>
                     <li>Eventually, you may want to download our bank's mobile banking app, SCHK Mobile.</li>
@@ -26,7 +26,7 @@ const Communication = () => {
                 <p>VPNs are "virtual private networks" that mask your internet address so that it appears you are accessing a network from a different location: New York City instead of Hong Kong, for example.</p>
                 <p>Using a VPN enables you to access sites that might otherwise be blocked in your location. For instance, the New York State Health Department website will not allow me to sign in if the computer has a network address currently originating in Hong Kong. I am only able to sign in on that website by using a VPN to mask my actual network address (HK) and instead mimic an address from somewhere within the US.</p>
                 <p>A more common example we often encounter is that Netflix's offerings are different in different countries. So your favorite Netflix show might not be available on HK Netflix. If you use a VPN to mimic a US network address however, US Netflix offerings will be available again. (Of course, sometimes, HK Netflix has shows you <em>wish</em> were available on US Netflix, so it works both ways.)</p>
-                <p><a href="https://proprivacy.com/vpn/comparison/best-hong-kong-vpn" target="_blank">Here is a good article on choosing a VPN for use in HK.</a></p> 
+                <p><a href="https://proprivacy.com/vpn/comparison/best-hong-kong-vpn" target="_blank" rel='noreferrer'>Here is a good article on choosing a VPN for use in HK.</a></p> 
         </section>
     )
 }
