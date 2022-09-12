@@ -30,10 +30,14 @@ h1 {
 
 .hamburger {
     display: inline;
-    width: 30px;
+    width: 75px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin-right: 5vw;
     z-index: 99;
     cursor: pointer;
+    background-color: rgba(0,100,0,0.8);
 }
 
 .burger-line {
@@ -45,7 +49,7 @@ h1 {
 }
 
 .line-1-active {
-    transform: rotate(-315deg) translateY(11.5px);
+    transform:  translateY(8.5px) rotate(-315deg);
 }
 
 .line-2-active {
@@ -54,7 +58,7 @@ h1 {
 }
 
 .line-3-active {
-    transform: rotate(315deg) translateY(-11.5px);
+    transform: translateY(-8.5px) rotate(315deg);
 }
 
 .menu {

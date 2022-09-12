@@ -256,3 +256,10 @@ iframe {
   display: flex;
   margin: 15px auto;
 }
+
+@media (min-width: 640px) and (min-height: 640px) {
+  section {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
