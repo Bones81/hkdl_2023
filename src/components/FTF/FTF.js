@@ -1,7 +1,7 @@
 const FTF = () => {
     return (
         <section id='top'>
-            <div className="img-holder" ><img src="assets/TreeLighting2017allfour.jpg" /></div>
+            <div className="img-holder" ><img src="assets/TreeLighting2017allfour.jpg" alt="2017 carolers performing tree lighting"/></div>
             <h2 id="first">First Things First</h2>
                 <p>Welcome, carolers! I thought a reference website could be helpful as newbies and vets alike try to learn/remember what this contract requires of us.</p>
                 <p>First off, congratulations on earning this contract. Almost everyone who has done it considers it a highlight of their career and life. Hong Kong is an amazing city, and the people are equally amazing. There are too many good things about this contract to cover in one place!</p>

@@ -15,7 +15,7 @@ import Money from './components/money/money'
 import Communication from './components/communication/communication'
 import Health from './components/health_care/health_care'
 import Performance from './components/performance/performance'
-import Costumes_HMU from './components/costumes_hmu/costumes_hmu'
+import CostumesHMU from './components/costumes_hmu/costumes_hmu'
 import Leisure from './components/leisure/leisure'
 import Packing from './components/packing/packing'
 import Footer from './components/footer/footer'
@@ -37,7 +37,7 @@ const App = () => {
       <Communication />
       <Health />
       <Performance />
-      <Costumes_HMU />
+      <CostumesHMU />
       <Leisure />
       <Packing />
       <Footer />

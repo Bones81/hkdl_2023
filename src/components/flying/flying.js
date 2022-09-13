@@ -20,7 +20,7 @@ const Flying = () => {
             <h3>Frequent Flier program</h3>
                 <p>A flight to HK is a huge number of miles! Take advantage of your airline's frequent flier program and ensure that your flight(s) counts toward your miles!</p>
             <h3>Mask recommendation</h3>
-                <p><a target="_blank" href="https://humidiflyer.com/">Humidiflyer</a>. Thanks for this rec, Joshua!</p>
+                <p><a target="_blank" rel="noreferrer" href="https://humidiflyer.com/">Humidiflyer</a>. Thanks for this rec, Joshua!</p>
         </section>
     )
 }
