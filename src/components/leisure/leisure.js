@@ -43,6 +43,8 @@ const Leisure = () => {
                     <li>Tsim Sha Tsui, aka TST - loads of fun to be had in TST. Plus, our hotel offers a cheap, frequent shuttle that takes you directly to/from the district.</li>
                     <li>Wan Chai/Causeway Bay - Wan Chai has some 'edgier' bars and restaurants, and Causeway Bay is a shopping/food epicenter. It even has its own "Times Square."</li>
                     <li>Ocean Park - the other theme park in Hong Kong: part amusement park, part zoo, and part aquarium!</li>
+                    <img className="list-pic" src="./assets/ocean_park.jpeg" alt='ocean park'/>
+                    <p className="img-caption">Entrance to Ocean Park</p>
                     <img className="list-pic" src="./assets/Ocean Park Panda.jpg" alt='ocean park panda'/>
                     <p className="img-caption">See Pandas at Ocean Park</p>
                     <li>Stanley - a neighborhood in the extreme southeastern part of HK that has great ocean views, promenades, shopping, restaurants, and a prison museum</li>
@@ -77,33 +79,43 @@ const Leisure = () => {
                     <li>HKDL's very own Inspiration Lake</li>
                 </ul>
             <h3>Restaurants</h3>
-                <h4 className="special-note">At the time I'm writing this, restaurants are open for parties of four people at most. And they are open for dine-in service until 10pm.</h4>
+                <h4 className="special-note">Covid restrictions may mean that party sizes are limited and that early closing times may be enforced. Check the current policies.</h4>
                 <ul className='leisure-ul'>
                     <li>Baba's Station: incredible Indian food in the smallest restaurant you've ever seen</li>
+                    <img className='list-pic' src='./assets/babas.jpeg' alt='babas station'/>
+                    <p className="img-caption">2020 visit to Baba's Station</p>
                     <li>Beef and Liberty - excellent burgers</li>
                     <li>Tim Ho Wan - cheapest Michelin star restaurant in the world, great roast pork buns</li>
                     <li>Dim Dim Sum - another favorite dim sum spot</li>
                     <li>Mammy Pancake - best egg waffles/egg puffs in town</li>
                     <li>La Creperie - amazing French seaside resort-style crepes and galettes with delicious hard cider. </li>
-                    <img id="la-creperie" src="./assets/La Creperie.jpg" alt='la creperie restaurant'/>
+                    <img className='list-pic' src="./assets/La Creperie.jpg" alt='la creperie restaurant'/>
                     <p className="img-caption">A savory galette at La Creperie</p>
                     <li>Little Bao - extremely cool contemporary Asian fusion</li>
                     <li>Pici - fantastic upscale Italian chain</li>
                     <li>Kebab House 23 - a great--if small--Turkish place.</li>
                     <li>Ichiran - insanely delicious ramen</li>
+                    <img className='list-pic' src='./assets/ichiran.jpeg' alt='Nathan psyched for Ichiran ramen'/>
+                    <p className="img-caption">Nathan psyched for Ichiran ramen</p>
+                    <li>Divino Patio - excellent upscale Italian</li>
+                    <img className='list-pic' src='./assets/divino_patio.jpeg' alt='divino patio'/>
+                    <p className="img-caption">An awesome carpaccio from Divino Patio</p>
                     <li>MANY others</li>
                 </ul>
             <h3>Night Life</h3>
-                <h4 className="special-note">At the time I'm writing this, gatherings in HK are severely restricted, so it's not clear how much "night life" will be available to experience by the time we are there.</h4>
+                <h4 className="special-note">At the time I'm writing this, I know that live music is still not allowed in bars, due to COVID restrictions. But there is still some night life to be had.</h4>
                 <ul className='leisure-ul'> 
-                    <li>Ned Kelly's Last Stand - the bandleader is one of our best friends in HK</li>
-                    <li>Old Man - one of the best bars in the world</li>
+                    <li>Ned Kelly's Last Stand - the bandleader, Colin, is one of our best friends in HK. The man loves music and will probably come to see us perform at Disney at some point. Hopefully restrictions will be lifted by the time we are there so that we can go to Ned Kelly's and see his band play again.</li>
+                    <img className="list-pic" src="./assets/ned_kellys_band.jpeg" alt='the band at Ned Kellys'/>
+                    <p className="img-caption">The band at Ned Kelly's in 2020 before live music in bars was restricted</p>
+
+                    <li>Old Man - one of the very best cocktail bars in the world, Hemingway-themed</li>
                     <img className="list-pic" src="./assets/Old Man cocktail.jpg" alt='Old Man cocktail'/>
                     <p className="img-caption">Enjoy exquisitely crafted cocktails at The Old Man</p>
                     <li>Ozone - the highest bar in the city, in the ICC building</li>
                     <img className="list-pic" src="./assets/Ozone drinks 2016.jpg" alt='drinks at the Ozone bar'/>
                     <p className="img-caption">Drink in the clouds at Ozone, the highest bar in the city</p>
-                    <li>Petticoat Lane - did someone say free vodka?</li>
+                    <li>Petticoat Lane - did someone say free vodka? (from 10p-11p, I think) Also, the site of former caroler Morgan's debut live performance of 'Ho Lang, Bitch.'</li>
                     <li>Lan Kwai Fong - the party district of HK</li>
                     <img className="list-pic" src="./assets/Gollum and Ladies.jpg" alt='Gollum and the ladies'/>
                     <p className="img-caption">If you're lucky, you just might get a pic with the Lan Kwai Fong "Gollum"!</p>
@@ -139,21 +151,30 @@ const Leisure = () => {
                     <li>Ng Tung Chai, waterfalls!</li>
                     <img className="hiking-pic" src="./assets/Waterfall shot.jpg" alt='waterfall hike'/>
                     <p className="img-caption">One of the Ng Tung Chai wateralls</p>
+                    <li>Mui Wo, on Lantau Island</li>
+                    <img className="hiking-pic" src="./assets/mui_wo_hike.jpeg" alt='Mui Wo hike'/>
+                    <p className="img-caption">The Mui Wo hike view</p>
                     <li>Plus so many more. HK is simply an incredible city for hiking.</li>
                     {/* Include link to Hike HK site/apps */}
                 </ul>
             <h3>Celebrating Holidays</h3>
-                {/* <h4>Halloween 🎃</h4>
-                <p>We are often invited to a Halloween party. Often, we just hold our own so that we aren't out partying far from home.</p>
+                <h4 className='holiday-title'>Halloween 🎃</h4>
+                <p>Sadly, we won't be out of quarantine in time to celebrate Halloween in HK this year. 😭</p>
+                <img className="list-pic" src="./assets/halloween_2020.jpeg" alt='Halloween 2020'/>
+                <p className="img-caption">The 2020 crew at Halloween.</p>
+                {/* <p>We are often invited to a Halloween party. Often, we just hold our own so that we aren't out partying far from home.</p>
                 <p>Trick-or-Treating is not so much a thing in Hong Kong, but that doesn't have to stop us from tricking-or-treating with each other! </p>
                 <p>Halloween spirit may be quite suppressed this year, at the park especially (since all the Halloween shows were cancelled). Again, that doesn't have to stop us if we want to celebrate a little.</p> */}
-                <h4>Thanksgiving 🦃</h4>
-                <p>We have historically coordinated a group Thanksgiving get-together. Last year, we even invited our stage managers who brought fun local foods and desserts to add to the potluck dinner.</p>
+                <h4 className='holiday-title'>Thanksgiving 🦃</h4>
+                <img className="list-pic" src="./assets/thanksgiving_2020.jpeg" alt='Thanksgiving 2020'/>
+                <p className="img-caption">The 2020 crew ready to eat individual pumpkin pies at Thanksgiving 2020</p>
+                <p>We have historically coordinated a group Thanksgiving get-together. In 2019, we even included our stage managers who brought fun local foods and desserts to add to the potluck dinner.</p>
                 <img className="list-pic" src="./assets/Thanksgiving 2019.jpg" alt='Thanksgiving 2019'/>
-                <p>Everyone chooses a classic Thanksgiving item (or two) to contribute. Given the lack of ovens, we have developed our own tradition of someone bringing IKEA meatballs to be the "main" course. But all the usual classics have appeared: mashed potatoes, cranberry sauce, stuffing, sweet potatoes, mini pumpkin pies, green beans, brussels sprouts, wine, cocktails, etc.!</p>
-                <h4>Christmas 🎁</h4>
+                <p>Everyone chooses a classic Thanksgiving item (or two) to contribute. Given the lack of ovens, the main course has been either IKEA meatballs or KFC! But all the other usual classics have appeared: mashed potatoes, cranberry sauce, stuffing, sweet potatoes, mini pumpkin pies, green beans, brussels sprouts, wine, cocktails, etc.!</p>
+                <p>With only four of us this year, it might be a smaller event, but we should definitely take advantage of the opportunity for a unique Thanksgiving.</p>
+                <h4 className='holiday-title'>Christmas 🎁</h4>
                 <p>By the time Christmas rolls around, we are usually pretty pooped. We have historically worked six-day (overtime) weeks during the two weeks leading up to Christmas.</p>
-                <p>While we have always done group gifts for the stage managers from the carolers, we have never done a secret Santa or the like for each other. But that doesn't mean we couldn't... I suspect that we're all just a little overwhelmed by this point of the contract, what with the emotions of Christmas week, followed by the sober reality of the end of the contract just over a week later. It is exhausting.</p>
+                <p>We have always done group gifts for the stage managers from the carolers, and in 2020 we have did a secret Santa with each other. But there's certainly no pressure or expectation. Again, with only four of us this year, the dynamic will be different. We may all be just a little overwhelmed by this point of the contract, what with the emotions of Christmas week, followed by the sober reality of the end of the contract just over a week later. It is exhausting.</p>
                 <p>In all likelihood, we will be working on Christmas Day, which falls on a Sunday this year (2022).</p>
 
         </section>

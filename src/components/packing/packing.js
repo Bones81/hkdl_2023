@@ -4,7 +4,7 @@ const Packing = () => {
     return (
         <section id='packing'>
             <h2>Packing! What to bring/leave at home?</h2>     
-        <h3>Some non-obvious items you may want to consider packing</h3>
+        <h3>Some non-obvious items you may want to <strong>CONSIDER PACKING</strong></h3>
                 <h4>Many of these items you can also purchase in HK, but consider packing your own if you'd rather have the item from the start of the contract and don't mind the extra weight in your luggage.</h4>
             <ul className='packing-ul'>
                 <li>A thermometer</li>
@@ -29,16 +29,17 @@ const Packing = () => {
                 <li>Compact grocery bags or totes (plastic bags cost extra at most grocery stores)</li>
                 <li>Small tupperware (for packing meals/leftovers)</li>
                 <li>Extra stick deodorant, if that is your preferred style of deodorant. It is hard to find in HK, for whatever reason.</li>
-                <li>If you have 3D glasses for viewing IMAX or RealMAX movies, bring them! IIRC, HK cinemas charge a small fee for 3D glasses unless you bring your own.</li>
+                <li>If you have 3D glasses for viewing IMAX or RealMAX movies, bring them! HK cinemas charge a small fee for 3D glasses unless you bring your own.</li>
             </ul>
 
-        <h3>Some items you should probably leave at home</h3>
+        <h3>Some items you should probably <strong>LEAVE AT HOME</strong></h3>
             <ul className='packing-ul'>
                 <li>Chromecasts/Apple TV/Amazon Fire Sticks/Roku/Etc. (They can’t connect over our foreign- & hotel-based WiFi)</li>
                 <li>Playstation, XBox, or other large electronic items (power and compatibility issues, even with a converter)</li>
                 <li>Heavy winter wear. It will be in the 60s-80s during October/November and will be 50s-70s in December. Leave the snow parka at home. But bring layers, a warm scarf, gloves, and a compact fleece or light coat for those late December nights when it can still get pretty chilly.</li>
-                <li>Mass quantities of dress clothes/shoes. Unless you plan to hit the clubs in Lan Kwai Fong on the regular or just love wearing nice things, you likely won’t have much occasion to wear nice clothes. 98% of the time, we wear comfy, casual clothes--or our costumes. (DO BRING at least one 'business-casual,' outfit you can wear on the very few occasions when Disney Look is required. Basically anything that's not jeans or flip-flops.) All this said, if Morgan comes up with another 'Ho Lang, Bitch' to perform at Petticoat Lane, FIERCE LEWKS will be encouraged 💃🕺. So, bring a couple of nicer outfits, but that’s likely all you’ll need.</li>
-                <li>We have managed to see some Halloween costumes broken out in previous years. Like everything this year, I'm sure Halloween will look different, but if you have a creative costume idea that you can pack, you may well get the opportunity to show it off. 🎃</li>
+                <li>Mass quantities of dress clothes/shoes. Unless you plan to hit the clubs in Lan Kwai Fong on the regular or just love wearing nice things, you likely won’t wear nice clothes much on this contract. 98% of the time, we wear comfy, casual clothes--or our costumes. (DO BRING at least one 'business-casual,' outfit you can wear on the very few occasions when Disney Look is required. Basically anything that's not jeans or flip-flops.) So, bring 1-2 nicer outfits, but that’s likely all you’ll need.</li>
+                {/* All this said, if Morgan comes up with another 'Ho Lang, Bitch' to perform at Petticoat Lane, FIERCE LEWKS will be encouraged 💃🕺. */}
+                {/* <li>We have managed to see some Halloween costumes broken out in previous years. Like everything this year, I'm sure Halloween will look different, but if you have a creative costume idea that you can pack, you may well get the opportunity to show it off. 🎃</li> */}
             </ul>
                 <h3 id="electric">Electrical concerns -- Adapters vs. Converters: what do you need?</h3>
                     <h4 className="special-note">What follows is a bit of a crash course in electrics. It is admittedly a confusing subject. The tl;dr version is: Save yourself heartache by buying cheap HK versions of any appliances you might be thinking of bringing. If you must bring your American appliance, you risk frying it if is not dual-voltage or if it is not plugged into a capable electric converter. Beyond that, you almost certainly want an adapter (or two) with USB ports, but know that adapters and converters are not the same thing, though you can buy adapter/converter combos.</h4>
@@ -60,7 +61,7 @@ const Packing = () => {
                             <li>are usually heavier, bulkier, and more expensive than adapters.</li>
                         </ul>
                     <p>If finding an acceptable converter sounds like a pain in the butt, you're not wrong. I found one in Hong Kong my first year. I used it for multiple contracts, but really I was only using it to convert voltage for my American-made Magic Bullet blender. Turned out I didn't need the converter for my laptop or phone charger, both of which were dual-voltage and needed only an adapter. Because I used my blender very little last year, I eventually gave away my voltage converter so that I wouldn't have to keep lugging around the extra ten pounds each contract. Sure, the converter did the job, but it was ten pounds!</p>
-                    <p>Appliances are plentiful in HK, and they are easy for us to dispose of when the contract is done. (See #Dozo.) There is a glorious store called Mini So (which probably requires its own section of this webpage) where I plan to purchase a cheap personal blender this year. Single-cup coffee maker, alarm clock, personal scale, bluetooth speakers, all manner of small appliances--already calibrated for HK voltage--they can all be found in HK fairly easily.</p>
+                    <p>Appliances are plentiful in HK, and they are easy for us to dispose of/give away when the contract is done. There is a glorious store called Mini So where I plan to purchase a cheap personal blender this year. Single-cup coffee maker, alarm clock, personal scale, bluetooth speakers, all manner of small appliances--already calibrated for HK voltage--they can all be found in HK fairly easily.</p>
                     <p>So, after going down the converter route for multiple contracts, I have decided to go adapter-only this year.</p>
                     <p>That said, here are some Amazon links to converter/adapter combos that some vets have suggested:</p>
                     <ul className='packing-ul'>
