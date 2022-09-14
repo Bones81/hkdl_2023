@@ -174,9 +174,10 @@ const Leisure = () => {
                 <p>With only four of us this year, it might be a smaller event, but we should definitely take advantage of the opportunity for a unique Thanksgiving.</p>
                 <h4 className='holiday-title'>Christmas 🎁</h4>
                 <p>By the time Christmas rolls around, we are usually pretty pooped. We have historically worked six-day (overtime) weeks during the two weeks leading up to Christmas.</p>
-                <p>We have always done group gifts for the stage managers from the carolers, and in 2020 we have did a secret Santa with each other. But there's certainly no pressure or expectation. Again, with only four of us this year, the dynamic will be different. We may all be just a little overwhelmed by this point of the contract, what with the emotions of Christmas week, followed by the sober reality of the end of the contract just over a week later. It is exhausting.</p>
+                <p>We have always done group gifts for the stage managers from the carolers, and in 2020 we did a secret Santa exchange with each other. But there's certainly no pressure or expectation. Again, with only four of us this year, the dynamic will be different. We may all be just a little overwhelmed by this point of the contract, what with the emotions of Christmas week, followed by the sober reality of the end of the contract just over a week later. It is exhausting.</p>
                 <p>In all likelihood, we will be working on Christmas Day, which falls on a Sunday this year (2022).</p>
-
+                <h4 className='holiday-title'>Birthday! 🎂</h4>
+                <p>A certain soprano will have a birthday while we are in Hong Kong. And we shall celebrate!</p>
         </section>
     )
 }

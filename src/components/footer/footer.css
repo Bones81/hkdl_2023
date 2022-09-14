@@ -1,9 +1,15 @@
 footer {
     text-align: center;
-    height: 300px;
+    margin-bottom: 100px;
+
+}
+
+.footer-img-grid {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 footer img {
-    max-height: 85%;
+    max-height: 300px;
     margin: 0 auto;
 }
