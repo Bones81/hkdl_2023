@@ -21,7 +21,7 @@ const Covid = () => {
                     <li>A <strong>test report bearing your name exactly as it appears in your passport</strong> showing that:
                         <ol class="sub-list covid-ol">
                             <li>You received a "nucleic acid" test for COVID-19, and the <strong>test sample was taken within 48 hours</strong> of the leg of your flight bound for Hong Kong.</li>
-                            <p className='special-note'>Take special note of the verbiage on the report. Please ensure that it indicates when your test sample was taken with one of terms listed in the guidelines below (When our 2020 soprano was not allowed onto our flight, it was because her report said 'report date' instead of one of the more specific indicators listed below):</p>
+                            <p className='special-note'>Take special note of the verbiage on the report. Please ensure that it indicates when your test sample was taken with one of the terms listed in the guidelines below (When our 2020 soprano was not allowed onto our flight, it was because her report said 'report date' instead of one of the more specific indicators listed below):</p>
                             <img className='list-pic' src='./assets/report_collection_time_acceptable_terms.jpg' alt='list of acceptable terms for sample collection date and time'/>
                             <li><strong>The test was a "PCR-based nucleic acid" test</strong> for COVID-19. (Other types of tests, such as RT-LAMP, do not fulfill this requirement.)
                             <br/><br/>
