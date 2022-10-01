@@ -17,7 +17,7 @@ const Covid = () => {
                     <br/><br/>
                     Apparently, the managers of these places are terrified of being fined if they break the laws surrounding this and err on the side of protecting themselves if there is any doubt about your status. 
                     <br/><br/>
-                    However, as long as we’ve received 3 doses, access to all of HK through the Vaccine Pass system should be relatively straightforward, as far as I can tell.</p></li>
+                    However, as long as we’ve received 3 doses, access to all of HK through the Vaccine Pass system should be relatively straightforward, as far as I can tell. Here is <a href="https://www.coronavirus.gov.hk/eng/vaccine-pass.html" target="_blank" rel="noreferrer">the official Vaccine Pass webpage, with all the details you could ever want</a>.</p></li>
                     <li>A <strong>green QR code</strong> from <a href="https://www.chp.gov.hk/hdf/" target="_blank" rel="noreferrer">the official HK Health Declaration form</a>.</li> 
                     <li>To obtain a green code, you will be asked to <strong>self-administer a RAT</strong> (rapid antigen test) and <strong>declare that you have tested negative within 24 hours</strong> of your HK flight. 
                     <p className="special-note">Having a picture of the negative RAT result next to your passport info page is recommended.</p>
@@ -25,31 +25,23 @@ const Covid = () => {
                     </li>
                 </ol>
                 
-                
-                <h4 class="special-note">And, same information one last time: A cheat sheet for what you must have before you can get on the plane (See <a href="#covid-clearance">above</a> for fuller descriptions of each item):
-                    <ol className='covid-ol'>
-                        <li>A vaccination record showing you're fully vaccinated.</li>
-                        <li>A COVID test report that shows:</li>
-                            <ul className='covid-ul'>
-                                <li>Your full name, <strong>exactly as it appears on your passport</strong>. <em>Middle names matter!</em></li>
-                                <li>The test is a <strong>PCR-based nucleic acid test</strong>. (PCR, RT-PCR, real time PCR, etc., see above #2b)</li>
-                                <li>The <strong>date <em>and time</em></strong> that the test sample was taken, and that it was taken <strong>within 48 hours of the departure time of the leg of your flight that ends in HK</strong>.</li>
-                                <li>You tested <strong>negative for COVID-19</strong>.</li> 
-                            </ul>
-                        <li><em>Only if #2 does not include all the required info</em>, you must provide: a letter from your lab or doctor's office that includes all the required COVID test report info, signed/stamped by the lab or office.</li>
-                        <li>A <strong>lab certificate</strong> issued by your State Health Department that <em>includes a CLIA number</em>.</li>
-                        <li><strong>Proof of a quarantine hotel reservation</strong> in HK. Disney should provide this to us.</li>
-                        
-                    </ol>
-                </h4>
             <h3>Arrival in HK, COVID testing/protocol</h3>
-                <h4 class="special-note">I recommend reading <a target="_blank" rel='noreferrer' href="./assets/Hong Kong Airport COVID Arrival Instructions (Aug 2020).pdf">this 3-page pdf file explaining in great detail the HK COVID-19 Travel Procedures</a>, though it is from 2020. It is filled with both instructions and useful recommendations for staying comfortable during the arrival testing process and waiting period. Here is <a target="_blank" rel='noreferrer' href="././assets/Pre Arrival and Arrival Instructions for Hong Kong as of 15 June 2020.pdf">another, smaller pdf file</a> (written up by a concerned mother of a teenaged traveler) noting the essential elements of the process.</h4>
-                <p>As each of the above files mentions, you will need to download the <a target="_blank" rel='noreferrer' href="https://www.coronavirus.gov.hk/eng/stay-home-safe.html">StayHomeSafe app</a> onto the phone you intend to use in HK and fill out a <a target="_blank" rel='noreferrer' href="https://hdf.chp.gov.hk/dhehd/?lang=en-us">Health Declaration Form</a> within 24 hours of your arrival in HK.
-                </p>
-                <h4 class="special-note">It is possible you will have to spend one night in a hotel that is NOT your quarantine hotel. If you arrive to the airport so late that your COVID test cannot be analyzed before the end of the day, you will likely be taken to a separate hotel to spend the night and then will have to await your confirmed test results before you are taken to your next destination. Only after your test results are confirmed negative will you be guided to the quarantine hotel provided by Disney. (You are still required to have a reservation at the Disney hotel for that first night, even if you end up staying in the airport-provided hotel due to a late arrival. Yes, that's an unfair rule, but it doesn't really affect us, since Disney is paying for the hotel.)</h4>
-                <p>Morgan's report via our friend in HK and former face character, Rachel Capp: "We will be at the airport for like 3-4 hours once we land in their facility hall to get tested, get our wellness app together and basically a house arrest bracelet for quarantine so just mentally prepare now it might be a long day. So I’d pack snacks and like things to make the waiting more comfortable."</p>
-                <p>The waiting hall is well air conditioned, so be sure to have a sweater or light jacket in your carry-on luggage. Some have suggested bringing a yoga mat so that you can lie down, rather than sit in the same plastic chair for 3-4 hours.</p>
-                <p>Other comments/recommendations for the waiting hall in HK: bring 1-2 fully charged power banks for your phone, as the availability of electrical outlets is limited. WiFi is "okay." They had a small selection of snack items (Oreos, peanut butter crackers, etc.), but other than that, you'll need your own food.</p>
+                <h4 className='special-note'>Upon arrival, we will submit our Health Declaration, undergo our 1st PCR test (day 0) and be released to immigration. Step-by-step details below.</h4>
+                <ol className='covid-ol'>
+                    <li>Upon arrival in HK, officials will scan the same green Health Declaration QR code you needed to board the plane, and then we will be given a PCR test.</li>
+                    <li>We will not be required to wait for the test result at the airport. We will be able to go through immigration clearance, claim our baggage, find a Disney rep if one is there to meet us, and leave.</li>
+                    <li>We will receive a Notification of Medical Surveillance and Provisional Vaccine Pass QR code electronically.</li>
+                    <li>Here are the <a href="https://www.coronavirus.gov.hk/eng/tested-positive.html" target="_blank" rel="noreferrer">details for anyone who tests positive</a> at any point during the 7 days after we arrive.</li>
+                    <li>You will need to <strong>download the <a target="_blank" rel='noreferrer' href="https://www.leavehomesafe.gov.hk/en/">LeaveHomeSafe app</a></strong> onto the phone you intend to use in HK. This contact-tracing app will store your Provisional Vaccine Pass QR code, which will give you access to restricted places in HK, like restaurants and bars. <strong>Be sure to associate your LeaveHomeSafe account with your Provisional Vaccine Pass</strong> and not your Vaccination Record, as the Provisional Vaccine Pass grants you more access than our Vaccination Record alone.
+                    </li>
+                </ol>
+            <h3>The 7 days after arrival</h3>
+                <h4 className='special-note'>We will be expected to undergo daily RATs for 7 days and undergo additional PCR tests <em>after</em> the RATs on days 2, 4, and 6.</h4>
+                <p>For the first 3 days, we will have an Amber QR code on our Vaccine Pass. Amber basically means we are subject to some restrictions for those days and are not allowed to enter "high-risk premises involving mask-off or group activities." However, we will still be able to take public transport, go to work, and enter supermarkets/markets.</p>
+                <p>As long as our tests stay negative, our Vaccine Pass should automatically update to Blue status via Internet connection after the required 3 days are complete. The Blue QR code is the highest access and clearance level, granting access to any place we would need or want to go. However, we still must submit the results of the remaining 4 days of RAT & PCR tests.</p>
+                <p>It is not clear yet whether Disney will be arranging the RAT and PCR tests we must undergo during these 7 days after we arrive. It is possible we will have to utilize HK's "community testing centres" or "mobile specimen collection stations" to undergo some or all of these tests.</p>
+                <p>Here is a graphic which nicely lays out the testing schedule after we arrive and summarizes most of the above info:</p>
+                <img className="list-pic" src='assets/hk_arrival_testing.jpg' alt='infographic on HK arrival testing schedule' />
         </section>
     )
 }
