@@ -4,8 +4,8 @@ const Leisure = () => {
     return (
         <section id='leisure'>
             <h2>Leisure/Time Off</h2>
-            <div className="leisure"><img src="./assets/Morganswirlchair.jpg" alt='Morgan in a novelty swirling chair'/>
-            <img src="./assets/daipaidong2018.jpg" alt='dai pai dong meal with friends'/>
+            <div className="leisure"><img className="list-pic" src="./assets/Morganswirlchair.jpg" alt='Morgan in a novelty swirling chair'/>
+            <img className="list-pic" src="./assets/daipaidong2018.jpg" alt='dai pai dong meal with friends'/>
             </div>
             <h4>We will usually have two full days off each work week. SO, what can we do with our down time?!?</h4>
             <h3>The big tourist stuff</h3>

@@ -40,8 +40,8 @@ const Performance = () => {
                 </video>
             <h3>Quartets</h3>
                 <div id="quartets">
-                    <img id="hotel-set-2016" src="./assets/Xmastime Ball 2017.jpg" alt="castle show"/>
-                    <img id="HK-MS-2016" src="./assets/HK Main Street 2016 Carolers.jpg" alt="main street show"/>
+                    <img className="list-pic" id="hotel-set-2016" src="./assets/Xmastime Ball 2017.jpg" alt="castle show"/>
+                    <img className="list-pic" id="HK-MS-2016" src="./assets/HK Main Street 2016 Carolers.jpg" alt="main street show"/>
                 </div> 
                 <p>In previous years, there have been 8 carolers in 2 consistent quartets, determined by Disney partway through the rehearsal process. This year, we of course have only one quartet, so there's no surprise who we'll be working with!</p>
                 <p>It is worth noting that - if one of us is sick - we may still be expected to perform caroling sets as a trio! In that case, we do our best to plan for songs that still (mostly) work without the missing caroler. I know that 'Santa Claus Is Coming' can work without a bass, for instance, and that often the tenor or alto can take over a soprano melody if the soprano is out.</p>
