@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             
             
-            <h3>Only because it was requested, here are the Disney acappella parodies I put together in the first months of the pandemic:</h3> 
+            <h3>Only because it was requested, here are the Disney <em>acappella</em> parodies I put together in the first months of the pandemic:</h3> 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/a_XCrClEFvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='Disney parody video Social Distance'></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ljtlm2LYiLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='Disney parody video Best If You Stay Home'></iframe>
         </footer>

@@ -159,7 +159,8 @@ const Leisure = () => {
                 </ul>
             <h3>Celebrating Holidays</h3>
                 <h4 className='holiday-title'>Halloween 🎃</h4>
-                <p>Sadly, we won't be out of quarantine in time to celebrate Halloween in HK this year. 😭</p>
+                <p>Our first day of work in the park should be on Oct. 31, meaning we'll have one day to take in the majority of HKDL's Halloween offerings. See as much of the park as you can on day 1 before they take down all the Halloween decor! I imagine that evening we'll be dealing with jet lag and wanting to get situated at our hotel, so we probably won't be going to any Halloween parties or trick-or-treating. But you might see some cute kids trick-or-treating around our hotel!</p>
+                <p>However! The HKDL Halloween season show "Let's Get Wicked" should be extended through early Nov., so we should be able to see it! It's held in the Theater in the Wild where The Festival of the Lion King show runs for the majority of the year. (We should be able to see that one as well after it reopens in late Nov. or early Dec.)</p>
                 <img className="list-pic" src="./assets/halloween_2020.jpeg" alt='Halloween 2020'/>
                 <p className="img-caption">The 2020 crew at Halloween.</p>
                 {/* <p>We are often invited to a Halloween party. Often, we just hold our own so that we aren't out partying far from home.</p>
