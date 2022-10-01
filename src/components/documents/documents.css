@@ -1,3 +1,16 @@
 .documents-ol {
     background-color: rgba(0,0,0,0.7);
 }
+
+#documents {
+    cursor: pointer;
+}
+
+.documents-content {
+    height: 0;
+    overflow: hidden;
+}
+
+.docs-open {
+    height: 100%;
+}
