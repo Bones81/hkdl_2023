@@ -3,7 +3,7 @@ import './covid.css'
 const Covid = () => {
     return (
         <section id="covid-clearance">
-            <h2 >COVID-related flying info and Cheat Sheet for arrival and COVID clearance</h2>
+            <h2>COVID clearance: flight, arrival, and beyond</h2>
             <h3 className='special-note'>Most recent update: 10/1/22. Double-check official COVID-clearance resources for the most accurate and up-to-date info.</h3>
                 <h4 class="special-note">As of Sept. 26th, HK has significantly reduced the COVID-related quarantine and testing requirements for international visitors. The good news is: no more quarantine! The bad news is: we are still subject to "medical surveillance, self-monitoring, and compulsory testing," meaning 3 days of limited clearance and a week of daily RATs (rapid antigen tests) and 4 PCR tests (upon arrival, and on days 2, 4, and 6 after arrival).</h4>
                 <h3>The HK govt policies regarding COVID clearance for overseas travellers is <a target="_blank" rel='noreferrer' href="https://www.coronavirus.gov.hk/eng/inbound-travel.html">here</a>. My cheat sheet version of this info is what follows below.</h3>
