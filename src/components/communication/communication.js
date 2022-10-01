@@ -16,7 +16,7 @@ const Communication = () => {
                     <li>WhatsApp, if you don't have it already. It is the primary way we communicate with our stage managers and each other while we are in HK.</li>
                     <li>Facebook Messenger, if you don't have it already.</li>
                     <li>An exchange rate app to compare USD and HKD amounts. I like a popular one called XE.</li>
-                    <li>StayHomeSafe app (<a target="_blank" rel='noreferrer' href="https://apps.apple.com/us/app/stayhomesafe-app/id1499780720">link</a>), which we will be required to download as part of our quarantine in HK. Downloading it in advance may speed up the process once you have arrived in HK.</li>
+                    <li>LeaveHomeSafe app (<a target="_blank" rel='noreferrer' href="https://www.leavehomesafe.gov.hk/en/">link</a>), which we will need to download as part of the Vaccine Pass program in HK. Downloading it in advance may speed up the process once you have arrived in HK.</li>
                     <li>A Cantonese-learning app. I like one called "Nemo Cantonese."</li>
                     <li>City Mapper. A great app that is often easier to use than Apple or Google Maps. Will help you navigate the city's complex public transit system like a pro.</li>
                     <li>Eventually, you may want to download our bank's mobile banking app, SCHK Mobile.</li>
