@@ -12,13 +12,13 @@ const Flying = () => {
                     <li>7:00AM, Sunday Oct 30, New York time</li>
                 </ul>
             <h3>Change your seat!</h3>
-                <p>You may be able to change your seat to one you prefer. May as well be as comfortable as possible for the long flight(s)!</p>    
+                <p>You may be able to <a href="https://www.koreanair.com/reservation/search" target="_blank" rel="noreferrer">change your seat</a> to one you prefer. May as well be as comfortable as possible for the long flight(s)!</p>    
             <h3>Baggage</h3>
                 <p>Looks like we get two complimentary checked bags up to 50lbs, a 1 bag + 1 personal item to carry on (total carry on weight is 22lbs). The fees are hefty for exceeding the weight limits.</p>
                 <p>Historically, I have traveled with 2 checked rolling suitcases/bags, a medium-sized duffle bag, and a medium-sized backpack. It's basically as much as I can handle by myself. But remember, you can buy just about ANYTHING in HK, so if you don't need it, leave it at home. Number one rule of traveling: don't overpack.</p>
                 <p>It is always possible that a checked bag could get lost, so it is extremely useful to have a full complement of essential clothes, food, chargers/power, and entertainment in your carry-on luggage.</p>
             <h3>In-flight meals</h3>
-                <p>Check your respective tickets for what meal service you'll be getting. For the final leg, we will get dinner. Here is <a href="https://www.koreanair.com/us/en/in-flight/onboard-service/dining/economy" target="_blank" rel="noreferrer">Korean Air's info on in-flight meals</a>, including options for <a href="https://www.koreanair.com/us/en/in-flight/onboard-service/dining/special-meals" target="_blank" rel="noreferrer">special meal requests</a>.</p>
+                <p>Check your respective initial leg tickets for what meal service you'll be getting. For the final leg, we will get dinner. Here is <a href="https://www.koreanair.com/us/en/in-flight/onboard-service/dining/economy" target="_blank" rel="noreferrer">Korean Air's info on in-flight meals</a>, including options for <a href="https://www.koreanair.com/us/en/in-flight/onboard-service/dining/special-meals" target="_blank" rel="noreferrer">special meal requests</a>.</p>
             <h3>In-flight entertainment</h3>
                 <p>Korean Air's <a href="https://www.koreanair.com/in-flight/entertainment" target="_blank" rel="noreferrer" >in-flight entertainment options are here</a>.</p>
             <h3>Frequent Flier program</h3>
