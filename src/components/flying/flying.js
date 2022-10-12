@@ -12,7 +12,8 @@ const Flying = () => {
                     <li>7:00AM, Sunday Oct 30, New York time</li>
                 </ul>
             <h3>Change your seat!</h3>
-                <p>You may be able to <a href="https://www.koreanair.com/reservation/search" target="_blank" rel="noreferrer">change your seat</a> to one you prefer. May as well be as comfortable as possible for the long flight(s)!</p>    
+                <p>You may be able to <a href="https://www.koreanair.com/reservation/search" target="_blank" rel="noreferrer">change your seat</a> to one you prefer. May as well be as comfortable as possible for the long flight(s)! Use the "Airline Booking Ref" from our flight email to search for your itinerary, as seen in the screenshot here:</p>
+                <img className="list-pic" src="assets/flight_itinerary.jpg" />  
             <h3>Baggage</h3>
                 <p>Looks like we get two complimentary checked bags up to 50lbs, a 1 bag + 1 personal item to carry on (total carry on weight is 22lbs). The fees are hefty for exceeding the weight limits.</p>
                 <p>Historically, I have traveled with 2 checked rolling suitcases/bags, a medium-sized duffle bag, and a medium-sized backpack. It's basically as much as I can handle by myself. But remember, you can buy just about ANYTHING in HK, so if you don't need it, leave it at home. Number one rule of traveling: don't overpack.</p>
