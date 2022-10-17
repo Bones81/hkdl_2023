@@ -9,7 +9,7 @@ const Documents = () => {
 
     return (
         <section id="documents">
-            <h2 onClick={handleToggle}>Documents: a cheat sheet. (Everyone should be good on these for 2022 since visas have been issued electronically. But toggle open this section to revisit documents details.)</h2>
+            <h2 onClick={handleToggle}>Documents: a cheat sheet. (Everyone should be good on these for 2022 since visas have been issued electronically. But toggle open this section if you wish to revisit documents details.)</h2>
             <div className="documents-content" onClick={handleToggle}>
                 <p>In the work <strong>visa application</strong> and <strong>contract</strong> completion process, you will be asked to submit many documents: some as digital files, others as hard copies, and some in both forms.</p>
                 <p>You will likely have to submit documents to both HKDL's HR department and a company called Fragomen that helps us get our work visas from the Immigration Dept.</p>
