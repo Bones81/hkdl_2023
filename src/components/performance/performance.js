@@ -16,7 +16,7 @@ const Performance = () => {
                 <p className='img-caption'>Tree Lighting ceremony in 2020</p>
                 <img src='./assets/tree_lighting_2020_b.jpeg' className='list-pic' alt='Tree Lighting 2020' />
                 <p className='img-caption'>Tree Lighting ceremony in 2020 with a different quartet</p>
-                <p>Here are some clips of the carolers doing a cappella sets from previous years. The first one is from 2017, outdoors, on Main Street:</p>
+                <p>Here are some clips of the carolers doing <em>a cappella</em> sets from previous years. The first one is from 2017, outdoors, on Main Street:</p>
                 <video controls width="400" height="500">
                     <source src="./assets/Sleigh Ride Main Street.m4v" type="video/mp4" />
                         Your browser does not support the video tag.
