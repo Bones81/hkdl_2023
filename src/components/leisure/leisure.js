@@ -103,12 +103,12 @@ const Leisure = () => {
                     <li>MANY others</li>
                 </ul>
             <h3>Night Life</h3>
-                <h4 className="special-note">At the time I'm writing this, I know that live music is still not allowed in bars, due to COVID restrictions. But there is still some night life to be had.</h4>
+                <h4 className="special-note"><s>At the time I'm writing this, I know that live music is still not allowed in bars, due to COVID restrictions. But there is still some night life to be had.</s></h4>
+                <h4 className="special-note">Update 10/15, HK is finally allowing bars and pubs to have live music again!!!</h4>
                 <ul className='leisure-ul'> 
-                    <li>Ned Kelly's Last Stand - the bandleader, Colin, is one of our best friends in HK. The man loves music and will probably come to see us perform at Disney at some point. Hopefully restrictions will be lifted by the time we are there so that we can go to Ned Kelly's and see his band play again.</li>
+                    <li>Ned Kelly's Last Stand - the bandleader, Colin, is one of our best friends in HK. The man loves music and will probably come to see us perform at Disney at some point. Hopefully we can go early and often to Ned Kelly's to see his band play. Some of our favorites nights of the whole contract have occurred at Ned's.</li>
                     <img className="list-pic" src="./assets/ned_kellys_band.jpeg" alt='the band at Ned Kellys'/>
                     <p className="img-caption">The band at Ned Kelly's in 2020 before live music in bars was restricted</p>
-
                     <li>Old Man - one of the very best cocktail bars in the world, Hemingway-themed</li>
                     <img className="list-pic" src="./assets/Old Man cocktail.jpg" alt='Old Man cocktail'/>
                     <p className="img-caption">Enjoy exquisitely crafted cocktails at The Old Man</p>
@@ -159,7 +159,7 @@ const Leisure = () => {
                 </ul>
             <h3>Celebrating Holidays</h3>
                 <h4 className='holiday-title'>Halloween 🎃</h4>
-                <p>Our first day of work in the park should be on Oct. 31, meaning we'll have one day to take in the majority of HKDL's Halloween offerings. See as much of the park as you can on day 1 before they take down all the Halloween decor! I imagine that evening we'll be dealing with jet lag and wanting to get situated at our hotel, so we probably won't be going to any Halloween parties or trick-or-treating. But you might see some cute kids trick-or-treating around our hotel!</p>
+                <p>Now that we know we won't be arriving until late on Oct. 31st, I think we will sadly miss seeing the park's Halloween decor. </p>
                 <p>However! The HKDL Halloween season show "Let's Get Wicked" should be extended through early Nov., so we should be able to see it! It's held in the Theater in the Wild where The Festival of the Lion King show runs for the majority of the year. (We should be able to see that one as well after it reopens in late Nov. or early Dec.)</p>
                 <img className="list-pic" src="./assets/halloween_2020.jpeg" alt='Halloween 2020'/>
                 <p className="img-caption">The 2020 crew at Halloween.</p>
