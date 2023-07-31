@@ -29,7 +29,6 @@ const App = () => {
       <Documents />
       <Covid />
       <Flying />
-      <Voting />
       <Housing />
       <Food />
       <Transportation />

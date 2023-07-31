@@ -66,11 +66,12 @@ table {
   
 }
 
-h2, h3, h4, h5, p {
-  margin: 5px 25px 10px;
+h2, h3, h4, h5, p, ul {
+  margin: 2em auto;
   background-color: rgba(0,0,0,0.6);
   text-align: justify;
   color: whitesmoke;
+  width: 70%;
 }
 
 h3, h4, h5 {
@@ -78,9 +79,9 @@ h3, h4, h5 {
 }
 
 ol, ul {
-  margin: 0px 25px;
+  margin: 1em auto;
   /* background-color: rgba(0,0,0,0.7); */
-  padding: 10px 30px;
+  padding: 1em 3em;
 }
 
 ul {
@@ -123,8 +124,12 @@ h2 {
   padding: 8px;
   border-radius: 20px;
   text-align: center;
-  margin: 20px 5px;
   line-height: 50px;
+}
+
+.section-title {
+  width: 100%;
+  border-radius: 0;
 }
 
 h3 {
@@ -154,7 +159,8 @@ p, h4, li {
 }
 
 div p {
-  margin: 5 auto;
+  margin: 1em auto 2em;
+  width: 70%;
 }
 
 a {
@@ -208,10 +214,10 @@ video {
   margin: 0 auto;
   outline: none;
 }
-#viewfromHPRC, #HPRC-lobby, #footbridge, #HKD10bill {
+#HPRC-map, #viewfromHPRC, #HPRC-lobby, #footbridge, #HKD10bill {
   display: flex;
   width: 50%;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 #quartets {
   display: flex;
@@ -265,14 +271,18 @@ iframe {
 
 @media (min-width: 800px) and (min-height: 800px) {
   section {
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
+  }
+
+  div p, ol, ul {
+    width: 65%;
   }
 }
 
 @media (min-width: 1080px) and (min-height: 1080px) {
   section {
-    max-width: 70%;
+    max-width: 95%;
     margin: 0 auto;
   }
 }
