@@ -155,7 +155,7 @@ const Performance = () => {
             And the other is:
             <li>S: Sarah</li>
             <li>A: Chelsea</li>
-            <li>T: Kyle</li>
+            <li>T: TBA</li>
             <li>B: Johnny</li>
           </ul>
         </p>

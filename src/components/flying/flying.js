@@ -9,7 +9,7 @@ const Flying = () => {
         <p>Because HK Disney has indicated the two groups will have different contract start dates, and because our flights are usually 1-2 days before the contract start date, the following scenario is likely:</p>
         <ul>
             <li>Group 1 (Katie, Emilia, Nathan, Sean): Flight date Oct 28 or 29, contract start Oct 30.</li>
-            <li>Group 2 (Sarah, Chelsea, Kyle, Johnny): Flight date Nov 4 or 5, contract start Nov 6.</li>
+            <li>Group 2 (Sarah, Chelsea, Tenor TBA, Johnny): Flight date Nov 4 or 5, contract start Nov 6.</li>
         </ul>
         <p>During the pandemic contracts, they were careful to connect all of us to the same Hong Kong flight, even though we come from all over the US. However, now that pandemic precautions are ended, I suspect they'll go back to the old system, where they would just have the group arrive to Hong Kong within a couple hours of each other and have Irene or someone from HR greet us in the airport arrivals hall, give us a welcome packet, and then set us up with taxis to HPRC. They would often time our arrival with additional expat face characters also starting their contracts. They'll let us know the plan, but it may not be until the week we are scheduled to depart.</p>
         <h3>Change your seat!</h3>
