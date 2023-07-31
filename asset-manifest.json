@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hkdl_2023/static/css/main.c287019f.css",
+    "main.js": "/hkdl_2023/static/js/main.11b3d655.js",
+    "static/js/787.9d3fce03.chunk.js": "/hkdl_2023/static/js/787.9d3fce03.chunk.js",
+    "static/media/Xmas tree.jpeg": "/hkdl_2023/static/media/Xmas tree.53f715c4c9a412e87132.jpeg",
+    "index.html": "/hkdl_2023/index.html",
+    "main.c287019f.css.map": "/hkdl_2023/static/css/main.c287019f.css.map",
+    "main.11b3d655.js.map": "/hkdl_2023/static/js/main.11b3d655.js.map",
+    "787.9d3fce03.chunk.js.map": "/hkdl_2023/static/js/787.9d3fce03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c287019f.css",
+    "static/js/main.11b3d655.js"
+  ]
+}
