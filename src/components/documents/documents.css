@@ -2,15 +2,15 @@
     background-color: rgba(0,0,0,0.7);
 }
 
-#documents {
+/* #documents {
     cursor: pointer;
-}
+} */
 
-.documents-content {
+/* .documents-content {
     height: 0;
     overflow: hidden;
-}
+} */
 
-.docs-open {
+/* .docs-open {
     height: 100%;
-}
+} */

@@ -32,7 +32,6 @@ const Header = () => {
                     <li class="nav-item"><a href="#documents" onClick={toggleMenu}>Documents</a></li>
                     <li class="nav-item"><a href="#covid-clearance" onClick={toggleMenu}>COVID Clearance</a></li>
                     <li class="nav-item"><a href="#flights" onClick={toggleMenu}>Flying</a></li>
-                    <li class="nav-item"><a href="#voting" onClick={toggleMenu}>VOTE!</a></li>
                     <li class="nav-item"><a href="#housing" onClick={toggleMenu}>Housing</a></li>
                     <li class="nav-item"><a href="#food" onClick={toggleMenu}>Food</a></li>
                     <li class="nav-item"><a href="#transportation" onClick={toggleMenu}>Transportation within HK</a></li>

@@ -12,7 +12,7 @@ const Documents = () => {
         <h2 className="section-title toggle-section" >
           Documents: a cheat sheet.
         </h2>
-        <div className="documents-content" >
+        <div>
           <p>
             In the work <strong>visa application</strong> and{" "}
             <strong>contract</strong> completion process, you will be asked to
@@ -25,7 +25,7 @@ const Documents = () => {
             visas from the Immigration Dept.
           </p>
           <p>
-            Eventually, when you FedEx anything to HK, make sure you{" "}
+            Eventually, when you FedEx your visa application materials to HK, make sure you{" "}
             <em>save your receipt(s)</em>, and make sure you{" "}
             <em>bring those receipts with you to HK</em> so that Disney can
             reimburse you.
@@ -40,6 +40,10 @@ const Documents = () => {
             at least 4-6 weeks processing time from the date you mail off your
             visa application materials.
           </p>
+          <h4 className='special-note'>As of 2022, Hong Kong has been issuing digital e-visas instead of mailing us hard copies of our approved work visas. These come with a QR code you should print and also save digitally.
+          <br/>
+          <br/>
+          Additionally, as of 2022, HKDL now allows you to complete your contract signing electronically. You may still need to print a hard copy of the signed contract to include with your visa application.</h4>
           <h3>
             Items you'll likely need in <strong>digital form</strong>:
           </h3>
@@ -125,7 +129,7 @@ const Documents = () => {
           </h4>
         </div>
         <h4 className="special-note">
-          Don't forget to bring your passport (Duh.), your vaccination record,
+          Don't forget to bring your passport (Duh.),
           your visa QR code (both electronic and printed), hard copies of all
           your contract materials, and your receipt from mailing your visa
           application materials.

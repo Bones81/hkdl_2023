@@ -270,6 +270,7 @@ iframe {
   margin: 15px auto;
 }
 
+
 @media (min-width: 800px) and (min-height: 800px) {
   section {
     max-width: 100%;
