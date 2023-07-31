@@ -118,9 +118,9 @@ const Performance = () => {
           Your browser does not support the video tag.
         </video>
         <p>
-          Because we don't know yet what format our hotel sets will take this
-          year, here is an example of a hotel set from 2016. Different costumes,
-          the ability to sit while singing, and microphones made this a very
+          Because we don't know yet what format any hotel sets might take, here
+          is an example of a hotel set from 2016. Different costumes, the
+          ability to sit while singing, and microphones made this a very
           comfortable experience:
         </p>
         <video controls width="500" height="300">
@@ -143,22 +143,60 @@ const Performance = () => {
           />
         </div>
         <p>
-          In previous years, there have been 8 carolers in 2 consistent
-          quartets, determined by Disney partway through the rehearsal process.
-          This year, we of course have only one quartet, so there's no surprise
-          who we'll be working with!
+          As you are probably aware, there are 8 total carolers divided into 2
+          quartets this year.
+          <ul>
+            One quartet is slated to be:
+            <li>S: Katie</li>
+            <li>A: Emilia</li>
+            <li>T: Nathan</li>
+            <li>B: Sean</li>
+            <br />
+            And the other is:
+            <li>S: Sarah</li>
+            <li>A: Chelsea</li>
+            <li>T: Kyle</li>
+            <li>B: Johnny</li>
+          </ul>
         </p>
         <p>
-          It is worth noting that - if one of us is sick - we may still be
-          expected to perform caroling sets as a trio! In that case, we do our
-          best to plan for songs that still (mostly) work without the missing
-          caroler. I know that 'Santa Claus Is Coming' can work without a bass,
-          for instance, and that often the tenor or alto can take over a soprano
-          melody if the soprano is out.
+          In previous years, they wouldn't decide quartets until after
+          rehearsals had started. It's entirely possible they could decide to
+          change the groupings after we arrive. Just know that's a possibility.
         </p>
-        {/* <p>We will eventually be assigned to quartets. The HKDL creative team decides the personnel in each quartet. Historically, they've been decisive about this, though they don't explicitly tell us why they make the choices they do. Maybe they don't want everyone in a given quartet to have the same color hair. Maybe they don't want three tall people with one shorter person. Maybe they want to match veteran carolers with rookies.</p>
-                <p>The reality is that once the quartets are set, your fellow quartet members are the carolers you will spend time with most often. When one group has a day off, the other group is working. Occasionally, if someone is sick, Disney may rotate in that person's counterpart from the other quartet for a shift or two. But quartets have never been reassigned after they are set. Sometimes they make this decision early in the rehearsal process, and other years, they wait until the week before tech to set the quartets.</p>
-                <p>During my first year, we had one bass-tenor duo who wanted to perform together but were assigned to different quartets. They requested that the quartets be changed so that they could be in the same quartet, but Disney did not agree to it. What Disney did agree to, however, were two weeks when the tenor switched his two days off with his counterpart in the other group. This effectively gave the bass-tenor duo four shifts when they could perform together.</p> */}
+        <p>
+          That said, whomever you end up being grouped with, your fellow quartet
+          members are the carolers you will spend time with most often. When one
+          group has a day off, the other group is working. Occasionally, if
+          someone is sick, Disney may rotate in that person's counterpart from
+          the other quartet for a shift or two.
+        </p>
+        <p>
+          It is worth noting that - if one of us is sick and the other quartet's
+          counterpart is not available - we may still be expected to perform
+          caroling sets as a trio! In that case, we do our best to plan to sing
+          songs that still (mostly) work without the missing caroler. I know
+          that 'Santa Claus Is Coming' can work without a bass, for instance,
+          and that often the tenor or alto can take over a soprano melody if the
+          soprano is out. But this scenario is incredibly rare. When an illness
+          spread through the carolers last year and we were down a person, the
+          other three still had to report to work, but the SMs just kept us on
+          "standby" all day. "Standby" is a fancy word for "we don't have
+          anything for you to do, but we can't let you stay home because you're
+          being paid for these hours, and we have to make you feel like we may
+          have work for you at any moment." What we actually did was visit the
+          Disneyland Hotel and Inspiration Lake. 😜
+        </p>
+        <p>
+          A quick anecdote about trying to change quartet arrangements: During
+          my first year, we had one bass-tenor duo who wanted to perform
+          together but were assigned to different quartets. They requested that
+          the quartets be changed so that they could be in the same quartet, but
+          Disney did not agree to it. What Disney did agree to, however, were
+          two weeks when the tenor switched his two days off with his
+          counterpart in the other group. This effectively gave the bass-tenor
+          duo four shifts when they could perform together.
+        </p>
 
         <h3>
           Rehearsals, Performance Decisions, Authority/Working Together, Goode
@@ -166,16 +204,16 @@ const Performance = () => {
         </h3>
         <h4>Who's in charge of us, vocally??</h4>
         <p>
-          While HK Disney's music director, Ceejay, is our music director, he
+          While HK Disney's music director, Ceejay, and his associate Felix, are our music directors, they
           will usually focus much more on the Disney shows (Tree-Lighting and
           Christmastime Ball, for instance) and give us only limited guidance on
-          our Goode Time repetoire. Maybe he'll tune pitch or fix the blend in
+          our Goode Time repetoire. Maybe they'll tune pitch or fix the blend in
           obvious problem areas, but we are generally expected to know our rep
           very well and be ready with it at a moment's notice. Some years, maybe
           only one week into the contract, we will sing a song or two for Disney
           executives as a treat for them as they discuss the upcoming Christmas
           season. So, ideally, you are ready and comfortable with the Goode Time
-          rep from the moment we start working.
+          rep from the moment we start arrive.
         </p>
         <p>
           We usually have a good amount of "self-rehearsal" time baked into our
@@ -183,14 +221,13 @@ const Performance = () => {
           to rehearse, and that is when most of our work on the Goode Time rep
           occurs.
         </p>
-        {/* The issue that comes up is that our quartets are often not yet set when we have these self-rehearsals. That means rehearsing the Goode Time material during "self-rehearsal" feels weird. You don't want to practice gelling with people if you're not actually going to be singing with them because they are eventually assigned to another quartet. */}
-        {/* <p>As a result, we often devote a lot of self-rehearsal time to practicing the Tree Lighting and Christmastime Ball music. And as well we should: without a doubt Disney cares more about those shows than they do us performing acappella sets on Main Street or in the Disneyland Hotel.</p> */}
-        {/* <p>However, the trap that results is that we end up not rehearsing our Goode Time rep with our quartet often, despite having lots of 'self-rehearsal' time. This has caused challenges in the past, where the material just isn't as performance-ready as it should be. It's up to us to find time to rehearse Goode Time material that needs rehearsing once we are in HK. Find time at Disney to warm up together, at least for a song or two. And take advantage of self-rehearsal opportunities. Especially after your quartet is determined.</p> */}
+        <p>One issue that can arise is that we want to devote lots of self-rehearsal time to the Tree-Lighting or to any other music Disney may have given us. And as well we should: without a doubt Disney cares more about the shows they've written than any of the atmosphere work we do performing acappella sets on Main Street, in Fantasyland, or in the Disneyland Hotel.</p>
+        <p>However, the trap that results is that we sometimes end up not rehearsing our Goode Time rep enough, despite having lots of 'self-rehearsal' time. This has caused challenges in the past, where the material just isn't as performance-ready as it should be. It's up to us to use our 'self-rehearsal' time to rehearse all of our Goode Time material, as well as the Tree-Lighting or any other music Disney may assign us. Find time at Disney to warm up together, at least for a song or two. And take advantage of self-rehearsal opportunities. Last year, we would often rehearse at least one song before every set, until we were sure we were comfortable with the entire rep.</p>
         <p>
-          Because the music director is fairly hands off when it comes to our
+          Because the music director Ceejay (and his associate Felix) are fairly hands off when it comes to our
           Goode Time rep, we are generally trusted to monitor ourselves when it
           comes to quality and set selection. While we will always have a Disney
-          'lead' or 'greeter' with us when we carol on Main Street or in the
+          'lead' or 'greeter' with us when we carol on Main Street, in Fantasyland, or in the
           Disneyland Hotel, and while we will know the length of our sets, they
           won't dictate what we sing or, frankly, care how we sound. It will be
           up to us what we choose to sing and to ensure it is Disney-standard
@@ -199,7 +236,7 @@ const Performance = () => {
         <p className="special-note">
           Take Note: On the other hand, there is MUCH attention paid to our
           vocals when we are performing anything that isn't the Goode Time rep.
-          Ceejay will usually gives us notes after every run or rehearsal of the
+          Ceejay or Felix will usually gives us notes after every run or rehearsal of the
           Tree Lighting, and sometimes even after the first week or two of
           shows!
         </p>
@@ -376,10 +413,8 @@ const Performance = () => {
           alt="fan moment"
         />
         <h4 className="special-note">
-          In 2020, pre-vaccines and amid full COVID restrictions, we did not do
-          photo moments or meet-n-greets. While COVID policies are different in
-          2022, HK is still being very careful when it comes to COVID, so it's
-          possible we will once again have to eliminate photo moments. In any
+          In both 2020 and 2022, amid full COVID restrictions, we did not do
+          photo moments or meet-n-greets. With COVID restrictions largely eliminated in 2023 and HKDL allowing face characters to touch and hug guests again, I expect we may be encouraged to do "photo moments" again! In any
           case, if we do have them, here's what you can expect!
         </h4>
         <p>

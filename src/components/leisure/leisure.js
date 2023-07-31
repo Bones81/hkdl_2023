@@ -131,8 +131,7 @@ const Leisure = () => {
             featuring beaches, epic hikes, and a lively port neighborhood
           </li>
           <li>
-            Day trip to Macau - This one may not be an option this year, as it
-            involves leaving HK. 😭 But is is the Vegas of the East. Walk a
+            Day trip to Macau - This one involves leaving HK, and I am hopeful we can do it this year! 🤞 Macau is the Vegas of the East. Walk a
             casino floor, have a Portuguese egg tart (or seven), and see The
             House of Dancing Water, one of the most amazing shows you'll ever
             see.
@@ -169,14 +168,10 @@ const Leisure = () => {
           <li>HKDL's very own Inspiration Lake</li>
         </ul>
         <h3>Restaurants</h3>
-        <h4 className="special-note">
-          Covid restrictions may mean that party sizes are limited and that
-          early closing times may be enforced. Check the current policies.
-        </h4>
         <ul className="leisure-ul">
           <li>
-            Baba's Station: incredible Indian food in the smallest restaurant
-            you've ever seen
+            Baba's Station - incredible Indian food in the smallest restaurant
+            you've ever seen. You go for the food (not so much the drinks). In Tsuen Wan
           </li>
           <img
             className="list-pic"
@@ -184,53 +179,50 @@ const Leisure = () => {
             alt="babas station"
           />
           <p className="img-caption">2020 visit to Baba's Station</p>
-          <li>Beef and Liberty - excellent burgers</li>
+          <li>Beef and Liberty - excellent burgers, one small location remained in 2022 in Sheung Wan/Sai Ying Pun</li>
           <li>
             Tim Ho Wan - cheapest Michelin star restaurant in the world, great
-            roast pork buns
+            roast pork buns, multiple locations
           </li>
-          <li>Dim Dim Sum - another favorite dim sum spot</li>
-          <li>Mammy Pancake - best egg waffles/egg puffs in town</li>
+          <li>Dim Dim Sum - another favorite dim sum spot, multiple locations</li>
+          <li>Mammy Pancake - best egg waffles/egg puffs in town in the lower Temple Street area</li>
           <li>
             La Creperie - amazing French seaside resort-style crepes and
-            galettes with delicious hard cider.{" "}
+            galettes with delicious hard cider{" "}
           </li>
           <img
             className="list-pic"
             src="./assets/La Creperie.jpg"
             alt="la creperie restaurant"
           />
-          <p className="img-caption">A savory galette at La Creperie</p>
-          <li>Little Bao - extremely cool contemporary Asian fusion</li>
-          <li>Pici - fantastic upscale Italian chain</li>
-          <li>Kebab House 23 - a great--if small--Turkish place.</li>
-          <li>Ichiran - insanely delicious ramen</li>
+          <p className="img-caption">A savory galette at La Creperie, multiple locations</p>
+          <li>Little Bao - extremely cool contemporary Asian fusion in Causeway Bay</li>
+          <li>Pici - fantastic upscale Italian chain, multiple locations</li>
+          <li>Kebab House 23 - a great, if small, Turkish place, multiple locations</li>
+          <li>Ichiran - insanely delicious ramen in TST</li>
           <img
             className="list-pic"
             src="./assets/ichiran.jpeg"
             alt="Nathan psyched for Ichiran ramen"
           />
           <p className="img-caption">Nathan psyched for Ichiran ramen</p>
-          <li>Divino Patio - excellent upscale Italian</li>
+          <li>Divino Patio - excellent upscale Italian in Wan Chai near the harbour</li>
           <img
             className="list-pic"
             src="./assets/divino_patio.jpeg"
             alt="divino patio"
           />
           <p className="img-caption">An awesome carpaccio from Divino Patio</p>
+          <li>Chilli Lime - great Asian fusion in the YOHO Mall in Yuen Long</li>
+          <li>11 Westside - Fantastic Mexican food in Kennedy Town</li>
+          <li>Green Common - excellent vegan restaurant in TST</li>
+          <li>Hai Di Lao Hot Pot - we went here for our "Thanksgiving" meal in 2022.</li>
+          <li>Woodlands - Vegetarian-Friendly Indian food in TST</li>
           <li>MANY others</li>
         </ul>
         <h3>Night Life</h3>
         <h4 className="special-note">
-          <s>
-            At the time I'm writing this, I know that live music is still not
-            allowed in bars, due to COVID restrictions. But there is still some
-            night life to be had.
-          </s>
-        </h4>
-        <h4 className="special-note">
-          Update 10/15, HK is finally allowing bars and pubs to have live music
-          again!!!
+          Live music is allowed again in bars and pubs! A proper night life should be much easier to experience this year!!!
         </h4>
         <ul className="leisure-ul">
           <li>
@@ -288,6 +280,7 @@ const Leisure = () => {
           <li>
             Miraplace in TST - cool strip of restaurants and live music clubs
           </li>
+          <li>COA, Hong Kong's most recent entry on CNN's list of the Best Bars in the World. Get your tequila on in fancy ways!</li>
         </ul>
         <h3>Hiking</h3>
         <p>
@@ -370,14 +363,13 @@ const Leisure = () => {
         <h3>Celebrating Holidays</h3>
         <h4 className="holiday-title">Halloween 🎃</h4>
         <p>
-          Now that we know we won't be arriving until late on Oct. 31st, I think
-          we will sadly miss seeing the park's Halloween decor.{" "}
+          Those carolers who start work on Oct. 30 will get to see HKDL with all its Halloween decor. 
         </p>
         <p>
           However! The HKDL Halloween season show "Let's Get Wicked" should be
-          extended through early Nov., so we should be able to see it! It's held
+          extended through early Nov., so hopefully we'll all be able to see it! It's held
           in the Theater in the Wild where The Festival of the Lion King show
-          runs for the majority of the year. (We should be able to see that one
+          runs for the majority of the year. (We should be able to see LK
           as well after it reopens in late Nov. or early Dec.)
         </p>
         <img
@@ -417,9 +409,7 @@ const Leisure = () => {
           pumpkin pies, green beans, brussels sprouts, wine, cocktails, etc.!
         </p>
         <p>
-          With only four of us this year, it might be a smaller event, but we
-          should definitely take advantage of the opportunity for a unique
-          Thanksgiving.
+          With 8 of us again this year, perhaps we can resurrect this caroler tradition. That said, there's no shame at all in letting someone else do the cooking and the dishes. In 2022 we went to Hai Di Lao Hot Pot and had an absolute feast!
         </p>
         <h4 className="holiday-title">Christmas 🎁</h4>
         <p>
@@ -430,20 +420,14 @@ const Leisure = () => {
         <p>
           We have always done group gifts for the stage managers from the
           carolers, and in 2020 we did a secret Santa exchange with each other.
-          But there's certainly no pressure or expectation. Again, with only
-          four of us this year, the dynamic will be different. We may all be
+          But there's certainly no pressure or expectation. We may all be
           just a little overwhelmed by this point of the contract, what with the
           emotions of Christmas week, followed by the sober reality of the end
           of the contract just over a week later. It is exhausting.
         </p>
         <p>
           In all likelihood, we will be working on Christmas Day, which falls on
-          a Sunday this year (2022).
-        </p>
-        <h4 className="holiday-title">Birthday! 🎂</h4>
-        <p>
-          A certain soprano will have a birthday while we are in Hong Kong. And
-          we shall celebrate!
+          a Monday this year (2023).
         </p>
       </section>
     );
