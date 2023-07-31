@@ -40,10 +40,10 @@ const Documents = () => {
             at least 4-6 weeks processing time from the date you mail off your
             visa application materials.
           </p>
-          <h4 className='special-note'>As of 2022, Hong Kong has been issuing digital e-visas instead of mailing us hard copies of our approved work visas. These come with a QR code you should print and also save digitally.
+          <h4 className='special-note'>As of 2022, Hong Kong has been issuing digital e-visas instead of mailing us hard copies. These e-visas come with a QR code you should print and also save digitally.
           <br/>
           <br/>
-          Additionally, as of 2022, HKDL now allows you to complete your contract signing electronically. You may still need to print a hard copy of the signed contract to include with your visa application.</h4>
+            Additionally, as of 2022, HKDL now allows you to complete your contract signing electronically. You may still need to print a hard copy of the signed contract to include with your visa application.</h4>
           <h3>
             Items you'll likely need in <strong>digital form</strong>:
           </h3>
