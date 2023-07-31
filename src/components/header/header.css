@@ -80,7 +80,7 @@ h1 {
 #navbar {
     margin: 10vh 0 0 0;
     list-style: none;
-    background-color: none;
+    background: linear-gradient(90deg, transparent, rgba(0, 50, 50, 0.8), transparent);
     padding: 0px 10px;
     display: flex;
     flex-flow: column nowrap;
@@ -88,11 +88,11 @@ h1 {
 }
 
 .nav-item {
-    padding: 0px;
     background-color: none;
+    /* background: linear-gradient(90deg, transparent, rgba(0, 50, 50, 0.8), transparent); */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
-    margin: 0.25em 0;
+    padding: 0.25em 0;
     text-align: center;
 }
 
@@ -124,6 +124,7 @@ h1 {
         font-size: .85em;
         margin: 0 auto;
         line-height: 2em;
+        padding: 0.25em 0 0 0;
     }
 }
 
