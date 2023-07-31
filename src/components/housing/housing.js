@@ -25,10 +25,17 @@ const Housing = () => {
           >
             HPRC
           </a>{" "}
-          is our home in HK. All of HKDL's expats are housed there. HPRC consists of two towers, and we are housed in Tower 1.
+          is our home in HK. All of HKDL's expats are housed there. HPRC
+          consists of two towers, and we are housed in Tower 1.
         </p>
-        <img id="HPRC-map" src='https://i.imgur.com/GPWYW1Z.jpg' alt='map of HPRC, annotated with key locations' />
-        <p className='img-caption'>Area map of HPRC and surrounding locations</p>
+        <img
+          id="HPRC-map"
+          src="https://i.imgur.com/GPWYW1Z.jpg"
+          alt="map of HPRC, annotated with key locations"
+        />
+        <p className="img-caption">
+          Area map of HPRC and surrounding locations
+        </p>
         <img
           id="viewfromHPRC"
           src="./assets/viewfromHPRC.jpg"
@@ -48,13 +55,24 @@ const Housing = () => {
         </p>
         <p>
           We are assigned our own studio-style "serviced apartment." It usually
-          has a queen-size bed (that is VERY firm); a kitchenette with two
-          electric burners, a microwave, a sink, and a half-size refrigerator; a
-          Western-style bathroom with a bathtub and shower; a small dining
-          table; a small couch/sitting area; a television with local channels; a
-          wifi router; a large closet; a small night table on either side of the
-          bed; and a varying number of cabinets, drawers, and other surfaces,
-          depending on the room.
+          has:
+          <ul>
+            <li>a queen-size bed (that is VERY firm)</li>
+            <li>a modestly supplied kitchenette with two electric burners</li>
+            <li>a microwave</li>
+            <li>a sink</li>
+            <li>a half-size refrigerator</li>
+            <li>a Western-style bathroom with a bathtub and
+          shower</li>
+            <li>a small dining table</li> 
+            <li>a small couch/sitting area</li>
+            <li>a television, ~32", with HDMI input and local channels</li>
+            <li>a wifi router</li>
+            <li>a large closet</li>
+            <li>a small night table on either side of the bed</li>
+            <li>a small vanity nook/area</li>
+            <li>a varying number of cabinets, drawers, and other surfaces, depending on the room</li>
+          </ul>
         </p>
         <p>
           "Serviced Apartment" basically means that you get hotel-style
@@ -67,9 +85,9 @@ const Housing = () => {
           The video above shows an example of how your room might be set up.
           There are a few different layouts you could have in your HPRC room. It
           just depends on the room's location in the hotel's floorplan. But, for
-          the most part, the rooms look like what you see in the video.
+          the most part, the rooms look like what you see in the video. That said, this one was among the smaller rooms I've had at HPRC.
         </p>
-        <h4>Services</h4>
+        <h4>Services and Amenities</h4>
         <ul className="housing-ul">
           <li>
             Coin-operated laundry rooms are available 24 hours on floors 16, 20,
@@ -82,6 +100,7 @@ const Housing = () => {
             Gym, with sauna/steam room (Note: there is also gym equipment at
             Disney)
           </li>
+          <li>The hotel bar "New York" is located in Tower 2. Now and then expats may arrange gettogethers there. In the past there have been occasional happy hour or discount options.</li>
         </ul>
       </section>
     );
