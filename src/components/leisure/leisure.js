@@ -418,12 +418,9 @@ const Leisure = () => {
           leading up to Christmas.
         </p>
         <p>
-          We have always done group gifts for the stage managers from the
+          We have always done small group gifts for the stage managers from the
           carolers, and in 2020 we did a secret Santa exchange with each other.
-          But there's certainly no pressure or expectation. We may all be
-          just a little overwhelmed by this point of the contract, what with the
-          emotions of Christmas week, followed by the sober reality of the end
-          of the contract just over a week later. It is exhausting.
+          But there's certainly no pressure or expectation. Some years we would coordinate to have Christmas lunch together at one of the park's restaurants and take advantage of our cast member holiday coupons. 
         </p>
         <p>
           In all likelihood, we will be working on Christmas Day, which falls on

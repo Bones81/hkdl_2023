@@ -14,8 +14,6 @@ const Packing = () => {
           and don't mind the extra weight in your luggage.
         </h4>
         <ul className="packing-ul">
-          <li>A thermometer</li>
-          <li>Plastic/Reusable forks/spoons</li>
           <li>Kitchen towels/dish drying mat (none are provided)</li>
           <li>
             Preferred soap/dish soap, if you have one. A single, tiny bathroom
@@ -35,8 +33,7 @@ const Packing = () => {
             Non-electric coffee-maker option, like a french press or a pourover,
             for those who need coffee from the get-go. The hotel provides an
             electric water kettle but not a coffee maker. (You can also purchase
-            cheap, single-cup/multi-cup coffee makers in HK, if you are willing
-            to wait until quarantine is done.)
+            cheap, single-cup/multi-cup coffee makers in HK.)
           </li>
           <li>
             Lightweight bowl(s)/mixing bowl (The ones the hotel provides are
@@ -58,14 +55,14 @@ const Packing = () => {
             at an embassy/consulate.
           </li>
           <li>
-            Extra passport photos and US cash. Originally these were useful for
-            traveling in the area either during or after the contract, but that
-            is probably not an option this year. That said, extra photos (and a
-            copy of your ID docs, see previous item) could be helpful if you
-            lose your passport. And US cash is still a very valuable commodity.
-            Always have some extra US cash for an emergency.
+            Extra passport photos and US cash. These are useful for traveling in
+            the area either during or after the contract. That said, extra
+            photos (and a copy of your ID docs, see previous item) could be
+            helpful if you lose your passport. And US cash is still a very
+            valuable commodity. Always have some extra US cash for an emergency.
           </li>
           <li>HDMI cable for connecting laptop to TV to watch Netflix etc.</li>
+          <li>A long charging cable for your phone. If you want to keep your phone near you while you sleep, outlets can be frustratingly far away.</li>
           <li>
             Not just good but GREAT walking shoes. You will walk all over the
             place.
@@ -83,6 +80,18 @@ const Packing = () => {
             If you have 3D glasses for viewing IMAX or RealMAX movies, bring
             them! HK cinemas charge a small fee for 3D glasses unless you bring
             your own.
+          </li>
+          <li>
+            Nintendo Switch - there are some Nintendo fans among us, and we know
+            this console works pretty seamlessly in HK.
+          </li>
+          <li>
+            PlayStation or XBox - These consoles should work in theory, as long
+            as you ensure they can handle the higher 220V voltage of Hong Kong
+            and that you have an appropriate adapter for the plug. That said,
+            they are bulky and could have compatibility issues, so you'll see
+            thery're also listed in the next section of items you should
+            probably leave at home.
           </li>
         </ul>
 
@@ -155,7 +164,7 @@ const Packing = () => {
                     <img id="blender" src="" alt="Picture of Magic Bullet Blender">--> */}
         <p>
           You will likely need at least one travel adapter, and adapters are
-          easily purchased in many places that sell electronics. An adapter:
+          easily purchased in many places that sell electronics. An <em>adapter</em>:
         </p>
         <ul className="packing-ul">
           <li>
@@ -169,7 +178,7 @@ const Packing = () => {
           device from potentially roasting when it is plugged into the higher
           voltage Hong Kong electical outlet.
         </p>
-        <p>A voltage converter, on the other hand:</p>
+        <p>A voltage <em>converter</em>, on the other hand:</p>
         <ul className="packing-ul">
           <li>
             changes voltage from 220V to the American standard of 110V, thereby
