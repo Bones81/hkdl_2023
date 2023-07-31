@@ -3,7 +3,7 @@ import './transportation.css'
 const Transportation = () => {
     return (
         <section id='transportation'>
-            <h2 id="transportation">Transportation within HK</h2>
+            <h2 className="section-title" id="transportation">Transportation within HK</h2>
             <img className="list-pic" src="./assets/HK street scene.jpg" alt="HK street scene" />
             <p className="img-caption">Red mini-buses in Mong Kok</p>
             <h3>MTR, Buses, Ferries, Light Rail, Trams, oh my!</h3>

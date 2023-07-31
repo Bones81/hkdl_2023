@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <footer id='footer'>
-            <h2>This site is still being updated for 2022! Check back later for additional updates.</h2>
+            <h2>This site is still being updated for 2023! Check back later for additional updates.</h2>
             <div className="footer-img-grid">
                 <img src="./assets/AllCarolers2019.jpg" alt="2019 carolers" />
                 <img src="./assets/ChelseaCarl.jpg" alt="Chelsea with Carl"/>

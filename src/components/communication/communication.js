@@ -3,7 +3,7 @@ import './communication.css'
 const Communication = () => {
     return (
         <section id='communication'>
-                    <h2>Communication</h2>
+            <h2 className='section-title'>Communication</h2>
             <h3>Mobile phone options</h3>
                 <ol className="comm-ol phone-options">
                     <li className="phone-option">You can bring an "unlocked" smartphone and purchase a pay-as-you-go SIM card in HK, giving you an HK telephone number. I'm fairly certain that most, if not all, recent Verizon iPhones are "unlocked" by default. Otherwise, you'd have to do your research and possibly get some help from a technician or retailer to "unlock" your phone for use on other networks.</li>

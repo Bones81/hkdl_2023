@@ -1,7 +1,7 @@
 const Food = () => {
     return (
         <section id="food">
-            <h2 >Food</h2>
+            <h2 className="section-title">Food</h2>
             <h3>Groceries</h3>
                 <p>Park 'n' Shop - literally in the same building as our hotel. Large and generally wide selection of foods.</p>
                 <p>City Super - a large, nicer grocery store with more Western options in IFC Mall in Central</p>
