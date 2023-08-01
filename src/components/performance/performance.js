@@ -586,7 +586,7 @@ const Performance = () => {
             Baby.' It's not as creepy as you might think! 😂
             <video controls width="500" height="280">
               <source
-                src="./assets/KissGoodnight_2018.mov#t=358"
+                src="./assets/Santa_Goofy_2018.mov"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
