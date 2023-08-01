@@ -5,7 +5,7 @@ const Performance = () => {
       <section id="performance">
         <h2 className="section-title">Performing-Related Stuff</h2>
         <h3>Links to Performance Video</h3>
-        <h4 className='special-note'>
+        <h4 className="special-note">
           While we are no longer utilized in the "Mickey and Friends
           Christmastime Ball," I have left in the footage of that show to
           demonstrate the tone and style of shows at HKDL.
@@ -113,8 +113,11 @@ const Performance = () => {
         </video>
         <p>
           In 2020, we were safely ensconced in the balcony of the Disneyland
-          Hotel for much of our contract, thanks to intense social
-          distancing. Technically, you weren't even allowed to have a gathering of more than 2 people, so we had to put some distance between the soprano and alto! We could barely hear each other! But fortunately, the acoustics down below were fantastic.
+          Hotel for much of our contract, thanks to intense social distancing.
+          Technically, you weren't even allowed to have a gathering of more than
+          2 people, so we had to put some distance between the soprano and alto!
+          We could barely hear each other! But fortunately, the acoustics down
+          below were fantastic.
         </p>
         <img
           className="list-pic"
@@ -133,10 +136,10 @@ const Performance = () => {
           Your browser does not support the video tag.
         </video>
         <p>
-          Because we don't know yet whether we will have any hotel sets this year, or what format any hotel sets might take, here
-          is an example of a hotel set from 2016. Different costumes, the
-          ability to sit while singing, and microphones made this a very
-          comfortable experience:
+          Because we don't know yet whether we will have any hotel sets this
+          year, or what format any hotel sets might take, here is an example of
+          a hotel set from 2016. Different costumes, the ability to sit while
+          singing, and microphones made this a very comfortable experience:
         </p>
         <video controls width="500" height="300">
           <source src="./assets/I'll Be Home Hotel 2016.mp4" type="video/mp4" />
@@ -555,18 +558,7 @@ const Performance = () => {
               Your browser does not support the video tag.
             </video>
           </li>
-          <li>
-            Up on the Housetop/Jolly Ol' St. Nick - after "Don't you tell a
-            single soul / What I'm going to say," the bass can add a fun little
-            descending "It's a secret" counter phrase.
-            <video controls width="300" height="500">
-              <source
-                src="./assets/Housetop_MS_alternate.mp4#t=10"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </li>
+
           <li>
             Joy to the World -- Once in a blue moon, we get the opportunity to
             do the second verse as a beatbox'd remix.
@@ -608,7 +600,7 @@ const Performance = () => {
             Goofy would show up and perform with us. As a result, we sometimes
             will still perform this song subbing in 'Santa Goofy' for 'Santa
             Baby.' It's not as creepy as you might think! 😂
-            <video controls width="500" height="280">
+            <video controls width="360" height="600">
               <source src="./assets/Santa_Goofy_2018.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -616,6 +608,18 @@ const Performance = () => {
           <li>
             Santa Claus is Coming to Town -- Same idea here. You can totally do
             this song as "Santa Goofy's Coming to Town."
+          </li>
+          <li>
+            Up on the Housetop/Jolly Ol' St. Nick - after "Don't you tell a
+            single soul / What I'm going to say," the bass can add a fun little
+            descending "It's a secret" counter phrase.
+            <video controls width="300" height="500">
+              <source
+                src="./assets/Housetop_MS_alternate.mp4#t=10"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </li>
         </ul>
         {/* <p className="special-note">Vets, let me know if you can think of any other songs we alter.</p> */}
