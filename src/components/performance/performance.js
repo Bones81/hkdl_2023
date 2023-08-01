@@ -204,16 +204,16 @@ const Performance = () => {
         </h3>
         <h4>Who's in charge of us, vocally??</h4>
         <p>
-          While HK Disney's music director, Ceejay, and his associate Felix, are our music directors, they
-          will usually focus much more on the Disney shows (Tree-Lighting and
-          Christmastime Ball, for instance) and give us only limited guidance on
-          our Goode Time repetoire. Maybe they'll tune pitch or fix the blend in
-          obvious problem areas, but we are generally expected to know our rep
-          very well and be ready with it at a moment's notice. Some years, maybe
-          only one week into the contract, we will sing a song or two for Disney
-          executives as a treat for them as they discuss the upcoming Christmas
-          season. So, ideally, you are ready and comfortable with the Goode Time
-          rep from the moment we start arrive.
+          While HK Disney's music director, Ceejay, and his associate Felix, are
+          our music directors, they will usually focus much more on the Disney
+          shows (Tree-Lighting and Christmastime Ball, for instance) and give us
+          only limited guidance on our Goode Time repetoire. Maybe they'll tune
+          pitch or fix the blend in obvious problem areas, but we are generally
+          expected to know our rep very well and be ready with it at a moment's
+          notice. Some years, maybe only one week into the contract, we will
+          sing a song or two for Disney executives as a treat for them as they
+          discuss the upcoming Christmas season. So, ideally, you are ready and
+          comfortable with the Goode Time rep from the moment we start arrive.
         </p>
         <p>
           We usually have a good amount of "self-rehearsal" time baked into our
@@ -221,24 +221,42 @@ const Performance = () => {
           to rehearse, and that is when most of our work on the Goode Time rep
           occurs.
         </p>
-        <p>One issue that can arise is that we want to devote lots of self-rehearsal time to the Tree-Lighting or to any other music Disney may have given us. And as well we should: without a doubt Disney cares more about the shows they've written than any of the atmosphere work we do performing acappella sets on Main Street, in Fantasyland, or in the Disneyland Hotel.</p>
-        <p>However, the trap that results is that we sometimes end up not rehearsing our Goode Time rep enough, despite having lots of 'self-rehearsal' time. This has caused challenges in the past, where the material just isn't as performance-ready as it should be. It's up to us to use our 'self-rehearsal' time to rehearse all of our Goode Time material, as well as the Tree-Lighting or any other music Disney may assign us. Find time at Disney to warm up together, at least for a song or two. And take advantage of self-rehearsal opportunities. Last year, we would often rehearse at least one song before every set, until we were sure we were comfortable with the entire rep.</p>
         <p>
-          Because the music director Ceejay (and his associate Felix) are fairly hands off when it comes to our
-          Goode Time rep, we are generally trusted to monitor ourselves when it
-          comes to quality and set selection. While we will always have a Disney
-          'lead' or 'greeter' with us when we carol on Main Street, in Fantasyland, or in the
-          Disneyland Hotel, and while we will know the length of our sets, they
-          won't dictate what we sing or, frankly, care how we sound. It will be
-          up to us what we choose to sing and to ensure it is Disney-standard
-          quality.
+          One issue that can arise is that we want to devote lots of
+          self-rehearsal time to the Tree-Lighting or to any other music Disney
+          may have given us. And as well we should: without a doubt Disney cares
+          more about the shows they've written than any of the atmosphere work
+          we do performing acappella sets on Main Street, in Fantasyland, or in
+          the Disneyland Hotel.
+        </p>
+        <p>
+          However, the trap that results is that we sometimes end up not
+          rehearsing our Goode Time rep enough, despite having lots of
+          'self-rehearsal' time. This has caused challenges in the past, where
+          the material just isn't as performance-ready as it should be. It's up
+          to us to use our 'self-rehearsal' time to rehearse all of our Goode
+          Time material, as well as the Tree-Lighting or any other music Disney
+          may assign us. Find time at Disney to warm up together, at least for a
+          song or two. And take advantage of self-rehearsal opportunities. Last
+          year, we would often rehearse at least one song before every set,
+          until we were sure we were comfortable with the entire rep.
+        </p>
+        <p>
+          Because the music director Ceejay (and his associate Felix) are fairly
+          hands off when it comes to our Goode Time rep, we are generally
+          trusted to monitor ourselves when it comes to quality and set
+          selection. While we will always have a Disney 'lead' or 'greeter' with
+          us when we carol on Main Street, in Fantasyland, or in the Disneyland
+          Hotel, and while we will know the length of our sets, they won't
+          dictate what we sing or, frankly, care how we sound. It will be up to
+          us what we choose to sing and to ensure it is Disney-standard quality.
         </p>
         <p className="special-note">
           Take Note: On the other hand, there is MUCH attention paid to our
           vocals when we are performing anything that isn't the Goode Time rep.
-          Ceejay or Felix will usually gives us notes after every run or rehearsal of the
-          Tree Lighting, and sometimes even after the first week or two of
-          shows!
+          Ceejay or Felix will usually gives us notes after every run or
+          rehearsal of the Tree Lighting, and sometimes even after the first
+          week or two of shows!
         </p>
         <p>
           There is no "vocal captain" responsible for keeping us at a high
@@ -414,8 +432,10 @@ const Performance = () => {
         />
         <h4 className="special-note">
           In both 2020 and 2022, amid full COVID restrictions, we did not do
-          photo moments or meet-n-greets. With COVID restrictions largely eliminated in 2023 and HKDL allowing face characters to touch and hug guests again, I expect we may be encouraged to do "photo moments" again! In any
-          case, if we do have them, here's what you can expect!
+          photo moments or meet-n-greets. With COVID restrictions largely
+          eliminated in 2023 and HKDL allowing face characters to touch and hug
+          guests again, I expect we may be encouraged to do "photo moments"
+          again! In any case, if we do have them, here's what you can expect!
         </h4>
         <p>
           Guests at HKDL love meet-and-greets! If we do those this year, we will
@@ -454,7 +474,15 @@ const Performance = () => {
         <ul className="performance-ul">
           <li>
             All I Want for Xmas -- No whistling 'fail' moment. Just let the bass
-            lead into the next verse.
+            lead into the next verse. (You're welcome for the epic starting
+            frame. 🤣)
+            <video controls width="500" height="280">
+              <source
+                src="./assets/All_I_Want_FL.mov#t=30,55"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
             Grandma Got Run Over -- We don't do the rap, cutting straight to the
@@ -476,25 +504,59 @@ const Performance = () => {
           <li>
             Here We Come A’Caroling -- change the line to “but we are Disney
             carolers whom you have seen before”
+            <video controls width="500" height="280">
+              <source
+                src="./assets/Here We Come A'Caroling 2017 MS.m4v#t=20,29"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
             I Saw Mommy Kissing -- We don't do the spoken interlude. We skip
             straight to the coda after "Oh what a laugh it would have been if
             Daddy had only seen Mommy kissing Santa Claus last--"
+            <video controls width="500" height="280">
+              <source src="./assets/I_Saw_Mommy_FL.mov#t=35" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </li>
-          <li>Jingle Bells -- One verse almost always</li>
+          <li>
+            Jingle Bells -- Sometimes, we'll sing this with just one verse,
+            especially if it's a closer and we're short on time.
+          </li>
           <li>
             Jingle Bell Rock -- Tempo changes, some added syncopation, and
-            inserted snaps/claps. Like Holly Jolly, easier rehearsed than
+            inserted snaps/claps. Like Holly Jolly, easier heard/rehearsed than
             explained.
+            <video controls width="500" height="280">
+              <source src="./assets/JBR_FL.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
-            Joy to the World -- Every now and then we get the opportunity to do
+            Up on the Housetop/Jolly Ol' St. Nick - after "Don't you tell a
+            single soul / What I'm going to say," the bass can add a fun little
+            descending "It's a secret" counter phrase.
+            <video controls width="500" height="280">
+              <source
+                src="./assets/Housetop_MS_alternate.mov#t=10"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </li>
+          <li>
+            Joy to the World -- Once in a blue moon, we get the opportunity to do
             the second verse as a beatbox'd remix.
+            <video controls width="500" height="280">
+              <source src="./assets/Xmas_Cabaret_2016.mov#t=0,70" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
-            Most Wonderful Time -- "It's the hap (clap, clap), happiest season
-            of all."
+            Most Wonderful Time -- "It's the hap (clap, clap or snap, snap),
+            happiest season of all."
           </li>
           <li>
             Rockin' Around the Christmas Tree -- The bass generally tones down
@@ -502,19 +564,33 @@ const Performance = () => {
             final jazzy "Oooh," we just pulse then hold the final word "tree" so
             that it kinda sounds like: "yeah we're rockin' round the Christmas
             tree-ee!"
+            <video controls width="500" height="280">
+              <source src="./assets/Rockin_FL.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
             Rudolph -- We change the ending to make it a little more
             tradtional-sounding and less of a jazzy, chromatic downward death
-            spiral. It starts on the final "you'll go down in history." Easier
-            to teach/rehearse than it is to explain. Will try to create/upload
-            some audio of it.
+            spiral. The change starts on "you'll go down in history." Easier
+            seen/rehearsed than explained.
+            <video controls width="500" height="280">
+              <source src="./assets/Rudolph_MS.mov#t=40" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
             Santa Baby -- We used to sing this as "Santa Goofy" while Santa
             Goofy would show up and perform with us. As a result, we sometimes
             will still perform this song subbing in 'Santa Goofy' for 'Santa
             Baby.' It's not as creepy as you might think! 😂
+            <video controls width="500" height="280">
+              <source
+                src="./assets/KissGoodnight_2018.mov#t=358"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </li>
           <li>
             Santa Claus is Coming to Town -- Same idea here. You can totally do
