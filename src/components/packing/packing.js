@@ -90,7 +90,7 @@ const Packing = () => {
             as you ensure they can handle the higher 220V voltage of Hong Kong
             and that you have an appropriate adapter for the plug. That said,
             they are bulky and could have compatibility issues, so you'll see
-            thery're also listed in the next section of items you should
+            they're also listed in the next section of items you should
             probably leave at home.
           </li>
         </ul>
@@ -105,7 +105,7 @@ const Packing = () => {
           </li>
           <li>
             Playstation, XBox, or other large electronic items (power and
-            compatibility issues, even with a converter)
+            compatibility issues possible, even with a converter)
           </li>
           <li>
             Heavy winter wear. It will be in the 60s-80s during October/November

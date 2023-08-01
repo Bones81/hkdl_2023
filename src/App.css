@@ -296,7 +296,7 @@ iframe {
 
   h2 {
     font-size: 1.25em;
-    margin: 0.5em;
+    margin: 0.5em auto;
     padding: 0.5em;
     line-height: 1.5em;
   }
@@ -334,7 +334,7 @@ iframe {
 
   h2 {
     font-size: 1em;
-    margin: 0.25em;
+    margin: 0.25em auto;
     padding: 0.5em;
     line-height: 1.25em;
   }

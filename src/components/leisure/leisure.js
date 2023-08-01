@@ -131,7 +131,8 @@ const Leisure = () => {
             featuring beaches, epic hikes, and a lively port neighborhood
           </li>
           <li>
-            Day trip to Macau - This one involves leaving HK, and I am hopeful we can do it this year! 🤞 Macau is the Vegas of the East. Walk a
+            Day trip to Macau - This one involves leaving HK, and I am hopeful
+            we can do it this year! 🤞 Macau is the Vegas of the East. Walk a
             casino floor, have a Portuguese egg tart (or seven), and see The
             House of Dancing Water, one of the most amazing shows you'll ever
             see.
@@ -171,7 +172,8 @@ const Leisure = () => {
         <ul className="leisure-ul">
           <li>
             Baba's Station - incredible Indian food in the smallest restaurant
-            you've ever seen. You go for the food (not so much the drinks). In Tsuen Wan
+            you've ever seen. You go for the food (not so much the drinks). In
+            Tsuen Wan
           </li>
           <img
             className="list-pic"
@@ -179,13 +181,21 @@ const Leisure = () => {
             alt="babas station"
           />
           <p className="img-caption">2020 visit to Baba's Station</p>
-          <li>Beef and Liberty - excellent burgers, one small location remained in 2022 in Sheung Wan/Sai Ying Pun</li>
+          <li>
+            Beef and Liberty - excellent burgers, one small location remained in
+            2022 in Sheung Wan/Sai Ying Pun
+          </li>
           <li>
             Tim Ho Wan - cheapest Michelin star restaurant in the world, great
             roast pork buns, multiple locations
           </li>
-          <li>Dim Dim Sum - another favorite dim sum spot, multiple locations</li>
-          <li>Mammy Pancake - best egg waffles/egg puffs in town in the lower Temple Street area</li>
+          <li>
+            Dim Dim Sum - another favorite dim sum spot, multiple locations
+          </li>
+          <li>
+            Mammy Pancake - best egg waffles/egg puffs in town in the lower
+            Temple Street area
+          </li>
           <li>
             La Creperie - amazing French seaside resort-style crepes and
             galettes with delicious hard cider{" "}
@@ -195,10 +205,18 @@ const Leisure = () => {
             src="./assets/La Creperie.jpg"
             alt="la creperie restaurant"
           />
-          <p className="img-caption">A savory galette at La Creperie, multiple locations</p>
-          <li>Little Bao - extremely cool contemporary Asian fusion in Causeway Bay</li>
+          <p className="img-caption">
+            A savory galette at La Creperie, multiple locations
+          </p>
+          <li>
+            Little Bao - extremely cool contemporary Asian fusion in Causeway
+            Bay
+          </li>
           <li>Pici - fantastic upscale Italian chain, multiple locations</li>
-          <li>Kebab House 23 - a great, if small, Turkish place, multiple locations</li>
+          <li>
+            Kebab House 23 - a great, if small, Turkish place, multiple
+            locations
+          </li>
           <li>Ichiran - insanely delicious ramen in TST</li>
           <img
             className="list-pic"
@@ -206,23 +224,32 @@ const Leisure = () => {
             alt="Nathan psyched for Ichiran ramen"
           />
           <p className="img-caption">Nathan psyched for Ichiran ramen</p>
-          <li>Divino Patio - excellent upscale Italian in Wan Chai near the harbour</li>
+          <li>
+            Divino Patio - excellent upscale Italian in Wan Chai near the
+            harbour
+          </li>
           <img
             className="list-pic"
             src="./assets/divino_patio.jpeg"
             alt="divino patio"
           />
           <p className="img-caption">An awesome carpaccio from Divino Patio</p>
-          <li>Chilli Lime - great Asian fusion in the YOHO Mall in Yuen Long</li>
-          <li>11 Westside - Fantastic Mexican food in Kennedy Town</li>
+          <li>
+            Chilli Lime - great Asian fusion in the YOHO Mall in Yuen Long
+          </li>
+          <li>11 Westside - fantastic Mexican food in Kennedy Town</li>
           <li>Green Common - excellent vegan restaurant in TST</li>
-          <li>Hai Di Lao Hot Pot - we went here for our "Thanksgiving" meal in 2022.</li>
-          <li>Woodlands - Vegetarian-Friendly Indian food in TST</li>
+          <li>
+            Hai Di Lao Hot Pot - we went there for our "Thanksgiving" meal in
+            2022.
+          </li>
+          <li>Woodlands - vegetarian-friendly Indian food in TST</li>
           <li>MANY others</li>
         </ul>
         <h3>Night Life</h3>
         <h4 className="special-note">
-          Live music is allowed again in bars and pubs! A proper night life should be much easier to experience this year!!!
+          Live music is allowed again in bars and pubs! A proper night life
+          should be much easier to experience this year!!!
         </h4>
         <ul className="leisure-ul">
           <li>
@@ -230,7 +257,10 @@ const Leisure = () => {
             friends in HK. The man loves music and will probably come to see us
             perform at Disney at some point. Hopefully we can go early and often
             to Ned Kelly's to see his band play. Some of our favorites nights of
-            the whole contract have occurred at Ned's.
+            the whole contract have occurred at Ned's. He'll even let you get up
+            and sing a jazz standard with the band. And we've been known to
+            serenade the bar with a few Christmas carols during their Christmas
+            big band show.
           </li>
           <img
             className="list-pic"
@@ -241,19 +271,30 @@ const Leisure = () => {
             The band at Ned Kelly's in 2020 before live music in bars was
             restricted
           </p>
+          <img
+            className="list-pic"
+            src="./assets/ColinPlus3_2022.jpeg"
+            alt="the band at Ned Kellys"
+          />
+          <p className="img-caption">
+            As is tradition, Colin made sure to get a selfie with "Kowloon Carolers" Emilia, Ivory, Nathan, and Sean (in spirit) in 2022.
+          </p>
           <li>
             Old Man - one of the very best cocktail bars in the world,
             Hemingway-themed
           </li>
           <img
             className="list-pic"
-            src="./assets/Old Man cocktail.jpg"
+            src="./assets/Cool_Cocktails_Old_Man_2022.jpeg"
             alt="Old Man cocktail"
           />
           <p className="img-caption">
             Enjoy exquisitely crafted cocktails at The Old Man
           </p>
-          <li>Ozone - the highest bar in the city, in the ICC building</li>
+          <li>
+            Ozone - the highest bar in the city, in the ICC building, with the
+            Ritz-Carlton
+          </li>
           <img
             className="list-pic"
             src="./assets/Ozone drinks 2016.jpg"
@@ -280,7 +321,10 @@ const Leisure = () => {
           <li>
             Miraplace in TST - cool strip of restaurants and live music clubs
           </li>
-          <li>COA, Hong Kong's most recent entry on CNN's list of the Best Bars in the World. Get your tequila on in fancy ways!</li>
+          <li>
+            COA, Hong Kong's most recent entry on CNN's list of the Best Bars in
+            the World. Get your tequila on in fancy ways!
+          </li>
         </ul>
         <h3>Hiking</h3>
         <p>
@@ -344,7 +388,7 @@ const Leisure = () => {
           <li>Ng Tung Chai, waterfalls!</li>
           <img
             className="hiking-pic"
-            src="./assets/Waterfall shot.jpg"
+            src="./assets/NgTungChai_2022.jpeg"
             alt="waterfall hike"
           />
           <p className="img-caption">One of the Ng Tung Chai wateralls</p>
@@ -363,14 +407,15 @@ const Leisure = () => {
         <h3>Celebrating Holidays</h3>
         <h4 className="holiday-title">Halloween 🎃</h4>
         <p>
-          Those carolers who start work on Oct. 30 will get to see HKDL with all its Halloween decor. 
+          Those carolers who start work on Oct. 30 will get to see HKDL with all
+          its Halloween decor. Sadly, they will promptly tear down that decor and start preparing for Christmas decorations on Nov. 1. 
         </p>
         <p>
           However! The HKDL Halloween season show "Let's Get Wicked" should be
-          extended through early Nov., so hopefully we'll all be able to see it! It's held
-          in the Theater in the Wild where The Festival of the Lion King show
-          runs for the majority of the year. (We should be able to see LK
-          as well after it reopens in late Nov. or early Dec.)
+          extended through early Nov., so hopefully we'll all be able to see it!
+          It's held in the Theater in the Wild where The Festival of the Lion
+          King show runs for the majority of the year. (We should be able to see
+          LK as well after it reopens in late Nov. or early Dec.)
         </p>
         <img
           className="list-pic"
@@ -409,7 +454,10 @@ const Leisure = () => {
           pumpkin pies, green beans, brussels sprouts, wine, cocktails, etc.!
         </p>
         <p>
-          With 8 of us again this year, perhaps we can resurrect this caroler tradition. That said, there's no shame at all in letting someone else do the cooking and the dishes. In 2022 we went to Hai Di Lao Hot Pot and had an absolute feast!
+          With 8 of us again this year, perhaps we can resurrect this caroler
+          tradition. That said, there's no shame at all in letting someone else
+          do the cooking and the dishes. In 2022 we went to Hai Di Lao Hot Pot
+          and had an absolute feast!
         </p>
         <h4 className="holiday-title">Christmas 🎁</h4>
         <p>
@@ -419,8 +467,10 @@ const Leisure = () => {
         </p>
         <p>
           We have always done small group gifts for the stage managers from the
-          carolers, and in 2020 we did a secret Santa exchange with each other.
-          But there's certainly no pressure or expectation. Some years we would coordinate to have Christmas lunch together at one of the park's restaurants and take advantage of our cast member holiday coupons. 
+          carolers, and in 2020 we did a secret Santa white elephant gift exchange with each other.
+          But there's certainly no pressure or expectation. Some years we would
+          coordinate to have Christmas lunch together at one of the park's
+          restaurants and take advantage of our cast member holiday coupons.
         </p>
         <p>
           In all likelihood, we will be working on Christmas Day, which falls on

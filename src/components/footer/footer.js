@@ -13,6 +13,12 @@ const Footer = () => {
                 <img src="./assets/Vitality Bird's Nests and Chicken Essence.jpg" alt='funny sign in drug store'/>
                 <img src="./assets/Cute HK Kids.jpg" alt='cute Hong Kong kids'/>
                 <img src="./assets/HK Sunset Skyline.jpg" alt='HK sunset skyline'/>
+                <img src="./assets/TL_Quartet_2022.jpeg" alt='2022 carolers performing the Tree Lighting show'/>
+                <img src="./assets/Carolers_Silly_2022.jpeg" alt='2022 carolers acting silly'/>
+                <img src="./assets/HKDL_Castle_2022.jpeg" alt='HKDL Castle of Magical Dreams at night, 2022'/>
+                <img src="./assets/HKDL_Carolers_LKF_2019.jpeg" alt='2019 Carolers living it up in Lan Kwai Fong'/>
+                <img src="./assets/Max_HKDL_2022.jpeg" alt='Max performing at HKDL, 2022'/>
+                <img src="./assets/HKDL_Carolers_2022_LastLooks.jpeg" alt='Hanging out one last time at the IFC rooftop terrace, 2022'/>
             </div>
             
             

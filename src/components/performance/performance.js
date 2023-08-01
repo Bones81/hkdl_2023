@@ -5,7 +5,7 @@ const Performance = () => {
       <section id="performance">
         <h2 className="section-title">Performing-Related Stuff</h2>
         <h3>Links to Performance Video</h3>
-        <h4>
+        <h4 className='special-note'>
           While we are no longer utilized in the "Mickey and Friends
           Christmastime Ball," I have left in the footage of that show to
           demonstrate the tone and style of shows at HKDL.
@@ -32,8 +32,8 @@ const Performance = () => {
         <h4>
           The following photos and clips are more directly related to our duties
           this year, i.e. the "A Holiday Wish Come True Tree Lighting Ceremony'
-          and <em>a cappella</em> sets on Main Street or in the Disneyland
-          Hotel.
+          and <em>a cappella</em> sets on Main Street, in Fantasyland, or in the
+          Disneyland Hotel.
         </h4>
         <p>
           Our evening show is called "A Holiday Wish Come True Tree Lighting
@@ -81,33 +81,48 @@ const Performance = () => {
         </p>
         <p>
           Here are some clips of the carolers doing <em>a cappella</em> sets
-          from previous years. The first one is from 2017, outdoors, on Main
-          Street:
+          from previous years. A major upgrade that you'll notice in most 2022
+          footage is that they finally gave us a microphone for our daytime
+          caroling sets! Hallelujer!
         </p>
+        <p>The first one is from 2017, outdoors, on Main Street:</p>
         <video controls width="400" height="500">
           <source src="./assets/Sleigh Ride Main Street.m4v" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <p>
-          Here is another clip from 2017, with the carolers in a different
-          location on Main Street, known simply as the "Blue House":
+          Here is another clip from 2022, with the carolers in a different
+          location on Main Street, known simply as the "Blue House". We did the
+          majority of our Main Street sets in this location last year:
         </p>
         <video controls width="500" height="280">
-          <source
-            src="./assets/Here We Come A'Caroling 2017 MS.m4v"
-            type="video/mp4"
-          />
+          <source src="./assets/Holly_Ivy_2022.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <p>
+          Here is footage from our newest location, as of 2022, in front of the
+          "It's A Small World" ride in Fantasyland. You may notice the intrusive
+          tick-tock sound of the Small World clock. Yes, we had to sing through
+          it every time, and no, they were not able to turn it off for our sets.
+          It's distracting, for sure, but we quickly get used to it, and the
+          guests seem able to tune it out as well.
+        </p>
+        <video controls width="500" height="280">
+          <source src="./assets/Hark_FL.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p>
+          In 2020, we were safely ensconced in the balcony of the Disneyland
+          Hotel for much of our contract, thanks to intense social
+          distancing. Technically, you weren't even allowed to have a gathering of more than 2 people, so we had to put some distance between the soprano and alto! We could barely hear each other! But fortunately, the acoustics down below were fantastic.
+        </p>
         <img
           className="list-pic"
           src="./assets/balcony_set_2020.jpeg"
           alt="balcony set 2020"
         />
         <p className="img-caption">
-          Singing in the lovely Disneyland Hotel lobby balcony. They had us up
-          there for social distancing. Fortunately, the acoustics down below
-          were fantastic.
+          Singing in the lovely Disneyland Hotel lobby balcony.
         </p>
         <p>The next clip is from a Disneyland Hotel set in 2019:</p>
         <video controls width="400" height="500">
@@ -118,7 +133,7 @@ const Performance = () => {
           Your browser does not support the video tag.
         </video>
         <p>
-          Because we don't know yet what format any hotel sets might take, here
+          Because we don't know yet whether we will have any hotel sets this year, or what format any hotel sets might take, here
           is an example of a hotel set from 2016. Different costumes, the
           ability to sit while singing, and microphones made this a very
           comfortable experience:
@@ -139,6 +154,12 @@ const Performance = () => {
             className="list-pic"
             id="HK-MS-2016"
             src="./assets/HK Main Street 2016 Carolers.jpg"
+            alt="main street show"
+          />
+          <img
+            className="list-pic"
+            id="HK-Gate-2022"
+            src="./assets/HKDL_Carolers_2022.jpeg"
             alt="main street show"
           />
         </div>
@@ -178,14 +199,15 @@ const Performance = () => {
           songs that still (mostly) work without the missing caroler. I know
           that 'Santa Claus Is Coming' can work without a bass, for instance,
           and that often the tenor or alto can take over a soprano melody if the
-          soprano is out. But this scenario is incredibly rare. When an illness
-          spread through the carolers last year and we were down a person, the
-          other three still had to report to work, but the SMs just kept us on
+          soprano is out. <br />
+          <br /> But this scenario is incredibly rare. When an illness spread
+          through the carolers last year and we were down a person, the other
+          three still had to report to work, but the SMs just kept us on
           "standby" all day. "Standby" is a fancy word for "we don't have
           anything for you to do, but we can't let you stay home because you're
           being paid for these hours, and we have to make you feel like we may
-          have work for you at any moment." What we actually did was visit the
-          Disneyland Hotel and Inspiration Lake. 😜
+          have work for you at any moment." What we actually did was hang out in
+          the park and visit the Disneyland Hotel and Inspiration Lake. 😜
         </p>
         <p>
           A quick anecdote about trying to change quartet arrangements: During
@@ -213,7 +235,7 @@ const Performance = () => {
           notice. Some years, maybe only one week into the contract, we will
           sing a song or two for Disney executives as a treat for them as they
           discuss the upcoming Christmas season. So, ideally, you are ready and
-          comfortable with the Goode Time rep from the moment we start arrive.
+          comfortable with the Goode Time rep from the moment we arrive.
         </p>
         <p>
           We usually have a good amount of "self-rehearsal" time baked into our
@@ -226,8 +248,8 @@ const Performance = () => {
           self-rehearsal time to the Tree-Lighting or to any other music Disney
           may have given us. And as well we should: without a doubt Disney cares
           more about the shows they've written than any of the atmosphere work
-          we do performing acappella sets on Main Street, in Fantasyland, or in
-          the Disneyland Hotel.
+          we do performing <em>a cappella</em> sets on Main Street, in
+          Fantasyland, or in the Disneyland Hotel.
         </p>
         <p>
           However, the trap that results is that we sometimes end up not
@@ -271,16 +293,17 @@ const Performance = () => {
           But we're operating essentially without a director when we perform
           Goode Time material. So, sometimes it falls to us to say something
           when our performance needs improvement. Because we are all proud
-          performers who have to work in close quarters all day long, I suggest
-          being as respectful and sensitive as possible if you have a point to
-          offer at any time during the process. Whenever possible, phrase your
-          suggestion in a way that doesn't seem accusatory, attacking, or
-          belittling: "Nathan, I don't think you're hitting the right pitch in
-          that bar." vs. "Hey, can we sing through these two bars? Something
-          sounds off there," for instance. And like any good performer receiving
-          a note, try to understand and take the suggestion if it applies to you
-          and resist the urge to complain or defend yourself. (I'm absolutely
-          guilty of this!)
+          performers who have to work in close quarters all day long, it's a
+          good policy to be as respectful and sensitive as possible if you have
+          a point to offer at any time during the process. Whenever possible,
+          phrase your suggestion in a way that doesn't seem accusatory,
+          attacking, or belittling: "Nathan, I don't think you're hitting the
+          right pitch in that bar." vs. "Hey, can we sing through these two
+          bars? I'm seeing something different in the music from what I'm
+          hearing," for instance. And like any good performer receiving a note,
+          try to understand and take the suggestion if it applies to you and
+          resist the urge to complain or defend yourself. (I'm absolutely guilty
+          of this!)
         </p>
         <h4 className="special-note">
           This merits an important side-bar about checking your pride at the
@@ -409,7 +432,7 @@ const Performance = () => {
           </li>
           <li>
             Closers are often short and/or familiar and uptempo. Should
-            definitely have a strong final moment to end the set strong. (e.g.
+            definitely have a strong final moment to end the set strongly. (e.g.
             Winter Wonderland, Jingle Bells, We Wish You a Merry Christmas,
             Jingle Bell Rock, Merry Christmas Round)
           </li>
@@ -434,8 +457,8 @@ const Performance = () => {
           In both 2020 and 2022, amid full COVID restrictions, we did not do
           photo moments or meet-n-greets. With COVID restrictions largely
           eliminated in 2023 and HKDL allowing face characters to touch and hug
-          guests again, I expect we may be encouraged to do "photo moments"
-          again! In any case, if we do have them, here's what you can expect!
+          guests again, I expect we may be encouraged to do photo moments again!
+          In any case, if we do have them, here's what you can expect!
         </h4>
         <p>
           Guests at HKDL love meet-and-greets! If we do those this year, we will
@@ -486,7 +509,9 @@ const Performance = () => {
           </li>
           <li>
             Grandma Got Run Over -- We don't do the rap, cutting straight to the
-            next section.
+            next section. But really, we don't ever do this song. I'm just
+            saying, IF we ever do it, there's no rap. For the love of Mickey,
+            please omit the cringe-worthy rapping.
           </li>
           <li>
             Happy Birthday -- Sometimes we cut the opening oohs. Generally we
@@ -494,16 +519,18 @@ const Performance = () => {
           </li>
           <li>
             Here Comes Santa Claus -- For this one we change the ending to one
-            that's less abrupt. Definitely consult with a vet. Maybe we can
-            include audio files to demonstrate the change at some point.
+            that's less abrupt. Definitely consult with a vet. It's kind of a
+            similar change, stylistically, to what we do at the end of Rudolph.
+            I'll try to find video footage.
           </li>
           <li>
             Holly Jolly Christmas -- Tempo changes that are more easily
-            taught/rehearsed in person than explained here.
+            taught/rehearsed in person than explained here. If I find decent
+            video footage, I'll post it.
           </li>
           <li>
-            Here We Come A’Caroling -- change the line to “but we are Disney
-            carolers whom you have seen before”
+            Here We Come A’Caroling -- change the line to “but we are{" "}
+            <em>Disney</em> carolers whom you have seen before”
             <video controls width="500" height="280">
               <source
                 src="./assets/Here We Come A'Caroling 2017 MS.m4v#t=20,29"
@@ -527,8 +554,8 @@ const Performance = () => {
           </li>
           <li>
             Jingle Bell Rock -- Tempo changes, some added syncopation, and
-            inserted snaps/claps. Like Holly Jolly, easier heard/rehearsed than
-            explained.
+            inserted snaps/claps. Like Holly Jolly, it's nothing too crazy, but
+            it's easier heard/rehearsed than explained.
             <video controls width="500" height="280">
               <source src="./assets/JBR_FL.mov" type="video/mp4" />
               Your browser does not support the video tag.
@@ -547,10 +574,13 @@ const Performance = () => {
             </video>
           </li>
           <li>
-            Joy to the World -- Once in a blue moon, we get the opportunity to do
-            the second verse as a beatbox'd remix.
+            Joy to the World -- Once in a blue moon, we get the opportunity to
+            do the second verse as a beatbox'd remix.
             <video controls width="500" height="280">
-              <source src="./assets/Xmas_Cabaret_2016.mov#t=0,70" type="video/mp4" />
+              <source
+                src="./assets/Xmas_Cabaret_2016.mov#t=0,70"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
           </li>
@@ -585,10 +615,7 @@ const Performance = () => {
             will still perform this song subbing in 'Santa Goofy' for 'Santa
             Baby.' It's not as creepy as you might think! 😂
             <video controls width="500" height="280">
-              <source
-                src="./assets/Santa_Goofy_2018.mov"
-                type="video/mp4"
-              />
+              <source src="./assets/Santa_Goofy_2018.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </li>
