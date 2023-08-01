@@ -156,12 +156,6 @@ const Performance = () => {
             src="./assets/HK Main Street 2016 Carolers.jpg"
             alt="main street show"
           />
-          <img
-            className="list-pic"
-            id="HK-Gate-2022"
-            src="./assets/HKDL_Carolers_2022.jpeg"
-            alt="main street show"
-          />
         </div>
         <p>
           As you are probably aware, there are 8 total carolers divided into 2
