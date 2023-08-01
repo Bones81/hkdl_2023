@@ -86,8 +86,8 @@ const Performance = () => {
           caroling sets! Hallelujer!
         </p>
         <p>The first one is from 2017, outdoors, on Main Street:</p>
-        <video controls width="400" height="500">
-          <source src="./assets/Sleigh Ride Main Street.m4v" type="video/mp4" />
+        <video controls width="600" height="400">
+          <source src="./assets/Sleigh Ride Main Street.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <p>
