@@ -139,7 +139,7 @@ const Performance = () => {
           comfortable experience:
         </p>
         <video controls width="500" height="300">
-          <source src="./assets/I'll Be Home Hotel 2016.m4v" type="video/mp4" />
+          <source src="./assets/I'll Be Home Hotel 2016.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <h3>Quartets</h3>
@@ -495,7 +495,7 @@ const Performance = () => {
             frame. 🤣)
             <video controls width="500" height="280">
               <source
-                src="./assets/All_I_Want_FL.mov#t=30,55"
+                src="./assets/All_I_Want_FL.mp4#t=30,55"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -527,7 +527,7 @@ const Performance = () => {
             <em>Disney</em> carolers whom you have seen before”
             <video controls width="500" height="280">
               <source
-                src="./assets/Here We Come A'Caroling 2017 MS.m4v#t=20,29"
+                src="./assets/Here We Come A'Caroling 2017 MS.mp4#t=20,29"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -551,7 +551,7 @@ const Performance = () => {
             inserted snaps/claps. Like Holly Jolly, it's nothing too crazy, but
             it's easier heard/rehearsed than explained.
             <video controls width="500" height="280">
-              <source src="./assets/JBR_FL.mov" type="video/mp4" />
+              <source src="./assets/JBR_FL.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </li>
@@ -559,9 +559,9 @@ const Performance = () => {
             Up on the Housetop/Jolly Ol' St. Nick - after "Don't you tell a
             single soul / What I'm going to say," the bass can add a fun little
             descending "It's a secret" counter phrase.
-            <video controls width="500" height="280">
+            <video controls width="300" height="500">
               <source
-                src="./assets/Housetop_MS_alternate.mov#t=10"
+                src="./assets/Housetop_MS_alternate.mp4#t=10"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -589,7 +589,7 @@ const Performance = () => {
             that it kinda sounds like: "yeah we're rockin' round the Christmas
             tree-ee!"
             <video controls width="500" height="280">
-              <source src="./assets/Rockin_FL.mov" type="video/mp4" />
+              <source src="./assets/Rockin_FL.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </li>
