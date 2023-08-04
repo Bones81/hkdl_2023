@@ -530,7 +530,7 @@ const Performance = () => {
             <em>Disney</em> carolers whom you have seen before”
             <video controls width="500" height="280">
               <source
-                src="./assets/Here We Come A'Caroling 2017 MS.mp4#t=20,29"
+                src="./assets/Here We Come A'Caroling 2017.mp4#t=20,29"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -561,7 +561,7 @@ const Performance = () => {
 
           <li>
             Joy to the World -- Once in a blue moon, we get the opportunity to
-            do the second verse as a beatbox'd remix.
+            do the second verse as a beatbox'd remix. This is from 2016's version of the Christmas Cabaret, a cast member-only holiday event they produce each year.
             <video controls width="500" height="280">
               <source
                 src="./assets/Xmas_Cabaret_2016.mov#t=0,70"
@@ -581,7 +581,7 @@ const Performance = () => {
             that it kinda sounds like: "yeah we're rockin' round the Christmas
             tree-ee!"
             <video controls width="500" height="280">
-              <source src="./assets/Rockin_FL.mp4" type="video/mp4" />
+              <source src="./assets/Rockin_FL.mp4#t=60,85" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </li>
