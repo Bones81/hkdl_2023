@@ -139,12 +139,15 @@ h3 {
   border-radius: 5px;
   padding: 10px;
   padding-left: 25px;
+  line-height: 1.5em;
+  text-align: left;
 }
 
 h4 {
   background-color: navy;
   border-radius: 10px;
   padding: 5px;
+  text-align: left;
 }
 
 .special-note {
@@ -155,7 +158,7 @@ h4 {
 p, h4, li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5em;
   padding: 5px 5px 5px 15px;
 }
 
@@ -268,6 +271,9 @@ video {
 iframe {
   display: flex;
   margin: 15px auto;
+}
+video {
+  margin: 1em auto;
 }
 
 

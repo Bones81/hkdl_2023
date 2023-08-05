@@ -503,6 +503,9 @@ const Performance = () => {
               />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">
+              All I Want For Xmas in Fantasyland, 2022
+            </p>
           </li>
           <li>
             Grandma Got Run Over -- We don't do the rap, cutting straight to the
@@ -522,8 +525,13 @@ const Performance = () => {
           </li>
           <li>
             Holly Jolly Christmas -- Tempo changes that are more easily
-            taught/rehearsed in person than explained here. If I find decent
-            video footage, I'll post it.
+            demonstrated than explained, and we simplify the ending by not
+            including the repeated jazzy "this year".
+            <video controls width="500" height="280">
+              <source src="./assets/Holly_Jolly_DLH.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p className="img-caption">Holly Jolly at DLH, 2020</p>
           </li>
           <li>
             Here We Come A’Caroling -- change the line to “but we are{" "}
@@ -535,6 +543,9 @@ const Performance = () => {
               />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">
+              Here We Come A'Caroling on Main Street, 2017
+            </p>
           </li>
           <li>
             I Saw Mommy Kissing -- We don't do the spoken interlude. We skip
@@ -544,6 +555,9 @@ const Performance = () => {
               <source src="./assets/I_Saw_Mommy_FL.mov#t=35" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">
+              I Saw Mommy Kissing Santa Claus in Fantasyland, 2022
+            </p>
           </li>
           <li>
             Jingle Bells -- Sometimes, we'll sing this with just one verse,
@@ -557,11 +571,14 @@ const Performance = () => {
               <source src="./assets/JBR_FL.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">Jingle Bell Rock in Fantasyland, 2022</p>
           </li>
 
           <li>
             Joy to the World -- Once in a blue moon, we get the opportunity to
-            do the second verse as a beatbox'd remix. This is from 2016's version of the Christmas Cabaret, a cast member-only holiday event they produce each year.
+            do the second verse as a beatbox'd remix. This is from 2016's
+            version of the Christmas Cabaret, a cast member-only holiday event
+            they produce each year.
             <video controls width="500" height="280">
               <source
                 src="./assets/Xmas_Cabaret_2016.mov#t=0,70"
@@ -569,6 +586,9 @@ const Performance = () => {
               />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">
+              Joy to the World, remix. Christmas Cabaret 2016
+            </p>
           </li>
           <li>
             Most Wonderful Time -- "It's the hap (clap, clap or snap, snap),
@@ -584,6 +604,9 @@ const Performance = () => {
               <source src="./assets/Rockin_FL.mp4#t=60,85" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">
+              Rockin' Around the Christmas Tree in Fantasyland, 2022
+            </p>
           </li>
           <li>
             Rudolph -- We change the ending to make it a little more
@@ -594,6 +617,7 @@ const Performance = () => {
               <source src="./assets/Rudolph_MS.mov#t=40" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">Rudolph at the Blue House, 2022</p>
           </li>
           <li>
             Santa Baby -- We used to sing this as "Santa Goofy" while Santa
@@ -604,6 +628,10 @@ const Performance = () => {
               <source src="./assets/Santa_Goofy_2018.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">
+              Santa Goofy as part of the Kiss Goodnight show on the train steps,
+              2018
+            </p>
           </li>
           <li>
             Santa Claus is Coming to Town -- Same idea here. You can totally do
@@ -620,6 +648,7 @@ const Performance = () => {
               />
               Your browser does not support the video tag.
             </video>
+            <p className="img-caption">Up on the Housetop/Jolly Ol' St. Nick on Main Street, 2022</p>
           </li>
         </ul>
         {/* <p className="special-note">Vets, let me know if you can think of any other songs we alter.</p> */}
