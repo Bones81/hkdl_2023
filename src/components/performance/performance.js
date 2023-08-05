@@ -479,13 +479,63 @@ const Performance = () => {
           from heat exhaustion during a parade but not being allowed to take off
           her character head.)
         </p>
+        <h3>Our Song List</h3>
+        <p>
+          For several years, we have operated on a slightly reduced song list
+          from the standard Goode Time rep. Here are the Goode Time rep songs we are expected
+          to know (as these are the songs Disney have technically approved):
+        </p>
+        <div className='song-lists'>
+          <img
+            className="list-pic song-list"
+            width="400"
+            src="https://i.imgur.com/6bPbf76.jpg"
+            alt="list of songs approved by Disney HK"
+          />
+          <img
+            className="list-pic song-list"
+            width="480"
+            src="https://i.imgur.com/xfZKEhq.jpg"
+            alt="list of songs approved by Disney HK"
+          />
+        </div>
+        <p>While the songs above are the songs we are contractually expected to be ready to perform at a moment's notice, the reality is that we almost never sing:</p>
+        <ul>
+          <li>Grandma Got Run Over By a Reindeer</li>
+          <li>Mele Kelikimaka</li>
+          <li>Lights of Hannukah</li>
+        </ul>
+        <p>You will likely have ample opportunities to sing everything else from that list. Admittedly, you probably won't do many sets with more than 1 or 2 slower songs. Uptempo, higher energy songs will form the vast majority of our rep at Disney. I can count on one hand the number of times we sang certain slower songs last year (But we DID sing them!), like:</p>
+        <ul>
+          <li>Away in a Manger</li>
+          <li>Coventry Carol</li>
+          <li>It Came Upon a Midnight Clear</li>
+          <li>Still, Still, Still (a lot of us love this song, but it's long and often hard to hear well on busy days)</li>
+        </ul>
+        <p>There will be slower, quieter days in the park (but not many!) when you can break out slower songs like those listed above a little more liberally.</p>
+        <p>Take advantage of those days because most of the time we'll be singing the uptempo stuff, although your quartet has freedom to choose its own sets. Some of the songs we performed most often in 2022 were:</p>
+        <ul>
+          <li>Carol of the Bells</li>
+          <li>Carol of the Drum</li>
+          <li>Deck the Halls</li>
+          <li>God Rest Ye Merry, Gentlemen</li>
+          <li>Here We Come A'Caroling</li>
+          <li>Jingle Bells (basically every day, sometimes twice a day)</li>
+          <li>Joy to the World</li>
+          <li>Rockin' Around the Christmas Tree</li>
+          <li>Rudolph the Red Nosed Reindeer</li>
+          <li>Toyland/Nuttin' For Christmas</li>
+          <li>We Wish You A Merry Christmas</li>
+          <li>Winter Wonderland</li>
+        </ul>
+        <p className='special-note'>The best policy will be to know everything from the above list by the date you start your contract, just in case Disney requests specific songs at any point. You might be scheduled to perform a special event in front of Disney executives, one of whom happens to love Mele Kelikimaka and has requested it. In theory, we need to be able to deliver that song. <br/><br/>The above comments about the song list are offered mostly to help you prioritize what songs you may need to learn or review as you prepare for the contract.</p>
         <h3>Modifications to Goode Time carols</h3>
         <h4>
           We will sometimes cut/alter some of the Goode Time carols for the sake
           of a better performance in the HK Disney environment.
         </h4>
         <p>
-          Below are some of the songs we have historically modified. I'll
+          Below are some of the songs we have historically modified to play better for the HKDL caroling audiences. I'll
           include a brief explanation of the change(s), but of course, you'll
           have to ensure you and your quartet have learned the modifications,
           rehearsed them, and are comfortably ready to perform them, if your
@@ -648,7 +698,9 @@ const Performance = () => {
               />
               Your browser does not support the video tag.
             </video>
-            <p className="img-caption">Up on the Housetop/Jolly Ol' St. Nick on Main Street, 2022</p>
+            <p className="img-caption">
+              Up on the Housetop/Jolly Ol' St. Nick on Main Street, 2022
+            </p>
           </li>
         </ul>
         {/* <p className="special-note">Vets, let me know if you can think of any other songs we alter.</p> */}
