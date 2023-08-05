@@ -193,7 +193,7 @@ const Leisure = () => {
             Dim Dim Sum - another favorite dim sum spot, multiple locations
           </li>
           <li>
-            Mammy Pancake - best egg waffles/egg puffs in town in the lower
+            Mammy Pancake - best bubble waffles/egg puffs in town in the lower
             Temple Street area
           </li>
           <li>
@@ -244,7 +244,7 @@ const Leisure = () => {
             2022.
           </li>
           <li>Woodlands - vegetarian-friendly Indian food in TST</li>
-          <li>MANY others</li>
+          <li>MANY others!</li>
         </ul>
         <h3>Night Life</h3>
         <h4 className="special-note">
@@ -277,11 +277,12 @@ const Leisure = () => {
             alt="the band at Ned Kellys"
           />
           <p className="img-caption">
-            As is tradition, Colin made sure to get a selfie with "Kowloon Carolers" Emilia, Ivory, Nathan, and Sean (in spirit) in 2022.
+            As is tradition, Colin made sure to get a selfie with "Kowloon
+            Carolers" Emilia, Ivory, Nathan, and Sean (in spirit) in 2022.
           </p>
           <li>
             Old Man - one of the very best cocktail bars in the world,
-            Hemingway-themed
+            Hemingway-themed, in the SoHo neighborhood.
           </li>
           <img
             className="list-pic"
@@ -408,7 +409,8 @@ const Leisure = () => {
         <h4 className="holiday-title">Halloween 🎃</h4>
         <p>
           Those carolers who start work on Oct. 30 will get to see HKDL with all
-          its Halloween decor. Sadly, they will promptly tear down that decor and start preparing for Christmas decorations on Nov. 1. 
+          its Halloween decor. Sadly, they will promptly tear down that decor
+          and start preparing for Christmas decorations on Nov. 1.
         </p>
         <p>
           However! The HKDL Halloween season show "Let's Get Wicked" should be
@@ -467,15 +469,18 @@ const Leisure = () => {
         </p>
         <p>
           We have always done small group gifts for the stage managers from the
-          carolers, and in 2020 we did a secret Santa white elephant gift exchange with each other.
-          But there's certainly no pressure or expectation. Some years we would
-          coordinate to have Christmas lunch together at one of the park's
-          restaurants and take advantage of our cast member holiday coupons.
+          carolers, and in 2020 we did a secret Santa white elephant gift
+          exchange with each other. But there's certainly no pressure or
+          expectation. Some years we would coordinate to have Christmas lunch
+          together at one of the park's restaurants and take advantage of our
+          cast member holiday coupons.
         </p>
         <p>
           In all likelihood, we will be working on Christmas Day, which falls on
           a Monday this year (2023).
         </p>
+        <h4 className="holiday-title">New Year's Eve 🎉🥂🎉</h4>
+        <p>New Year's celebrating is going to be very tough this year, as Jan 1 is our last day of work. In all likelihood, we will all be packing and tying up whatever last ends remain so that we will be able to depart as smoothly as possible on Jan 2. Nonetheless, some have managed to enjoy New Year's Eve celebrations despite juggling work and end-of-contract obligations. I have rung in several new years with Colin and the band at Ned Kelly's Last Stand. Last year, Sean went on a cruise in Victoria Harbour while the rest of us stayed home and played Nintendo Switch! How you celebrate New Year's will be entirely up to you as the priority will be ensuring that you are ready to depart Hong Kong less than 48 hours later.</p>
       </section>
     );
 }

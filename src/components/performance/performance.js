@@ -273,7 +273,7 @@ const Performance = () => {
         <p className="special-note">
           Take Note: On the other hand, there is MUCH attention paid to our
           vocals when we are performing anything that isn't the Goode Time rep.
-          Ceejay or Felix will usually gives us notes after every run or
+          Ceejay or Felix will usually give us notes after every run or
           rehearsal of the Tree Lighting, and sometimes even after the first
           week or two of shows!
         </p>
@@ -612,7 +612,7 @@ const Performance = () => {
             Hi to You -- Sooo, funny thing is, in Cantonese, the sound of "Hi"
             on a sustained high tone means "p**sy." As a result, we try not to
             say "Hi" at the end of the song. We usually say the same sentiment
-            in Cantonese, which sounds like "Lei Ho" or "Nei Ho." Or you can
+            as "Hello" in Cantonese, which sounds like "Lei Ho" or "Nei Ho." Or you can
             just say "Hello!" It's not a big deal, ultimately, and no one's ever
             been offended that we know of. But now that we know it could be
             heard as vulgar, we made this adjustment.
@@ -660,7 +660,7 @@ const Performance = () => {
           </li>
           <li>
             Jingle Bells -- Sometimes, we'll sing this with just one verse,
-            especially if it's a closer and we're short on time.
+            especially if it's a closing song and we're short on time.
           </li>
           <li>
             Jingle Bell Rock -- Tempo changes, some added syncopation, and
