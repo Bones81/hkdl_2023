@@ -482,10 +482,11 @@ const Performance = () => {
         <h3>Our Song List</h3>
         <p>
           For several years, we have operated on a slightly reduced song list
-          from the standard Goode Time rep. Here are the Goode Time rep songs we are expected
-          to know (as these are the songs Disney have technically approved):
+          from the standard Goode Time rep. Here are the Goode Time rep songs we
+          are expected to know (as these are the songs Disney have technically
+          approved):
         </p>
-        <div className='song-lists'>
+        <div className="song-lists">
           <img
             className="list-pic song-list"
             width="400"
@@ -499,21 +500,43 @@ const Performance = () => {
             alt="list of songs approved by Disney HK"
           />
         </div>
-        <p>While the songs above are the songs we are contractually expected to be ready to perform at a moment's notice, the reality is that we almost never sing:</p>
+        <p>
+          While the songs above are the songs we are contractually expected to
+          be ready to perform at a moment's notice, the reality is that we
+          almost never sing:
+        </p>
         <ul>
           <li>Grandma Got Run Over By a Reindeer</li>
           <li>Mele Kelikimaka</li>
           <li>Lights of Hannukah</li>
         </ul>
-        <p>You will likely have ample opportunities to sing everything else from that list. Admittedly, you probably won't do many sets with more than 1 or 2 slower songs. Uptempo, higher energy songs will form the vast majority of our rep at Disney. I can count on one hand the number of times we sang certain slower songs last year (But we DID sing them!), like:</p>
+        <p>
+          You will likely have ample opportunities to sing everything else from
+          that list. Admittedly, you probably won't do many sets with more than
+          1 or 2 slower songs. Uptempo, higher energy songs will form the vast
+          majority of our rep at Disney. I can count on one hand the number of
+          times we sang certain slower songs last year (But we DID sing them!),
+          like:
+        </p>
         <ul>
           <li>Away in a Manger</li>
           <li>Coventry Carol</li>
           <li>It Came Upon a Midnight Clear</li>
-          <li>Still, Still, Still (a lot of us love this song, but it's long and often hard to hear well on busy days)</li>
+          <li>
+            Still, Still, Still (a lot of us love this song, but it's long and
+            often hard to hear well on busy days)
+          </li>
         </ul>
-        <p>There will be slower, quieter days in the park (but not many!) when you can break out slower songs like those listed above a little more liberally.</p>
-        <p>Take advantage of those days because most of the time we'll be singing the uptempo stuff, although your quartet has freedom to choose its own sets. Some of the songs we performed most often in 2022 were:</p>
+        <p>
+          There will be slower, quieter days in the park (but not many!) when
+          you can break out slower songs like those listed above a little more
+          liberally.
+        </p>
+        <p>
+          Take advantage of those days because most of the time we'll be singing
+          the uptempo stuff, although your quartet has freedom to choose its own
+          sets. Some of the songs we performed most often in 2022 were:
+        </p>
         <ul>
           <li>Carol of the Bells</li>
           <li>Carol of the Drum</li>
@@ -528,18 +551,30 @@ const Performance = () => {
           <li>We Wish You A Merry Christmas</li>
           <li>Winter Wonderland</li>
         </ul>
-        <p className='special-note'>The best policy will be to know everything from the above list by the date you start your contract, just in case Disney requests specific songs at any point. You might be scheduled to perform a special event in front of Disney executives, one of whom happens to love Mele Kelikimaka and has requested it. In theory, we need to be able to deliver that song. <br/><br/>The above comments about the song list are offered mostly to help you prioritize what songs you may need to learn or review as you prepare for the contract.</p>
+        <p className="special-note">
+          The best policy will be to know everything from the above list by the
+          date you start your contract, just in case Disney requests specific
+          songs at any point. You might be scheduled to perform a special event
+          in front of Disney executives, one of whom happens to love Mele
+          Kelikimaka and has requested it. In theory, we need to be able to
+          deliver that song. <br />
+          <br />
+          The above comments about the song list are offered mostly to help you
+          prioritize what songs you may need to learn or review as you prepare
+          for the contract.
+        </p>
         <h3>Modifications to Goode Time carols</h3>
         <h4>
           We will sometimes cut/alter some of the Goode Time carols for the sake
           of a better performance in the HK Disney environment.
         </h4>
         <p>
-          Below are some of the songs we have historically modified to play better for the HKDL caroling audiences. I'll
-          include a brief explanation of the change(s), but of course, you'll
-          have to ensure you and your quartet have learned the modifications,
-          rehearsed them, and are comfortably ready to perform them, if your
-          quartet has chosen to do so.
+          Below are some of the songs we have historically modified to play
+          better for the HKDL caroling audiences. I'll include a brief
+          explanation of the change(s), but of course, you'll have to ensure you
+          and your quartet have learned the modifications, rehearsed them, and
+          are comfortably ready to perform them, if your quartet has chosen to
+          do so.
         </p>
         <ul className="performance-ul">
           <li>
@@ -572,6 +607,20 @@ const Performance = () => {
             that's less abrupt. Definitely consult with a vet. It's kind of a
             similar change, stylistically, to what we do at the end of Rudolph.
             I'll try to find video footage.
+          </li>
+          <li>
+            Hi to You -- Sooo, funny thing is, in Cantonese, the sound of "Hi"
+            on a sustained high tone means "p**sy." As a result, we try not to
+            say "Hi" at the end of the song. We usually say the same sentiment
+            in Cantonese, which sounds like "Lei Ho" or "Nei Ho." Or you can
+            just say "Hello!" It's not a big deal, ultimately, and no one's ever
+            been offended that we know of. But now that we know it could be
+            heard as vulgar, we made this adjustment.
+            <video controls width="500" height="280">
+              <source src="./assets/Hi_To_You.mov#t=35" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p className="img-caption">Hi To You in Fantasyland, 2022</p>
           </li>
           <li>
             Holly Jolly Christmas -- Tempo changes that are more easily
