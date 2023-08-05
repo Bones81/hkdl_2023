@@ -173,7 +173,7 @@ const Performance = () => {
             And the other is:
             <li>S: Sarah</li>
             <li>A: Chelsea</li>
-            <li>T: TBA</li>
+            <li>T: Omar</li>
             <li>B: Johnny</li>
           </ul>
         </p>
@@ -479,7 +479,7 @@ const Performance = () => {
           from heat exhaustion during a parade but not being allowed to take off
           her character head.)
         </p>
-        <h3>Our Song List</h3>
+        <h3 id="song-list">Our Song List</h3>
         <p>
           For several years, we have operated on a slightly reduced song list
           from the standard Goode Time rep. Here are the Goode Time rep songs we
@@ -552,7 +552,7 @@ const Performance = () => {
           <li>Winter Wonderland</li>
         </ul>
         <p className="special-note">
-          The best policy will be to know everything from the above list by the
+          The best policy will be to know everything from <a href="#song-list">the "approved" list above</a> by the
           date you start your contract, just in case Disney requests specific
           songs at any point. You might be scheduled to perform a special event
           in front of Disney executives, one of whom happens to love Mele
