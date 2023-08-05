@@ -12,7 +12,7 @@ const Food = () => {
             <h3>Disney's backstage 7-11</h3>
                 <p>Your new best friend. The cashier never judges you, even though they've already seen you five times that day. Solid, cheap, quick meals and snacks. Plus we get a 15% Disney employee discount on every purchase!</p>
             <h3>Disney employee canteen/cafeteria</h3>
-                <p>Very cheap. Sometimes good, sometimes meh, sometimes great. Fish breakfast is a hallowed caroler rite of passage. You will grow to love it. The canteens be dicey when it comes to satisfying vegetarian/vegan options. But you can always get the French Fries at tea time (between 2pm and 6pm).</p>
+                <p>Very cheap. Sometimes good, sometimes meh, sometimes great. Fish breakfast is a hallowed caroler rite of passage. You will grow to love it. The canteens can be dicey when it comes to satisfying vegetarian/vegan options. But you can always get the French Fries at tea time (between 2pm and 6pm).</p>
                 <p>Which reminds me: Our schedule often doesn't give us a meal break until after 2pm, meaning we don't necessarily get the full lunch menu but only the more limited tea time menu. Especially for vegetarian/vegan eaters, it often seems more reliable to bring your own meals. Microwaves are plentiful, so you can always heat something up.</p>
                 <img id="fish-breakfast" src="assets/Fish Breakfast.jpg" alt='fish breakfast'/>
                 <p class="img-caption">Western Fried Fish and Scrambled Eggs breakfast.</p>

@@ -7,7 +7,13 @@ const FTF = () => {
             alt="2017 carolers performing tree lighting"
           />
         </div>
-        {/* <h2 className="special-note">Latest changes, 7/31/2023, Welcome!</h2> */}
+        <h2 className="special-note">
+          Welcome Katie, Sarah, Johnny, and Omar! And welcome back, Chelsea!!
+          <br />
+          <br />
+          Latest changes, 8/4/2023: HK-specific song list added, more example
+          videos added
+        </h2>
         <h2 className="section-title" id="first">
           First Things First
         </h2>
@@ -51,8 +57,8 @@ const FTF = () => {
           subject to change!
         </h4>
         <h3>
-          Click on the hamburger menu in the upper right portion of the window to quickly navigate
-          between sections of this site! &#8599;
+          Click on the hamburger menu in the upper right portion of the window
+          to quickly navigate between sections of this site! &#8599;
         </h3>
       </section>
     );
