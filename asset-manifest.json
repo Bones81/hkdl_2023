@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hkdl_2023/static/css/main.2aa721b9.css",
-    "main.js": "/hkdl_2023/static/js/main.683d78fa.js",
+    "main.js": "/hkdl_2023/static/js/main.95868ada.js",
     "static/js/787.9d3fce03.chunk.js": "/hkdl_2023/static/js/787.9d3fce03.chunk.js",
     "static/media/Xmas tree.jpeg": "/hkdl_2023/static/media/Xmas tree.53f715c4c9a412e87132.jpeg",
     "index.html": "/hkdl_2023/index.html",
     "main.2aa721b9.css.map": "/hkdl_2023/static/css/main.2aa721b9.css.map",
-    "main.683d78fa.js.map": "/hkdl_2023/static/js/main.683d78fa.js.map",
+    "main.95868ada.js.map": "/hkdl_2023/static/js/main.95868ada.js.map",
     "787.9d3fce03.chunk.js.map": "/hkdl_2023/static/js/787.9d3fce03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2aa721b9.css",
-    "static/js/main.683d78fa.js"
+    "static/js/main.95868ada.js"
   ]
 }
