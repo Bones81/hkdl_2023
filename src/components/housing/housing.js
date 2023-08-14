@@ -13,6 +13,7 @@ const Housing = () => {
           id="HPRC-lobby"
           src="./assets/HPRC lobby.jpg"
           alt="The lobby of HPRC"
+          loading="lazy"
         />
         <p className="img-caption">The lobby of our HK home, HPRC.</p>
         <p>
@@ -32,6 +33,7 @@ const Housing = () => {
           id="HPRC-map"
           src="https://i.imgur.com/GPWYW1Z.jpg"
           alt="map of HPRC, annotated with key locations"
+          loading="lazy"
         />
         <p className="img-caption">
           Area map of HPRC and surrounding locations
@@ -40,13 +42,21 @@ const Housing = () => {
           id="viewfromHPRC"
           src="./assets/viewfromHPRC.jpg"
           alt="The view from a room at Harbour Plaza Resort City"
+          loading="lazy"
         />
         <p className="img-caption">
           The view from a room at Harbour Plaza Resort City, where we live
           during the contract.
         </p>
         <h4>Accommodations</h4>
-        <video id="HPRC-room-tour" width="400" height="500" controls>
+        <video
+          id="HPRC-room-tour"
+          preload="none"
+          poster="https://i.imgur.com/BMzUBvx.jpg"
+          width="400"
+          height="500"
+          controls
+        >
           <source src="./assets/HPRC room first look.m4v" type="video/mp4" />
           Your browswer does not support the video tag.
         </video>
@@ -62,16 +72,18 @@ const Housing = () => {
             <li>a microwave</li>
             <li>a sink</li>
             <li>a half-size refrigerator</li>
-            <li>a Western-style bathroom with a bathtub and
-          shower</li>
-            <li>a small dining table</li> 
+            <li>a Western-style bathroom with a bathtub and shower</li>
+            <li>a small dining table</li>
             <li>a small couch/sitting area</li>
             <li>a television, ~32", with HDMI input and local channels</li>
             <li>a wifi router</li>
             <li>a large closet</li>
             <li>a small night table on either side of the bed</li>
             <li>a small vanity nook/area</li>
-            <li>a varying number of cabinets, drawers, and other surfaces, depending on the room</li>
+            <li>
+              a varying number of cabinets, drawers, and other surfaces,
+              depending on the room
+            </li>
           </ul>
         </p>
         <p>
@@ -85,7 +97,8 @@ const Housing = () => {
           The video above shows an example of how your room might be set up.
           There are a few different layouts you could have in your HPRC room. It
           just depends on the room's location in the hotel's floorplan. But, for
-          the most part, the rooms look like what you see in the video. That said, this one was among the smaller rooms I've had at HPRC.
+          the most part, the rooms look like what you see in the video. That
+          said, this one was among the smaller rooms I've had at HPRC.
         </p>
         <h4>Services and Amenities</h4>
         <ul className="housing-ul">
@@ -100,7 +113,11 @@ const Housing = () => {
             Gym, with sauna/steam room (Note: there is also gym equipment at
             Disney)
           </li>
-          <li>The hotel bar "New York" is located in Tower 2. Now and then expats may arrange gettogethers there. In the past there have been occasional happy hour or discount options.</li>
+          <li>
+            The hotel bar "New York" is located in Tower 2. Now and then expats
+            may arrange gettogethers there. In the past there have been
+            occasional happy hour or discount options.
+          </li>
         </ul>
       </section>
     );

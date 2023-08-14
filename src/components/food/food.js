@@ -56,6 +56,7 @@ const Food = () => {
           id="fish-breakfast"
           src="assets/Fish Breakfast.jpg"
           alt="fish breakfast"
+          loading="lazy"
         />
         <p class="img-caption">
           Western Fried Fish and Scrambled Eggs breakfast.
@@ -72,7 +73,12 @@ const Food = () => {
           sum restaurants and quick-food outlets. A couple of our favorites are
           Dim Dim Sum and Tim Ho Wan.
         </p>
-        <img class="list-pic" src="assets/Dim Sum.jpg" alt="dim sum" />
+        <img
+          class="list-pic"
+          src="assets/Dim Sum.jpg"
+          alt="dim sum"
+          loading="lazy"
+        />
         <p class="img-caption">Dim sum spread at Dim Dim Sum.</p>
         <p>
           Another classic HK experience is eating some sort of mystery food
@@ -84,6 +90,7 @@ const Food = () => {
           class="list-pic"
           src="assets/Chinese Menu Weird Items.jpg"
           alt="food menu with strange items"
+          loading="lazy"
         />
         <p class="img-caption">
           Authentic Cantonese restaurants advertise some ... odd items.
@@ -97,6 +104,7 @@ const Food = () => {
         <iframe
           width="560"
           height="315"
+          loading="lazy"
           src="https://www.youtube.com/embed/NL2QzyDvvT8"
           title="YouTube video player"
           frameborder="0"

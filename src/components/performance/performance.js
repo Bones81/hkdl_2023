@@ -22,6 +22,7 @@ const Performance = () => {
           <iframe
             width="560"
             height="315"
+            loading="lazy"
             src="https://www.youtube.com/embed/mJgOeaqr7iQ"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -46,6 +47,7 @@ const Performance = () => {
           <iframe
             width="560"
             height="315"
+            loading="lazy"
             src="https://www.youtube.com/embed/di1Xh0MFqPc"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -69,12 +71,14 @@ const Performance = () => {
           src="./assets/tree_lighting_2020.jpeg"
           className="list-pic"
           alt="Tree Lighting 2020"
+          loading="lazy"
         />
         <p className="img-caption">Tree Lighting ceremony in 2020</p>
         <img
           src="./assets/tree_lighting_2020_b.jpeg"
           className="list-pic"
           alt="Tree Lighting 2020"
+          loading="lazy"
         />
         <p className="img-caption">
           Tree Lighting ceremony in 2020 with a different quartet
@@ -86,7 +90,13 @@ const Performance = () => {
           caroling sets! Hallelujer!
         </p>
         <p>The first one is from 2017, outdoors, on Main Street:</p>
-        <video controls width="600" height="400">
+        <video
+          controls
+          width="600"
+          height="400"
+          preload="none"
+          poster="https://i.imgur.com/PzE8Kb9.jpg"
+        >
           <source src="./assets/Sleigh Ride Main Street.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -95,7 +105,13 @@ const Performance = () => {
           location on Main Street, known simply as the "Blue House". We did the
           majority of our Main Street sets in this location last year:
         </p>
-        <video controls width="500" height="280">
+        <video
+          controls
+          width="500"
+          height="280"
+          preload="none"
+          poster="https://i.imgur.com/XuuTQfe.jpg"
+        >
           <source src="./assets/Holly_Ivy_2022.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -107,7 +123,13 @@ const Performance = () => {
           It's distracting, for sure, but we quickly get used to it, and the
           guests seem able to tune it out as well.
         </p>
-        <video controls width="500" height="280">
+        <video
+          controls
+          width="500"
+          height="280"
+          preload="none"
+          poster="https://i.imgur.com/yvgOzhz.jpg"
+        >
           <source src="./assets/Hark_FL.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -123,12 +145,19 @@ const Performance = () => {
           className="list-pic"
           src="./assets/balcony_set_2020.jpeg"
           alt="balcony set 2020"
+          loading="lazy"
         />
         <p className="img-caption">
           Singing in the lovely Disneyland Hotel lobby balcony.
         </p>
         <p>The next clip is from a Disneyland Hotel set in 2019:</p>
-        <video controls width="400" height="500">
+        <video
+          controls
+          width="400"
+          height="500"
+          preload="none"
+          poster="https://i.imgur.com/5oMrFwP.jpg"
+        >
           <source
             src="./assets/Hi To You - Intro at Hotel.m4v"
             type="video/mp4"
@@ -141,7 +170,13 @@ const Performance = () => {
           a hotel set from 2016. Different costumes, the ability to sit while
           singing, and microphones made this a very comfortable experience:
         </p>
-        <video controls width="500" height="300">
+        <video
+          controls
+          width="500"
+          height="300"
+          preload="none"
+          poster="https://i.imgur.com/umR4ruR.jpg"
+        >
           <source src="./assets/I'll Be Home Hotel 2016.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -152,12 +187,14 @@ const Performance = () => {
             id="hotel-set-2016"
             src="./assets/Xmastime Ball 2017.jpg"
             alt="castle show"
+            loading="lazy"
           />
           <img
             className="list-pic"
             id="HK-MS-2016"
             src="./assets/HK Main Street 2016 Carolers.jpg"
             alt="main street show"
+            loading="lazy"
           />
         </div>
         <p>
@@ -439,16 +476,19 @@ const Performance = () => {
           className="photo-moment"
           src="./assets/Photo Moment 2016.jpg"
           alt="fan moment"
+          loading="lazy"
         />
         <img
           className="photo-moment"
           src="./assets/Photo Moment.jpg"
           alt="fan moment"
+          loading="lazy"
         />
         <img
           className="photo-moment"
           src="./assets/Caroler Photo Moment.jpg"
           alt="fan moment"
+          loading="lazy"
         />
         <h4 className="special-note">
           In both 2020 and 2022, amid full COVID restrictions, we did not do
@@ -492,12 +532,14 @@ const Performance = () => {
             width="400"
             src="https://i.imgur.com/6bPbf76.jpg"
             alt="list of songs approved by Disney HK"
+            loading="lazy"
           />
           <img
             className="list-pic song-list"
             width="480"
             src="https://i.imgur.com/xfZKEhq.jpg"
             alt="list of songs approved by Disney HK"
+            loading="lazy"
           />
         </div>
         <p>
@@ -552,12 +594,13 @@ const Performance = () => {
           <li>Winter Wonderland</li>
         </ul>
         <p className="special-note">
-          The best policy will be to know everything from <a href="#song-list">the "approved" list above</a> by the
-          date you start your contract, just in case Disney requests specific
-          songs at any point. You might be scheduled to perform a special event
-          in front of Disney executives, one of whom happens to love Mele
-          Kelikimaka and has requested it. In theory, we need to be able to
-          deliver that song. <br />
+          The best policy will be to know everything from{" "}
+          <a href="#song-list">the "approved" list above</a> by the date you
+          start your contract, just in case Disney requests specific songs at
+          any point. You might be scheduled to perform a special event in front
+          of Disney executives, one of whom happens to love Mele Kelikimaka and
+          has requested it. In theory, we need to be able to deliver that song.{" "}
+          <br />
           <br />
           The above comments about the song list are offered mostly to help you
           prioritize what songs you may need to learn or review as you prepare
@@ -581,7 +624,13 @@ const Performance = () => {
             All I Want for Xmas -- No whistling 'fail' moment. Just let the bass
             lead into the next verse. (You're welcome for the epic starting
             frame. 🤣)
-            <video controls width="500" height="280">
+            <video
+              controls
+              preload="none"
+              poster="https://i.imgur.com/prHt8cT.jpg"
+              width="500"
+              height="280"
+            >
               <source
                 src="./assets/All_I_Want_FL.mp4#t=30,55"
                 type="video/mp4"
@@ -612,11 +661,17 @@ const Performance = () => {
             Hi to You -- Sooo, funny thing is, in Cantonese, the sound of "Hi"
             on a sustained high tone means "p**sy." As a result, we try not to
             say "Hi" at the end of the song. We usually say the same sentiment
-            as "Hello" in Cantonese, which sounds like "Lei Ho" or "Nei Ho." Or you can
-            just say "Hello!" It's not a big deal, ultimately, and no one's ever
-            been offended that we know of. But now that we know it could be
-            heard as vulgar, we made this adjustment.
-            <video controls width="500" height="280">
+            as "Hello" in Cantonese, which sounds like "Lei Ho" or "Nei Ho." Or
+            you can just say "Hello!" It's not a big deal, ultimately, and no
+            one's ever been offended that we know of. But now that we know it
+            could be heard as vulgar, we made this adjustment.
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/KQ2rGCw.jpg"
+            >
               <source src="./assets/Hi_To_You.mov#t=35" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -626,7 +681,13 @@ const Performance = () => {
             Holly Jolly Christmas -- Tempo changes that are more easily
             demonstrated than explained, and we simplify the ending by not
             including the repeated jazzy "this year".
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/ymWZvpr.jpg"
+            >
               <source src="./assets/Holly_Jolly_DLH.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -635,7 +696,13 @@ const Performance = () => {
           <li>
             Here We Come A’Caroling -- change the line to “but we are{" "}
             <em>Disney</em> carolers whom you have seen before”
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/EiAQVGa.jpg"
+            >
               <source
                 src="./assets/Here We Come A'Caroling 2017.mp4#t=20,29"
                 type="video/mp4"
@@ -650,7 +717,13 @@ const Performance = () => {
             I Saw Mommy Kissing -- We don't do the spoken interlude. We skip
             straight to the coda after "Oh what a laugh it would have been if
             Daddy had only seen Mommy kissing Santa Claus last--"
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/NLy15b2.jpg"
+            >
               <source src="./assets/I_Saw_Mommy_FL.mov#t=35" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -666,7 +739,13 @@ const Performance = () => {
             Jingle Bell Rock -- Tempo changes, some added syncopation, and
             inserted snaps/claps. Like Holly Jolly, it's nothing too crazy, but
             it's easier heard/rehearsed than explained.
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/rdf6tyd.jpg"
+            >
               <source src="./assets/JBR_FL.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -678,7 +757,13 @@ const Performance = () => {
             do the second verse as a beatbox'd remix. This is from 2016's
             version of the Christmas Cabaret, a cast member-only holiday event
             they produce each year.
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/L5B7F4x.jpg"
+            >
               <source
                 src="./assets/Xmas_Cabaret_2016.mov#t=0,70"
                 type="video/mp4"
@@ -699,7 +784,13 @@ const Performance = () => {
             final jazzy "Oooh," we just pulse then hold the final word "tree" so
             that it kinda sounds like: "yeah we're rockin' round the Christmas
             tree-ee!"
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/Y70ryoi.jpg"
+            >
               <source src="./assets/Rockin_FL.mp4#t=60,85" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -712,7 +803,13 @@ const Performance = () => {
             tradtional-sounding and less of a jazzy, chromatic downward death
             spiral. The change starts on "you'll go down in history." Easier
             seen/rehearsed than explained.
-            <video controls width="500" height="280">
+            <video
+              controls
+              width="500"
+              height="280"
+              preload="none"
+              poster="https://i.imgur.com/c05TeNZ.jpg"
+            >
               <source src="./assets/Rudolph_MS.mov#t=40" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -723,7 +820,13 @@ const Performance = () => {
             Goofy would show up and perform with us. As a result, we sometimes
             will still perform this song subbing in 'Santa Goofy' for 'Santa
             Baby.' It's not as creepy as you might think! 😂
-            <video controls width="360" height="600">
+            <video
+              controls
+              width="360"
+              height="600"
+              preload="none"
+              poster="https://i.imgur.com/XbVBJnM.jpg"
+            >
               <source src="./assets/Santa_Goofy_2018.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -740,7 +843,13 @@ const Performance = () => {
             Up on the Housetop/Jolly Ol' St. Nick - after "Don't you tell a
             single soul / What I'm going to say," the bass can add a fun little
             descending "It's a secret" counter phrase.
-            <video controls width="300" height="500">
+            <video
+              controls
+              width="300"
+              height="500"
+              preload="none"
+              poster="https://i.imgur.com/czQFpji.jpg"
+            >
               <source
                 src="./assets/Housetop_MS_alternate.mp4#t=10"
                 type="video/mp4"
