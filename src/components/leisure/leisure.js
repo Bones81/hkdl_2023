@@ -20,6 +20,16 @@ const Leisure = () => {
           We will usually have two full days off each work week. SO, what can we
           do with our down time?!?
         </h4>
+        <h3>Good summary video</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/PxPxiOrCkXs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
         <h3>The big tourist stuff</h3>
         <ul className="leisure-ul">
           <li>The Big Buddha and the Ngong Ping 360 gondola ride</li>
@@ -480,7 +490,19 @@ const Leisure = () => {
           a Monday this year (2023).
         </p>
         <h4 className="holiday-title">New Year's Eve 🎉🥂🎉</h4>
-        <p>New Year's celebrating is going to be very tough this year, as Jan 1 is our last day of work. In all likelihood, we will all be packing and tying up whatever last ends remain so that we will be able to depart as smoothly as possible on Jan 2. Nonetheless, some have managed to enjoy New Year's Eve celebrations despite juggling work and end-of-contract obligations. I have rung in several new years with Colin and the band at Ned Kelly's Last Stand. Last year, Sean went on a cruise in Victoria Harbour while the rest of us stayed home and played Nintendo Switch! How you celebrate New Year's will be entirely up to you as the priority will be ensuring that you are ready to depart Hong Kong less than 48 hours later.</p>
+        <p>
+          New Year's celebrating is going to be very tough this year, as Jan 1
+          is our last day of work. In all likelihood, we will all be packing and
+          tying up whatever last ends remain so that we will be able to depart
+          as smoothly as possible on Jan 2. Nonetheless, some have managed to
+          enjoy New Year's Eve celebrations despite juggling work and
+          end-of-contract obligations. I have rung in several new years with
+          Colin and the band at Ned Kelly's Last Stand. Last year, Sean went on
+          a cruise in Victoria Harbour while the rest of us stayed home and
+          played Nintendo Switch! How you celebrate New Year's will be entirely
+          up to you as the priority will be ensuring that you are ready to
+          depart Hong Kong less than 48 hours later.
+        </p>
       </section>
     );
 }

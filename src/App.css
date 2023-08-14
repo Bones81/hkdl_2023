@@ -94,6 +94,10 @@ li {
   padding: 10px 5px 10px 25px;
 }
 
+.list-item-p {
+  width: 100%;
+}
+
 .sub-list {
   list-style-type: lower-alpha;
 }
@@ -271,6 +275,7 @@ video {
 iframe {
   display: flex;
   margin: 15px auto;
+  max-width: 95%;
 }
 video {
   margin: 1em auto;
