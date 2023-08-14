@@ -62,7 +62,10 @@ const Packing = () => {
             valuable commodity. Always have some extra US cash for an emergency.
           </li>
           <li>HDMI cable for connecting laptop to TV to watch Netflix etc.</li>
-          <li>A long charging cable for your phone. If you want to keep your phone near you while you sleep, outlets can be frustratingly far away.</li>
+          <li>
+            A long charging cable for your phone. If you want to keep your phone
+            near you while you sleep, outlets can be frustratingly far away.
+          </li>
           <li>
             Not just good but GREAT walking shoes. You will walk all over the
             place.
@@ -90,8 +93,8 @@ const Packing = () => {
             as you ensure they can handle the higher 220V voltage of Hong Kong
             and that you have an appropriate adapter for the plug. That said,
             they are bulky and could have compatibility issues, so you'll see
-            they're also listed in the next section of items you should
-            probably leave at home.
+            they're also listed in the next section of items you should probably
+            leave at home.
           </li>
         </ul>
 
@@ -148,6 +151,7 @@ const Packing = () => {
           id="outlet-plug"
           src="./assets/UK-outlet-plug.jpg"
           alt="HK/UK-standard electrical outlets and plugs"
+          loading="lazy"
         />
         <p className="img-caption">
           This is the style of electrical outlet and plug you will find in HK.
@@ -164,7 +168,8 @@ const Packing = () => {
                     <img id="blender" src="" alt="Picture of Magic Bullet Blender">--> */}
         <p>
           You will likely need at least one travel adapter, and adapters are
-          easily purchased in many places that sell electronics. An <em>adapter</em>:
+          easily purchased in many places that sell electronics. An{" "}
+          <em>adapter</em>:
         </p>
         <ul className="packing-ul">
           <li>
@@ -178,7 +183,9 @@ const Packing = () => {
           device from potentially roasting when it is plugged into the higher
           voltage Hong Kong electical outlet.
         </p>
-        <p>A voltage <em>converter</em>, on the other hand:</p>
+        <p>
+          A voltage <em>converter</em>, on the other hand:
+        </p>
         <ul className="packing-ul">
           <li>
             changes voltage from 220V to the American standard of 110V, thereby

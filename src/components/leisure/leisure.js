@@ -9,11 +9,13 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Morganswirlchair.jpg"
             alt="Morgan in a novelty swirling chair"
+            loading="lazy"
           />
           <img
             className="list-pic"
             src="./assets/daipaidong2018.jpg"
             alt="dai pai dong meal with friends"
+            loading="lazy"
           />
         </div>
         <h4>
@@ -24,6 +26,7 @@ const Leisure = () => {
         <iframe
           width="560"
           height="315"
+          loading="lazy"
           src="https://www.youtube.com/embed/PxPxiOrCkXs"
           title="YouTube video player"
           frameborder="0"
@@ -37,6 +40,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Big Buddha.jpg"
             alt="big buddha"
+            loading="lazy"
           />
           <p className="img-caption">The Tian Tan (aka "Big") Buddha</p>
           <li>Victoria Peak/Peak Tram</li>
@@ -44,6 +48,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Victoria Peak Lookout Daytime.jpg"
             alt="victoria peak lookout"
+            loading="lazy"
           />
           <p className="img-caption">
             The view from Victoria Peak's Lugard Road Lookout
@@ -54,6 +59,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Symphony of Lights.jpg"
             alt="symphony of lights"
+            loading="lazy"
           />
           <p className="img-caption">The Symphony of Lights</p>
           <li>Man Mo Temple</li>
@@ -64,6 +70,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/chilinnunnery.jpg"
             alt="chi lin nunnery"
+            loading="lazy"
           />
           <p className="img-caption">The Chi Lin Nunnery</p>
           <li>Wong Tai Sin Sik Sik Yuen Temple</li>
@@ -71,6 +78,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Wong Tai Sin Temple.jpg"
             alt="wong tai sin temple"
+            loading="lazy"
           />
           <p className="img-caption">Wong Tai Sin Sik Sik Yuen temple</p>
           <li>TST Promenade/Bruce Lee Statue</li>
@@ -78,6 +86,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Bruce Lee poser.jpg"
             alt="bruce lee statue and poser"
+            loading="lazy"
           />
           <p className="img-caption">Bruce Lee Statue on the TST promenade</p>
           <li>HSBC Building</li>
@@ -86,6 +95,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Peninsula High Tea.jpg"
             alt="high tea at The Peninsula"
+            loading="lazy"
           />
           <p className="img-caption">
             Colonial British-style High Tea at The Peninsula Hotel in TST
@@ -120,12 +130,14 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/ocean_park.jpeg"
             alt="ocean park"
+            loading="lazy"
           />
           <p className="img-caption">Entrance to Ocean Park</p>
           <img
             className="list-pic"
             src="./assets/Ocean Park Panda.jpg"
             alt="ocean park panda"
+            loading="lazy"
           />
           <p className="img-caption">See Pandas at Ocean Park</p>
           <li>
@@ -189,6 +201,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/babas.jpeg"
             alt="babas station"
+            loading="lazy"
           />
           <p className="img-caption">2020 visit to Baba's Station</p>
           <li>
@@ -214,6 +227,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/La Creperie.jpg"
             alt="la creperie restaurant"
+            loading="lazy"
           />
           <p className="img-caption">
             A savory galette at La Creperie, multiple locations
@@ -232,6 +246,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/ichiran.jpeg"
             alt="Nathan psyched for Ichiran ramen"
+            loading="lazy"
           />
           <p className="img-caption">Nathan psyched for Ichiran ramen</p>
           <li>
@@ -242,6 +257,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/divino_patio.jpeg"
             alt="divino patio"
+            loading="lazy"
           />
           <p className="img-caption">An awesome carpaccio from Divino Patio</p>
           <li>
@@ -276,6 +292,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/ned_kellys_band.jpeg"
             alt="the band at Ned Kellys"
+            loading="lazy"
           />
           <p className="img-caption">
             The band at Ned Kelly's in 2020 before live music in bars was
@@ -285,6 +302,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/ColinPlus3_2022.jpeg"
             alt="the band at Ned Kellys"
+            loading="lazy"
           />
           <p className="img-caption">
             As is tradition, Colin made sure to get a selfie with "Kowloon
@@ -298,6 +316,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Cool_Cocktails_Old_Man_2022.jpeg"
             alt="Old Man cocktail"
+            loading="lazy"
           />
           <p className="img-caption">
             Enjoy exquisitely crafted cocktails at The Old Man
@@ -310,6 +329,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Ozone drinks 2016.jpg"
             alt="drinks at the Ozone bar"
+            loading="lazy"
           />
           <p className="img-caption">
             Drink in the clouds at Ozone, the highest bar in the city
@@ -324,6 +344,7 @@ const Leisure = () => {
             className="list-pic"
             src="./assets/Gollum and Ladies.jpg"
             alt="Gollum and the ladies"
+            loading="lazy"
           />
           <p className="img-caption">
             If you're lucky, you just might get a pic with the Lan Kwai Fong
@@ -349,6 +370,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/Dragon's Back view.jpg"
             alt="Dragon\'s Back"
+            loading="lazy"
           />
           <p className="img-caption">One of the views from Dragon's Back</p>
           <li>Lantau Peak</li>
@@ -356,6 +378,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/Lantau Peak trail.jpg"
             alt="lantau peak trail"
+            loading="lazy"
           />
           <p className="img-caption">The Lantau Peak trail</p>
           <li>Victoria Peak</li>
@@ -363,6 +386,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/Victoria Peak walk view.jpg"
             alt="Victoria Peak view"
+            loading="lazy"
           />
           <p className="img-caption">The view from atop Victoria Peak</p>
           <li>Lion Rock</li>
@@ -370,6 +394,7 @@ const Leisure = () => {
             id="sunset-peak-view"
             src="./assets/Lion Rock View.jpg"
             alt="Lion Rock view"
+            loading="lazy"
           />
           <p className="img-caption">The view from Lion Rock</p>
           <li>Tai Tong - Sweet Gum Woods</li>
@@ -377,6 +402,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/Tai Tong Ancient Heritage Trail.jpg"
             alt="tai tong trail"
+            loading="lazy"
           />
           <p className="img-caption">
             Part of the Ancient Heritage Trail on the Tai Tong hike
@@ -386,10 +412,17 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/Hiking panorama.jpg"
             alt="hiking panorama"
+            loading="lazy"
           />
           <p className="img-caption">The view from Sunset Peak</p>
           <li>Pineapple Dam Nature Trail - An easy one! With monkeys!</li>
-          <video controls height="500" width="300">
+          <video
+            controls
+            height="500"
+            width="300"
+            preload="none"
+            poster="https://i.imgur.com/63JASD7.jpg"
+          >
             <source src="./assets/Monkeys at Shing Mun.m4v" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -401,6 +434,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/NgTungChai_2022.jpeg"
             alt="waterfall hike"
+            loading='lazy'
           />
           <p className="img-caption">One of the Ng Tung Chai wateralls</p>
           <li>Mui Wo, on Lantau Island</li>
@@ -408,6 +442,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/mui_wo_hike.jpeg"
             alt="Mui Wo hike"
+            loading='lazy'
           />
           <p className="img-caption">The Mui Wo hike view</p>
           <li>
@@ -433,6 +468,7 @@ const Leisure = () => {
           className="list-pic"
           src="./assets/halloween_2020.jpeg"
           alt="Halloween 2020"
+          loading='lazy'
         />
         <p className="img-caption">The 2020 crew at Halloween.</p>
         {/* <p>We are often invited to a Halloween party. Often, we just hold our own so that we aren't out partying far from home.</p>
@@ -443,6 +479,7 @@ const Leisure = () => {
           className="list-pic"
           src="./assets/thanksgiving_2020.jpeg"
           alt="Thanksgiving 2020"
+          loading='lazy'
         />
         <p className="img-caption">
           The 2020 crew ready to eat individual pumpkin pies at Thanksgiving
@@ -457,6 +494,7 @@ const Leisure = () => {
           className="list-pic"
           src="./assets/Thanksgiving 2019.jpg"
           alt="Thanksgiving 2019"
+          loading='lazy'
         />
         <p>
           Everyone chooses a classic Thanksgiving item (or two) to contribute.
