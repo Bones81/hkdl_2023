@@ -20,7 +20,7 @@ const Leisure = () => {
           We will usually have two full days off each work week. SO, what can we
           do with our down time?!?
         </h4>
-        <h3>Good summary video</h3>
+        <h3 id="top-things-to-do">Good summary video</h3>
         <iframe
           width="560"
           height="315"
