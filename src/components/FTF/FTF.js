@@ -11,7 +11,10 @@ const FTF = () => {
           Welcome Katie, Sarah, Johnny, and Omar! And welcome back, Chelsea!!
           <br />
           <br />
-          Latest changes, 8/14/2023: Two summary YouTube videos added covering <a href="#hk-food-video">iconic HK food</a> and <a href="#top-things-to-do">top things to do</a> in HK!
+          Latest changes, 8/22/2023: Added <a href="#top-bars-and-clubs">Top Bars and Clubs</a> video! 
+          <br/>
+          <br/>
+          8/14/2023: Two summary YouTube videos added covering <a href="#hk-food-video">iconic HK food</a> and <a href="#top-things-to-do">top things to do</a> in HK!
         </h2>
         <h2 className="section-title" id="first">
           First Things First

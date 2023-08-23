@@ -351,13 +351,27 @@ const Leisure = () => {
             "Gollum"!
           </p>
           <li>
-            Miraplace in TST - cool strip of restaurants and live music clubs
+            Knutsford Terrace / Miraplace in TST - cool strip of restaurants and live music clubs
           </li>
           <li>
             COA, Hong Kong's most recent entry on CNN's list of the Best Bars in
             the World. Get your tequila on in fancy ways!
           </li>
         </ul>
+        <h4 id="top-bars-and-clubs">
+          The following video shares some more nightlife options, as well as showing
+          some of the ones already mentioned above, like Ozone, Lan Kwai Fong, and Knutsford Terrace:
+        </h4>
+        <iframe
+          width="560"
+          height="315"
+          loading='lazy'
+          src="https://www.youtube.com/embed/2IEnUFqFENg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
         <h3>Hiking</h3>
         <p>
           Hiking in Hong Kong is one of the most rewarding activities you can
@@ -434,7 +448,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/NgTungChai_2022.jpeg"
             alt="waterfall hike"
-            loading='lazy'
+            loading="lazy"
           />
           <p className="img-caption">One of the Ng Tung Chai wateralls</p>
           <li>Mui Wo, on Lantau Island</li>
@@ -442,7 +456,7 @@ const Leisure = () => {
             className="hiking-pic"
             src="./assets/mui_wo_hike.jpeg"
             alt="Mui Wo hike"
-            loading='lazy'
+            loading="lazy"
           />
           <p className="img-caption">The Mui Wo hike view</p>
           <li>
@@ -468,7 +482,7 @@ const Leisure = () => {
           className="list-pic"
           src="./assets/halloween_2020.jpeg"
           alt="Halloween 2020"
-          loading='lazy'
+          loading="lazy"
         />
         <p className="img-caption">The 2020 crew at Halloween.</p>
         {/* <p>We are often invited to a Halloween party. Often, we just hold our own so that we aren't out partying far from home.</p>
@@ -479,7 +493,7 @@ const Leisure = () => {
           className="list-pic"
           src="./assets/thanksgiving_2020.jpeg"
           alt="Thanksgiving 2020"
-          loading='lazy'
+          loading="lazy"
         />
         <p className="img-caption">
           The 2020 crew ready to eat individual pumpkin pies at Thanksgiving
@@ -494,7 +508,7 @@ const Leisure = () => {
           className="list-pic"
           src="./assets/Thanksgiving 2019.jpg"
           alt="Thanksgiving 2019"
-          loading='lazy'
+          loading="lazy"
         />
         <p>
           Everyone chooses a classic Thanksgiving item (or two) to contribute.
