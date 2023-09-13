@@ -181,10 +181,17 @@ const Leisure = () => {
             Fortune Kingswood, <em>literally</em> connected to our hotel
           </li>
         </ul>
-        <h3 id='custom-tailoring'>Fashion! Custom-tailored threads!</h3>
+        <h3 id="custom-tailoring">Fashion! Custom-tailored threads!</h3>
         <ul className="leisure-ul">
           <li>
-            I recommend <a href="https://www.samstailor.com/" target='_blank'>Sam's Tailor</a>{" "}
+            I recommend{" "}
+            <a
+              href="https://www.samstailor.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sam's Tailor
+            </a>{" "}
             off Nathan Road in TST. There are tons of tailors in the area, and
             the prices, while not as cheap as they once were, are still
             significantly cheaper than it would be to get bespoke tailoring done
@@ -392,7 +399,11 @@ const Leisure = () => {
         </p>
         <h4 id="best-hiking-trails" className="special-note">
           Check out{" "}
-          <a href="https://www.timeout.com/hong-kong/sport-and-fitness/best-hikes-hong-kong" target='_blank'>
+          <a
+            href="https://www.timeout.com/hong-kong/sport-and-fitness/best-hikes-hong-kong"
+            target="_blank"
+            rel="noreferrer"
+          >
             the 13 best hiking trails in Hong Kong
           </a>
           , many of which are mentioned in the list below!
