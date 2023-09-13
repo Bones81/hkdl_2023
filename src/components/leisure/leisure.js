@@ -181,7 +181,7 @@ const Leisure = () => {
             Fortune Kingswood, <em>literally</em> connected to our hotel
           </li>
         </ul>
-        <h3>Fashion! Custom-tailored threads!</h3>
+        <h3 id='custom-tailoring'>Fashion! Custom-tailored threads!</h3>
         <ul className="leisure-ul">
           <li>
             I recommend <a href="https://www.samstailor.com/" target='_blank'>Sam's Tailor</a>{" "}

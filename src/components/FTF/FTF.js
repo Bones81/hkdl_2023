@@ -11,7 +11,15 @@ const FTF = () => {
           Welcome Katie, Sarah, Johnny, and Omar! And welcome back, Chelsea!!
           <br />
           <br />
-          Latest changes, 9/13/23: Added link to <a href="#best-hiking-trails">the 13 Best Hiking Trails in Hong Kong</a>! 🥾⛰️
+          Latest changes, 9/13/23: Added link to{" "}
+          <a href="#best-hiking-trails">
+            the 13 Best Hiking Trails in Hong Kong
+          </a>
+          ! 🥾⛰️
+          <br />
+          <br />
+          Also added a sub-section on{" "}
+          <a href="#custom-tailoring">custom-tailored clothing</a>.
           <br />
           <br />
           8/22/2023: Added <a href="#top-bars-and-clubs">
