@@ -351,7 +351,8 @@ const Leisure = () => {
             "Gollum"!
           </p>
           <li>
-            Knutsford Terrace / Miraplace in TST - cool strip of restaurants and live music clubs
+            Knutsford Terrace / Miraplace in TST - cool strip of restaurants and
+            live music clubs
           </li>
           <li>
             COA, Hong Kong's most recent entry on CNN's list of the Best Bars in
@@ -359,13 +360,14 @@ const Leisure = () => {
           </li>
         </ul>
         <h4 id="top-bars-and-clubs">
-          The following video shares some more nightlife options, as well as showing
-          some of the ones already mentioned above, like Ozone, Lan Kwai Fong, and Knutsford Terrace:
+          The following video shares some more nightlife options, as well as
+          showing some of the ones already mentioned above, like Ozone, Lan Kwai
+          Fong, and Knutsford Terrace:
         </h4>
         <iframe
           width="560"
           height="315"
-          loading='lazy'
+          loading="lazy"
           src="https://www.youtube.com/embed/2IEnUFqFENg"
           title="YouTube video player"
           frameborder="0"
@@ -378,6 +380,13 @@ const Leisure = () => {
           do! Fresh air, exercise, exotic plants, occasional monkeys, and the
           views...oh man, the views.
         </p>
+        <h4 id="best-hiking-trails" className="special-note">
+          Check out{" "}
+          <a href="https://www.timeout.com/hong-kong/sport-and-fitness/best-hikes-hong-kong">
+            the 13 best hiking trails in Hong Kong
+          </a>
+          , many of which are mentioned in the list below!
+        </h4>
         <ul className="leisure-ul">
           <li>Dragon's Back</li>
           <img
